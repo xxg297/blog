@@ -110,9 +110,9 @@
     <link href="https://www.cmwonderland.com/blog/2018/10/10/102-deepshape-project/"/>
     <id>https://www.cmwonderland.com/blog/2018/10/10/102-deepshape-project/</id>
     <published>2018-10-09T16:30:36.000Z</published>
-    <updated>2018-10-10T06:30:08.817Z</updated>
+    <updated>2018-10-10T15:36:54.022Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>DeepShape: RNA Structural Motif Finding</strong></p><p><strong>DeepShape</strong> is the project I like the most and devote the most during my undergraduate research time. It originates the interests of applying deep learning to predict RNA structure and structure probing data. During a lot of trying we realized current convolutional and recurrent neural network are not suitable to <strong>really understand RNA structure</strong>. We can get a “pseudo” good result yet learn little about the real structure information.</p><p>We then turn to predict RNA motif (especially RNA-protein interaction related motif). It is another harder problem compared with “simply” applying deep neural network to 1D and 2D structure data. We develop the mixture model for PWM optimization. We explore the possibility to use VAE for unsupervised learning. What’s more, I strongly believe a relatively new model: <strong>graph convolutional neural network</strong> has a great potential to really utilize and discover the structural information in motif finding problem. </p><a id="more"></a><h2 id="abstract"><a href="#abstract" class="headerlink" title="abstract"></a>abstract</h2><p>RNAs play key roles in cells through the structural specificity and interactions with proteins known as the RNA-binding proteins(RBP). The binding motifs enable crucial understanding of the regulation of RNAs. Many automatic tools have been developed to predict the RNA-protein binding sites from the rapidly growing multi-resource data, e.g. sequence, structure, their domain specific features. MEME, RNApromo and GraphProt can utilize sequence and structural feature using algorithms like expectation maximization (EM) or support vector machine (SVM). </p><p>However, there are several limitations in existing methods. For example, the SCFG-based model has a very high computational complexity and the position-weight matrix (PWM) model does not learn structural information. Machine learning model like GraphProt and DeepBind relies on class labels and can’t handle unsupervised motif finding task. Deep learning-based algorithms are believed  to be capable of capturing features in structural data, e.g. image and sequence data.  However, current models didn’t incorporate structure probing data like icSHAPE. What’s more, convolutional neural network cannot accept secondary structure data as input.</p><p>We propose to use Variational Auto-Encoder (VAE) as motif model and incorporate it into EM algorithm to predict motif existence and locate motif position.  VAE can encode sequence data and decode it as probability in PWM. It can be optimized by optimizing the combination of KL loss and reconstruction loss. VAE-based mixture model achieves good performance in sequence data (JASPAR). We also propose to use Graph Convolutional Neural Network (GCN) to capture RNA secondary structure feature for structural related motif finding. We first represent RNA structure as graph, encoding nucleotides and base pairs as nodes and edges. We also encode higher level graph features like hairpin, helix and bulge. GCN can incorporate and utilize both sequence and structural features to predict motif existence and location. It achieves good performance compared with other methods considering accuracy and computational efficiency.</p><h2 id="Work-report"><a href="#Work-report" class="headerlink" title="Work report"></a>Work report</h2><p>We are still making progress in DeepShape project, using Graph Convolutional Neural Network to discover structural motif.</p><p>The Project introduction can be divided into two parts: predicting RNA secondary structure probing data and discover motif.</p><h3 id="Predicting-icSHAPE-secondary-structure-probing-data"><a href="#Predicting-icSHAPE-secondary-structure-probing-data" class="headerlink" title="Predicting icSHAPE: secondary structure probing data"></a>Predicting icSHAPE: secondary structure probing data</h3><div class="row"><iframe src="https://drive.google.com/file/d/1Iv1r7LUNpYxNrXm450GGUzT67M61qf4E/preview" style="width:100%; height:550px"></iframe></div><h3 id="Discover-MOTIF-predict-existence-and-location-of-motif"><a href="#Discover-MOTIF-predict-existence-and-location-of-motif" class="headerlink" title="Discover MOTIF: predict existence and location of motif"></a>Discover MOTIF: predict existence and location of motif</h3><div class="row"><iframe src="https://drive.google.com/file/d/11XfyNguAXpVCcWGKQhgyspLA7w5M2fYa/preview" style="width:100%; height:550px"></iframe></div>]]></content>
+    <content type="html"><![CDATA[<p><strong>DeepShape: RNA Structural Motif Finding</strong></p><p><strong>DeepShape</strong> is the project I like the most and devote the most during my undergraduate research time. It originates the interests of applying deep learning to predict RNA structure and structure probing data. During a lot of trying we realized current convolutional and recurrent neural network are not suitable to <strong>really understand RNA structure</strong>. We can get a “pseudo” good result yet learn little about the real structure information.</p><p>We then turn to predict RNA motif (especially RNA-protein interaction related motif). It is another harder problem compared with “simply” applying deep neural network to 1D and 2D structure data. We develop the mixture model for PWM optimization. We explore the possibility to use VAE for unsupervised learning. What’s more, I strongly believe a relatively new model: <strong>graph convolutional neural network</strong> has a great potential to really utilize and discover the structural information in motif finding problem. </p><a id="more"></a><h2 id="abstract"><a href="#abstract" class="headerlink" title="abstract"></a>abstract</h2><p>RNAs play key roles in cells through the structural specificity and interactions with proteins known as the RNA-binding proteins(RBP). The binding motifs enable crucial understanding of the regulation of RNAs. Many automatic tools have been developed to predict the RNA-protein binding sites from the rapidly growing multi-resource data, e.g. sequence, structure, their domain specific features. MEME, RNApromo and GraphProt can utilize sequence and structural feature using algorithms like expectation maximization (EM) or support vector machine (SVM). </p><p>However, there are several limitations in existing methods. For example, the SCFG-based model has a very high computational complexity and the position-weight matrix (PWM) model does not learn structural information. Machine learning model like GraphProt and DeepBind relies on class labels and can’t handle unsupervised motif finding task. Deep learning-based algorithms are believed  to be capable of capturing features in structural data, e.g. image and sequence data.  However, current models didn’t incorporate structure probing data like icSHAPE. What’s more, convolutional neural network cannot accept secondary structure data as input.</p><p>We propose to use Variational Auto-Encoder (VAE) as motif model and incorporate it into EM algorithm to predict motif existence and locate motif position.  VAE can encode sequence data and decode it as probability in PWM. It can be optimized by optimizing the combination of KL loss and reconstruction loss. VAE-based mixture model achieves good performance in sequence data (JASPAR). We also propose to use Graph Convolutional Neural Network (GCN) to capture RNA secondary structure feature for structural related motif finding. We first represent RNA structure as graph, encoding nucleotides and base pairs as nodes and edges. We also encode higher level graph features like hairpin, helix and bulge. GCN can incorporate and utilize both sequence and structural features to predict motif existence and location. It achieves good performance compared with other methods considering accuracy and computational efficiency.</p><h2 id="Work-report"><a href="#Work-report" class="headerlink" title="Work report"></a>Work report</h2><p>We are still making progress in DeepShape project, using Graph Convolutional Neural Network to discover structural motif.</p><p>The Project introduction can be divided into two parts: predicting RNA secondary structure probing data and discover motif.</p><h3 id="Predicting-icSHAPE-secondary-structure-probing-data"><a href="#Predicting-icSHAPE-secondary-structure-probing-data" class="headerlink" title="Predicting icSHAPE: secondary structure probing data"></a>Predicting icSHAPE: secondary structure probing data</h3><div class="row"><iframe src="https://drive.google.com/file/d/1Iv1r7LUNpYxNrXm450GGUzT67M61qf4E/preview" style="width:100%; height:550px"></iframe></div><h3 id="methods"><a href="#methods" class="headerlink" title="methods:"></a>methods:</h3><p>We use window to convert RNA sequence into uniform slices for 1D deep learning model. We also try something <strong>new and fun</strong>: we convert one sequence to a 2D map and use <strong>specialized designed 2D U-net</strong> to predict it. (<em>Later we find that google use the similar idea to predict SNP as images</em>).</p><ul><li>1D<ul><li>CNN</li><li>RNN</li><li>ResNet</li><li>Seq2Seq</li><li>Attention</li></ul></li><li>2D<ul><li>U-net</li></ul></li></ul><h3 id="Discover-MOTIF-predict-existence-and-location-of-motif"><a href="#Discover-MOTIF-predict-existence-and-location-of-motif" class="headerlink" title="Discover MOTIF: predict existence and location of motif"></a>Discover MOTIF: predict existence and location of motif</h3><div class="row"><iframe src="https://drive.google.com/file/d/11XfyNguAXpVCcWGKQhgyspLA7w5M2fYa/preview" style="width:100%; height:550px"></iframe></div><h3 id="methods-1"><a href="#methods-1" class="headerlink" title="methods:"></a>methods:</h3><p>We revise and improve MEME’s EM algorithm to Mixture-PWM to make the model more robust to noises.</p><p>We also replace the PWM matrix with a Variational Auto-Encoder (<strong>VAE</strong>).</p><p>We then use Graph Convolutional Neural Network (<strong>GCN</strong>) to explore the possibility to predict <strong>Structural related motif</strong>. During our long time exploration, we find GCN may be the best method (in deep learning) to truly understand the structural information in RNA sequence.</p><h2 id="Codes"><a href="#Codes" class="headerlink" title="Codes:"></a>Codes:</h2><p><a href="https://github.com/james20141606/Deepshape/" target="_blank" rel="noopener">DeepShape GitHub</a></p>]]></content>
     
     <summary type="html">
     
@@ -156,11 +156,11 @@
       <category term="school work" scheme="https://www.cmwonderland.com/blog/categories/school-work/"/>
     
     
+      <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
+    
       <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
     
       <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
-    
-      <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
     
       <category term="teaching" scheme="https://www.cmwonderland.com/blog/tags/teaching/"/>
     
@@ -187,11 +187,11 @@
       <category term="teaching" scheme="https://www.cmwonderland.com/blog/categories/teaching/"/>
     
     
+      <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
+    
       <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
     
       <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
-    
-      <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
     
       <category term="teaching" scheme="https://www.cmwonderland.com/blog/tags/teaching/"/>
     
@@ -218,11 +218,11 @@
       <category term="school work" scheme="https://www.cmwonderland.com/blog/categories/school-work/"/>
     
     
+      <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
+    
       <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
     
       <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
-    
-      <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
     
       <category term="teaching" scheme="https://www.cmwonderland.com/blog/tags/teaching/"/>
     
@@ -249,11 +249,11 @@
       <category term="machine learning" scheme="https://www.cmwonderland.com/blog/categories/machine-learning/"/>
     
     
+      <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
+    
       <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
     
       <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
-    
-      <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
     
       <category term="teaching" scheme="https://www.cmwonderland.com/blog/tags/teaching/"/>
     

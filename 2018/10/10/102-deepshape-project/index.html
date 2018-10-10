@@ -98,7 +98,7 @@
 <meta property="og:site_name" content="WonderLand">
 <meta property="og:description" content="DeepShape: RNA Structural Motif Finding DeepShape is the project I like the most and devote the most during my undergraduate research time. It originates the interests of applying deep learning to pre">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-10-10T06:30:08.817Z">
+<meta property="og:updated_time" content="2018-10-10T15:36:54.022Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="RNA Structural Motif Finding using Deep Learning">
 <meta name="twitter:description" content="DeepShape: RNA Structural Motif Finding DeepShape is the project I like the most and devote the most during my undergraduate research time. It originates the interests of applying deep learning to pre">
@@ -379,7 +379,7 @@
                   <span class="post-meta-item-text">Words count in article&#58;</span>
                 
                 <span title="Words count in article">
-                  522
+                  663
                 </span>
               
 
@@ -395,7 +395,7 @@
                   <span class="post-meta-item-text">Reading time &asymp;</span>
                 
                 <span title="Reading time">
-                  3
+                  4
                 </span>
               
             </div>
@@ -433,6 +433,21 @@
 
 
 
+<h3 id="methods"><a href="#methods" class="headerlink" title="methods:"></a>methods:</h3><p>We use window to convert RNA sequence into uniform slices for 1D deep learning model. We also try something <strong>new and fun</strong>: we convert one sequence to a 2D map and use <strong>specialized designed 2D U-net</strong> to predict it. (<em>Later we find that google use the similar idea to predict SNP as images</em>).</p>
+<ul>
+<li>1D<ul>
+<li>CNN</li>
+<li>RNN</li>
+<li>ResNet</li>
+<li>Seq2Seq</li>
+<li>Attention</li>
+</ul>
+</li>
+<li>2D<ul>
+<li>U-net</li>
+</ul>
+</li>
+</ul>
 <h3 id="Discover-MOTIF-predict-existence-and-location-of-motif"><a href="#Discover-MOTIF-predict-existence-and-location-of-motif" class="headerlink" title="Discover MOTIF: predict existence and location of motif"></a>Discover MOTIF: predict existence and location of motif</h3>
 
 	<div class="row">
@@ -441,6 +456,10 @@
 
 
 
+<h3 id="methods-1"><a href="#methods-1" class="headerlink" title="methods:"></a>methods:</h3><p>We revise and improve MEME’s EM algorithm to Mixture-PWM to make the model more robust to noises.</p>
+<p>We also replace the PWM matrix with a Variational Auto-Encoder (<strong>VAE</strong>).</p>
+<p>We then use Graph Convolutional Neural Network (<strong>GCN</strong>) to explore the possibility to predict <strong>Structural related motif</strong>. During our long time exploration, we find GCN may be the best method (in deep learning) to truly understand the structural information in RNA sequence.</p>
+<h2 id="Codes"><a href="#Codes" class="headerlink" title="Codes:"></a>Codes:</h2><p><a href="https://github.com/james20141606/Deepshape/" target="_blank" rel="noopener">DeepShape GitHub</a></p>
 
       
     </div>
@@ -661,7 +680,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#abstract"><span class="nav-number">1.</span> <span class="nav-text">abstract</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Work-report"><span class="nav-number">2.</span> <span class="nav-text">Work report</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Predicting-icSHAPE-secondary-structure-probing-data"><span class="nav-number">2.1.</span> <span class="nav-text">Predicting icSHAPE: secondary structure probing data</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Discover-MOTIF-predict-existence-and-location-of-motif"><span class="nav-number">2.2.</span> <span class="nav-text">Discover MOTIF: predict existence and location of motif</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#abstract"><span class="nav-number">1.</span> <span class="nav-text">abstract</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Work-report"><span class="nav-number">2.</span> <span class="nav-text">Work report</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Predicting-icSHAPE-secondary-structure-probing-data"><span class="nav-number">2.1.</span> <span class="nav-text">Predicting icSHAPE: secondary structure probing data</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#methods"><span class="nav-number">2.2.</span> <span class="nav-text">methods:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Discover-MOTIF-predict-existence-and-location-of-motif"><span class="nav-number">2.3.</span> <span class="nav-text">Discover MOTIF: predict existence and location of motif</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#methods-1"><span class="nav-number">2.4.</span> <span class="nav-text">methods:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Codes"><span class="nav-number">3.</span> <span class="nav-text">Codes:</span></a></li></ol></div>
             
 
           </div>
@@ -699,7 +718,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共147.1k字</span>
+  <span class="post-count">博客全站共147.2k字</span>
 </div>
 
         

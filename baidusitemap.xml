@@ -4,6 +4,34 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/10/10/102-deepshape-project/</loc>
+    <lastmod>2018-10-10T15:36:54.022Z</lastmod>
+    <data>
+        <display>
+        <title>RNA Structural Motif Finding using Deep Learning</title>
+        <pubTime>2018-10-09T16:30:36.000Z</pubTime>
+        
+        <tag>project</tag>
+         
+        <tag>deep learning</tag>
+         
+        <tag>RNA structure</tag>
+         
+        <tag>VAE</tag>
+         
+        <tag>GCN</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/10/10/101-exrna-project/</loc>
     <lastmod>2018-10-10T15:23:35.975Z</lastmod>
     <data>
@@ -28,6 +56,30 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/05/03/40_tlp/</loc>
+    <lastmod>2018-10-10T15:19:55.902Z</lastmod>
+    <data>
+        <display>
+        <title>On Wittgenstein's Picture Theory of Meaning</title>
+        <pubTime>2018-05-03T15:19:27.000Z</pubTime>
+        
+        <tag>thoughts</tag>
+         
+        <tag>philosophy</tag>
+         
+        <tag>Wittgenstein</tag>
+         
+         
+           
+             
+              <breadCrumb title="thoughts" url="https://www.cmwonderland.com/blog/blog/categories/thoughts/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/10/10/96-emaize-project/</loc>
     <lastmod>2018-10-10T14:32:06.828Z</lastmod>
     <data>
@@ -42,34 +94,6 @@
         <tag>breeding</tag>
          
         <tag>linear mixed model</tag>
-         
-         
-           
-             
-              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/10/10/102-deepshape-project/</loc>
-    <lastmod>2018-10-10T06:30:08.817Z</lastmod>
-    <data>
-        <display>
-        <title>RNA Structural Motif Finding using Deep Learning</title>
-        <pubTime>2018-10-09T16:30:36.000Z</pubTime>
-        
-        <tag>project</tag>
-         
-        <tag>deep learning</tag>
-         
-        <tag>RNA structure</tag>
-         
-        <tag>VAE</tag>
-         
-        <tag>GCN</tag>
          
          
            
@@ -227,30 +251,6 @@
            
              
               <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/05/03/40_tlp/</loc>
-    <lastmod>2018-10-10T05:02:51.024Z</lastmod>
-    <data>
-        <display>
-        <title>On Wittgenstein's Picture Theory of Meaning</title>
-        <pubTime>2018-05-03T15:19:27.000Z</pubTime>
-        
-        <tag>thoughts</tag>
-         
-        <tag>philosophy</tag>
-         
-        <tag>Wittgenstein</tag>
-         
-         
-           
-             
-              <breadCrumb title="thoughts" url="https://www.cmwonderland.com/blog/blog/categories/thoughts/"/>
           
         </display>
     </data>
@@ -417,11 +417,11 @@
         <title>Solution of MCM Problem C</title>
         <pubTime>2018-04-21T01:15:19.000Z</pubTime>
         
-        <tag>machine learning</tag>
-         
         <tag>codes</tag>
          
         <tag>data science</tag>
+         
+        <tag>machine learning</tag>
          
         <tag>contest</tag>
          
@@ -445,11 +445,11 @@
         <title>Machine Learning Basics Tutorial</title>
         <pubTime>2018-10-05T02:03:19.000Z</pubTime>
         
+        <tag>bioinformatics</tag>
+         
         <tag>machine learning</tag>
          
         <tag>python</tag>
-         
-        <tag>bioinformatics</tag>
          
         <tag>teaching</tag>
          
@@ -473,11 +473,11 @@
         <title>Python Tutorial</title>
         <pubTime>2018-10-06T12:03:19.000Z</pubTime>
         
+        <tag>bioinformatics</tag>
+         
         <tag>machine learning</tag>
          
         <tag>python</tag>
-         
-        <tag>bioinformatics</tag>
          
         <tag>teaching</tag>
          
@@ -1001,11 +1001,11 @@
         <title>QUIZ identification of cancer biomarker from exRNA-seq data</title>
         <pubTime>2018-10-06T11:01:19.000Z</pubTime>
         
+        <tag>bioinformatics</tag>
+         
         <tag>machine learning</tag>
          
         <tag>python</tag>
-         
-        <tag>bioinformatics</tag>
          
         <tag>teaching</tag>
          
@@ -1029,11 +1029,11 @@
         <title>QUIZ Predicting maize traits using SNP data</title>
         <pubTime>2018-10-06T12:03:19.000Z</pubTime>
         
+        <tag>bioinformatics</tag>
+         
         <tag>machine learning</tag>
          
         <tag>python</tag>
-         
-        <tag>bioinformatics</tag>
          
         <tag>teaching</tag>
          
@@ -1057,8 +1057,6 @@
         <title>eMaize_Tutorial</title>
         <pubTime>2018-04-12T15:30:17.000Z</pubTime>
         
-        <tag>machine learning</tag>
-         
         <tag>techniques</tag>
          
         <tag>codes</tag>
@@ -1066,6 +1064,8 @@
         <tag>bioinformatics</tag>
          
         <tag>statistics</tag>
+         
+        <tag>machine learning</tag>
          
          
            
@@ -1087,11 +1087,11 @@
         
         <tag>techniques</tag>
          
-        <tag>python</tag>
-         
         <tag>software</tag>
          
         <tag>bioinformatics</tag>
+         
+        <tag>python</tag>
          
          
            
@@ -1187,11 +1187,11 @@
         <title>Deep Learning Practice</title>
         <pubTime>2018-04-10T13:23:55.000Z</pubTime>
         
-        <tag>machine learning</tag>
-         
         <tag>deep learning</tag>
          
         <tag>techniques</tag>
+         
+        <tag>machine learning</tag>
          
          
            
