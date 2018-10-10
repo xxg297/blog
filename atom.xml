@@ -51,17 +51,14 @@
     <link href="https://www.cmwonderland.com/blog/2018/10/10/96-emaize-project/"/>
     <id>https://www.cmwonderland.com/blog/2018/10/10/96-emaize-project/</id>
     <published>2018-10-09T16:30:51.000Z</published>
-    <updated>2018-10-10T06:30:23.343Z</updated>
+    <updated>2018-10-10T14:26:01.676Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>eMaize: Machine Learning for Traits Prediction</strong></p>]]></content>
+    <content type="html"><![CDATA[<p><strong>eMaize: Machine Learning for Traits Prediction</strong></p><p>Heterosis is the improved or increased function of<br>any biological quality in a hybrid offspring. We have<br>studied yet the largest maize SNP dataset for traits prediction.<br>We develop linear and non-linear models which<br>consider relationships between different hybrids as well<br>as other effect. Specially designed model proved to be<br>efficient and robust in prediction maize’s traits.</p><a id="more"></a><h2 id="Preprint-paper"><a href="#Preprint-paper" class="headerlink" title="Preprint paper:"></a>Preprint paper:</h2><div class="row">    <embed src="https://arxiv.org/pdf/1808.06275.pdf" width="100%" height="550" type="application/pdf"></div><h2 id="Codes"><a href="#Codes" class="headerlink" title="Codes:"></a>Codes:</h2><p><a href="https://github.com/james20141606/eMaize/" target="_blank" rel="noopener">eMaize GitHub</a></p><h1 id=""><a href="#" class="headerlink" title="#"></a>#</h1>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;&lt;strong&gt;eMaize: Machine Learning for Traits Prediction&lt;/strong&gt;&lt;/p&gt;
-
-      
+      &lt;p&gt;&lt;strong&gt;eMaize: Machine Learning for Traits Prediction&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Heterosis is the improved or increased function of&lt;br&gt;any biological quality in a hybrid offspring. We have&lt;br&gt;studied yet the largest maize SNP dataset for traits prediction.&lt;br&gt;We develop linear and non-linear models which&lt;br&gt;consider relationships between different hybrids as well&lt;br&gt;as other effect. Specially designed model proved to be&lt;br&gt;efficient and robust in prediction maize’s traits.&lt;/p&gt;
     
     </summary>
     
