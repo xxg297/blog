@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/10/10/101-exrna-project/</loc>
+    <lastmod>2018-10-10T15:23:35.975Z</lastmod>
+    <data>
+        <display>
+        <title>Identification of Cancer Biomarker</title>
+        <pubTime>2018-10-09T16:30:44.000Z</pubTime>
+        
+        <tag>project</tag>
+         
+        <tag>machine learning</tag>
+         
+        <tag>precision medicine</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/10/10/96-emaize-project/</loc>
     <lastmod>2018-10-10T14:32:06.828Z</lastmod>
     <data>
@@ -46,30 +70,6 @@
         <tag>VAE</tag>
          
         <tag>GCN</tag>
-         
-         
-           
-             
-              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/10/10/101-exrna-project/</loc>
-    <lastmod>2018-10-10T06:29:38.872Z</lastmod>
-    <data>
-        <display>
-        <title>Identification of Cancer Biomarker</title>
-        <pubTime>2018-10-09T16:30:44.000Z</pubTime>
-        
-        <tag>project</tag>
-         
-        <tag>machine learning</tag>
-         
-        <tag>precision medicine</tag>
          
          
            
@@ -1187,9 +1187,9 @@
         <title>Deep Learning Practice</title>
         <pubTime>2018-04-10T13:23:55.000Z</pubTime>
         
-        <tag>deep learning</tag>
-         
         <tag>machine learning</tag>
+         
+        <tag>deep learning</tag>
          
         <tag>techniques</tag>
          
