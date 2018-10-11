@@ -4,6 +4,34 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/08/16/95_medical_image_project/</loc>
+    <lastmod>2018-10-11T11:26:34.939Z</lastmod>
+    <data>
+        <display>
+        <title>Deep Learning in Medical Image</title>
+        <pubTime>2018-08-16T11:03:19.000Z</pubTime>
+        
+        <tag>project</tag>
+         
+        <tag>deep learning</tag>
+         
+        <tag>computer vision</tag>
+         
+        <tag>research</tag>
+         
+        <tag>medical image</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/04/21/57_mcm/</loc>
     <lastmod>2018-10-11T11:21:21.910Z</lastmod>
     <data>
@@ -266,34 +294,6 @@
         <tag>computer vision</tag>
          
         <tag>Jeff Lichtman</tag>
-         
-         
-           
-             
-              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/08/16/95_medical_image_project/</loc>
-    <lastmod>2018-10-11T08:16:32.348Z</lastmod>
-    <data>
-        <display>
-        <title>Deep Learning in Medical Image</title>
-        <pubTime>2018-08-16T11:03:19.000Z</pubTime>
-        
-        <tag>project</tag>
-         
-        <tag>deep learning</tag>
-         
-        <tag>computer vision</tag>
-         
-        <tag>research</tag>
-         
-        <tag>medical image</tag>
          
          
            
@@ -1187,9 +1187,9 @@
         <title>Deep Learning Practice</title>
         <pubTime>2018-04-10T13:23:55.000Z</pubTime>
         
-        <tag>machine learning</tag>
-         
         <tag>deep learning</tag>
+         
+        <tag>machine learning</tag>
          
         <tag>techniques</tag>
          
@@ -1359,9 +1359,9 @@
         
         <tag>techniques</tag>
          
-        <tag>setup</tag>
-         
         <tag>mac</tag>
+         
+        <tag>setup</tag>
          
          
            
@@ -1407,11 +1407,11 @@
         
         <tag>techniques</tag>
          
+        <tag>setup</tag>
+         
         <tag>zsh</tag>
          
         <tag>alias</tag>
-         
-        <tag>setup</tag>
          
          
            
