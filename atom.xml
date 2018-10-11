@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://www.cmwonderland.com/blog/"/>
-  <updated>2018-10-11T09:19:46.404Z</updated>
+  <updated>2018-10-11T11:18:20.187Z</updated>
   <id>https://www.cmwonderland.com/blog/</id>
   
   <author>
@@ -17,11 +17,155 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Identification of Cancer Biomarker</title>
+    <link href="https://www.cmwonderland.com/blog/2018/10/11/101-exrna-project/"/>
+    <id>https://www.cmwonderland.com/blog/2018/10/11/101-exrna-project/</id>
+    <published>2018-10-10T16:30:44.000Z</published>
+    <updated>2018-10-11T11:18:20.187Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>exSeek: Identification of Cancer Biomarker</strong></p><p>The aim of this project is to combine <strong>small cell free RNA sequencing techniques</strong> with <strong>machine learning</strong> to identify promising candidate biomarker for cancers. We establish the pipeline from mapping to feature selection and propose a <strong>robust feature selection method</strong> to identify potential biomarkers.</p><p>Parts of this works difficulty is its steps and precision it requires. For example, we do quality control using many methods and criteria. Since our RNA-seq is different (it has less RNA reads), we have to explore the mapping sequence. I propose a quick mapping order method to check thousands of mapping order in a short time.</p><a id="more"></a><h2 id="Work-Summary"><a href="#Work-Summary" class="headerlink" title="Work Summary"></a>Work Summary</h2><div class="row"><iframe src="https://drive.google.com/file/d/1-o090Cv-_cMOGITgzlC2FrVrlLdA9zva/preview" style="width:100%; height:550px"></iframe></div><p>We use our own data: HCC exRNA and two other data: exoRBase and GSE71008 to establish our robust feature selection methods.</p><p><strong>Our work can be divided into following parts:</strong></p><h3 id="mapping"><a href="#mapping" class="headerlink" title="mapping"></a>mapping</h3><p>We use sequential mapping strategy for small RNA data (HCC exRNA and GSE71008)<br>We use fast mapping order test method to map in thousands of different orders in a very short time and decide the order.<br><img src="http://i2.tiimg.com/640680/a7331057c61ed2a8.png" alt="Markdown"></p><h3 id="construct-expression-matrix"><a href="#construct-expression-matrix" class="headerlink" title="construct expression matrix"></a>construct expression matrix</h3><p>Considering the characteristic of small RNA and exRNA. We think it is better to use domain features instead of full length RNA. So we also do peak calling to construct both full length and peak expression matrix.</p><h3 id="Preprocessing"><a href="#Preprocessing" class="headerlink" title="Preprocessing"></a>Preprocessing</h3><p>All the datasets need to be normalized and remove batch effect.</p><p>I test several normalization method:</p><ul><li>CPM</li><li>remove piRNA and miRNA</li><li>Use several reference miRNA</li><li>SCNorm</li><li>TMM</li><li>RLE</li></ul><p>I also use batch removal method including RUVs and Combat.</p><h3 id="Robust-feature-selection-method"><a href="#Robust-feature-selection-method" class="headerlink" title="Robust feature selection method"></a>Robust feature selection method</h3><p>Our aim is to establish a robust feature selection machine learning model to select very few feature as candidate cancer biomarkers.</p><ul><li>Normalize domain coverage </li><li>Scale each feature (log) independently (using z-scores, min-max, <strong>robust normalization</strong>)</li><li>Run a classifier (<strong>Random Forest, Logistic Regression, Linear SVM</strong>) to select features based on feature importance. Optimize hyper-parameters by <strong>3-fold cross-validation</strong>.</li><li>Optionally, use a recursive feature elimination (<strong>RFE</strong>) to eliminate features.</li><li>Repeat feature selection for 100 times. Randomly remove 10% samples in each run (<strong>Jackknife resampling</strong>) or do <strong>shuflle split</strong>.</li><li>Select features that are recurrently selected across resampling runs (&gt;50%)</li><li>Refit the classifier on selected features</li></ul><p>For detailed illustration of our pipeline please see <strong>Work Summary</strong> above.</p><h2 id="Codes"><a href="#Codes" class="headerlink" title="Codes:"></a>Codes:</h2><p><a href="https://github.com/james20141606/exRNA/" target="_blank" rel="noopener">exSeek GitHub</a></p><h2 id="Related"><a href="#Related" class="headerlink" title="Related"></a>Related</h2><p>As teaching assistant of <a href="https://legacy.gitbook.com/book/lulab/teaching/details" target="_blank" rel="noopener">Bioinformatics Basics</a>. I use part of our work to assign the <a href="https://lulab.gitbooks.io/teaching/content/quiz/quiz_exrna/quiz_exrna_tutorial.html" target="_blank" rel="noopener">final project</a> of this semester’s course.  </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;exSeek: Identification of Cancer Biomarker&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The aim of this project is to combine &lt;strong&gt;small cell free RNA sequencing techniques&lt;/strong&gt; with &lt;strong&gt;machine learning&lt;/strong&gt; to identify promising candidate biomarker for cancers. We establish the pipeline from mapping to feature selection and propose a &lt;strong&gt;robust feature selection method&lt;/strong&gt; to identify potential biomarkers.&lt;/p&gt;
+&lt;p&gt;Parts of this works difficulty is its steps and precision it requires. For example, we do quality control using many methods and criteria. Since our RNA-seq is different (it has less RNA reads), we have to explore the mapping sequence. I propose a quick mapping order method to check thousands of mapping order in a short time.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="projects" scheme="https://www.cmwonderland.com/blog/categories/projects/"/>
+    
+    
+      <category term="project" scheme="https://www.cmwonderland.com/blog/tags/project/"/>
+    
+      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
+    
+      <category term="precision medicine" scheme="https://www.cmwonderland.com/blog/tags/precision-medicine/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>RNA Structural Motif Finding using Deep Learning</title>
+    <link href="https://www.cmwonderland.com/blog/2018/10/11/102-deepshape-project/"/>
+    <id>https://www.cmwonderland.com/blog/2018/10/11/102-deepshape-project/</id>
+    <published>2018-10-10T16:30:36.000Z</published>
+    <updated>2018-10-11T11:18:08.905Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>DeepShape: RNA Structural Motif Finding</strong></p><p><strong>DeepShape</strong> is the project I like the most and devote the most during my undergraduate research time. It originates the interests of applying deep learning to predict RNA structure and structure probing data. During a lot of trying we realized current convolutional and recurrent neural network are not suitable to <strong>really understand RNA structure</strong>. We can get a “pseudo” good result yet learn little about the real structure information.</p><p>We then turn to predict RNA motif (especially RNA-protein interaction related motif). It is another harder problem compared with “simply” applying deep neural network to 1D and 2D structure data. We develop the mixture model for PWM optimization. We explore the possibility to use VAE for unsupervised learning. What’s more, I strongly believe a relatively new model: <strong>graph convolutional neural network</strong> has a great potential to really utilize and discover the structural information in motif finding problem. </p><a id="more"></a><h2 id="abstract"><a href="#abstract" class="headerlink" title="abstract"></a>abstract</h2><p>RNAs play key roles in cells through the structural specificity and interactions with proteins known as the RNA-binding proteins(RBP). The binding motifs enable crucial understanding of the regulation of RNAs. Many automatic tools have been developed to predict the RNA-protein binding sites from the rapidly growing multi-resource data, e.g. sequence, structure, their domain specific features. MEME, RNApromo and GraphProt can utilize sequence and structural feature using algorithms like expectation maximization (EM) or support vector machine (SVM). </p><p>However, there are several limitations in existing methods. For example, the SCFG-based model has a very high computational complexity and the position-weight matrix (PWM) model does not learn structural information. Machine learning model like GraphProt and DeepBind relies on class labels and can’t handle unsupervised motif finding task. Deep learning-based algorithms are believed  to be capable of capturing features in structural data, e.g. image and sequence data.  However, current models didn’t incorporate structure probing data like icSHAPE. What’s more, convolutional neural network cannot accept secondary structure data as input.</p><p>We propose to use Variational Auto-Encoder (VAE) as motif model and incorporate it into EM algorithm to predict motif existence and locate motif position.  VAE can encode sequence data and decode it as probability in PWM. It can be optimized by optimizing the combination of KL loss and reconstruction loss. VAE-based mixture model achieves good performance in sequence data (JASPAR). We also propose to use Graph Convolutional Neural Network (GCN) to capture RNA secondary structure feature for structural related motif finding. We first represent RNA structure as graph, encoding nucleotides and base pairs as nodes and edges. We also encode higher level graph features like hairpin, helix and bulge. GCN can incorporate and utilize both sequence and structural features to predict motif existence and location. It achieves good performance compared with other methods considering accuracy and computational efficiency.</p><h2 id="Work-report"><a href="#Work-report" class="headerlink" title="Work report"></a>Work report</h2><p>We are still making progress in DeepShape project, using Graph Convolutional Neural Network to discover structural motif.</p><p>The Project introduction can be divided into two parts: predicting RNA secondary structure probing data and discover motif.</p><h3 id="Predicting-icSHAPE-secondary-structure-probing-data"><a href="#Predicting-icSHAPE-secondary-structure-probing-data" class="headerlink" title="Predicting icSHAPE: secondary structure probing data"></a>Predicting icSHAPE: secondary structure probing data</h3><div class="row"><iframe src="https://drive.google.com/file/d/1Iv1r7LUNpYxNrXm450GGUzT67M61qf4E/preview" style="width:100%; height:550px"></iframe></div><h3 id="methods"><a href="#methods" class="headerlink" title="methods:"></a>methods:</h3><p>We use window to convert RNA sequence into uniform slices for 1D deep learning model. We also try something <strong>new and fun</strong>: we convert one sequence to a 2D map and use <strong>specialized designed 2D U-net</strong> to predict it. (<em>Later we find that google use the similar idea to predict SNP as images</em>).</p><ul><li>1D<ul><li>CNN</li><li>RNN</li><li>ResNet</li><li>Seq2Seq</li><li>Attention</li></ul></li><li>2D<ul><li>U-net</li></ul></li></ul><h3 id="Discover-MOTIF-predict-existence-and-location-of-motif"><a href="#Discover-MOTIF-predict-existence-and-location-of-motif" class="headerlink" title="Discover MOTIF: predict existence and location of motif"></a>Discover MOTIF: predict existence and location of motif</h3><div class="row"><iframe src="https://drive.google.com/file/d/11XfyNguAXpVCcWGKQhgyspLA7w5M2fYa/preview" style="width:100%; height:550px"></iframe></div><h3 id="methods-1"><a href="#methods-1" class="headerlink" title="methods:"></a>methods:</h3><p>We revise and improve MEME’s EM algorithm to Mixture-PWM to make the model more robust to noises.</p><p>We also replace the PWM matrix with a Variational Auto-Encoder (<strong>VAE</strong>).</p><p>We then use Graph Convolutional Neural Network (<strong>GCN</strong>) to explore the possibility to predict <strong>Structural related motif</strong>. During our long time exploration, we find GCN may be the best method (in deep learning) to truly understand the structural information in RNA sequence.</p><h2 id="Codes"><a href="#Codes" class="headerlink" title="Codes:"></a>Codes:</h2><p><a href="https://github.com/james20141606/Deepshape/" target="_blank" rel="noopener">DeepShape GitHub</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;DeepShape: RNA Structural Motif Finding&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DeepShape&lt;/strong&gt; is the project I like the most and devote the most during my undergraduate research time. It originates the interests of applying deep learning to predict RNA structure and structure probing data. During a lot of trying we realized current convolutional and recurrent neural network are not suitable to &lt;strong&gt;really understand RNA structure&lt;/strong&gt;. We can get a “pseudo” good result yet learn little about the real structure information.&lt;/p&gt;
+&lt;p&gt;We then turn to predict RNA motif (especially RNA-protein interaction related motif). It is another harder problem compared with “simply” applying deep neural network to 1D and 2D structure data. We develop the mixture model for PWM optimization. We explore the possibility to use VAE for unsupervised learning. What’s more, I strongly believe a relatively new model: &lt;strong&gt;graph convolutional neural network&lt;/strong&gt; has a great potential to really utilize and discover the structural information in motif finding problem. &lt;/p&gt;
+    
+    </summary>
+    
+      <category term="projects" scheme="https://www.cmwonderland.com/blog/categories/projects/"/>
+    
+    
+      <category term="project" scheme="https://www.cmwonderland.com/blog/tags/project/"/>
+    
+      <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
+    
+      <category term="RNA structure" scheme="https://www.cmwonderland.com/blog/tags/RNA-structure/"/>
+    
+      <category term="VAE" scheme="https://www.cmwonderland.com/blog/tags/VAE/"/>
+    
+      <category term="GCN" scheme="https://www.cmwonderland.com/blog/tags/GCN/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Summer Intern Project Summary</title>
+    <link href="https://www.cmwonderland.com/blog/2018/10/10/100_summer_intern/"/>
+    <id>https://www.cmwonderland.com/blog/2018/10/10/100_summer_intern/</id>
+    <published>2018-10-10T14:05:19.000Z</published>
+    <updated>2018-10-11T11:19:09.401Z</updated>
+    
+    <content type="html"><![CDATA[<p>This page summarize my summer intern work, includes final report, weekly report, codes, presentation.</p><p>To sum up, I mainly do two projects in this summer, which can be divided again into four works:</p><ul><li><p><a href="https://lichtmanlab.fas.harvard.edu/" target="_blank" rel="noopener">Lichtman Lab</a>:</p><ul><li>NMJ tracing and segmenting with statistical work</li><li>NMJ automatic segmentation pipeline</li></ul></li><li><p><a href="https://vcg.seas.harvard.edu/people" target="_blank" rel="noopener">Hanspiter Lab</a>:</p><ul><li>Synapse prediction</li><li>Synaptic polarity prediction</li></ul></li></ul><p>For NMJ tracing, segmenting and automatic prediction work, we push forward the project with the generous daily help of our mentor Jeff. </p><p>For Synapse project, I work with Zudi and Donglai, we now rank No.1 in the <a href="https://cremi.org" target="_blank" rel="noopener">CREMI contest</a>. And we will submit a paper to CVPR this November.</p><a id="more"></a><h1 id="final-report"><a href="#final-report" class="headerlink" title="final report"></a>final report</h1><ul><li>online pdf</li></ul><div class="row"><iframe src="https://drive.google.com/file/d/1XyEPj9r7p8VNk5nLlLIPNhZjuDHu2KTY/preview" style="width:100%; height:550px"></iframe></div><ul><li>pdf in github</li></ul><p>You may also find the <a href="https://github.com/james20141606/Summer_Intern/blob/master/summer_intern_report_xupeng.pdf" target="_blank" rel="noopener"><strong>PDF Version</strong></a> of this report from github.</p><h1 id="presentation"><a href="#presentation" class="headerlink" title="presentation"></a>presentation</h1><h2 id="in-Lichtman-lab"><a href="#in-Lichtman-lab" class="headerlink" title="in Lichtman lab"></a>in Lichtman lab</h2><ul><li>online pdf</li></ul><div class="row"><iframe src="https://drive.google.com/file/d/1pLtw2eLJl9kMVj1pGSCqehcBfjVdBZ4c/preview" style="width:100%; height:550px"></iframe></div><h2 id="in-Tsinghua"><a href="#in-Tsinghua" class="headerlink" title="in Tsinghua"></a>in Tsinghua</h2><ul><li>online pdf</li></ul><div class="row"><iframe src="https://drive.google.com/file/d/1mVOPchbWZ9nsODPklNjw_OGwl2vehKdF/preview" style="width:100%; height:550px"></iframe></div><h1 id="codes"><a href="#codes" class="headerlink" title="codes"></a>codes</h1><p><a href="https://github.com/james20141606/Summer_Intern" target="_blank" rel="noopener">Main codes</a><br><a href="https://github.com/james20141606/NMJ_automatic_pipeline" target="_blank" rel="noopener">Automatic pipeline</a><br><a href="https://github.com/james20141606/EM-network" target="_blank" rel="noopener">Synapse polarity</a></p><h1 id="detailed-progress"><a href="#detailed-progress" class="headerlink" title="detailed progress"></a>detailed progress</h1><p>I summarized my daily progress about the following project during my summer intern, please visit the related web pages:</p><p><a href="https://www.cmwonderland.com/2018/07/14/summerintern_NMJ/">NMJ project</a><br><a href="https://www.cmwonderland.com/2018/07/14/summerintern_Synapse_Prediction/">Synapse Prediction</a><br><a href="https://www.cmwonderland.com/2018/07/14/summerintern_Synaptic_Partner_and_Cluster_Project/">Synaptic Partner and Cluster Project</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This page summarize my summer intern work, includes final report, weekly report, codes, presentation.&lt;/p&gt;
+&lt;p&gt;To sum up, I mainly do two projects in this summer, which can be divided again into four works:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://lichtmanlab.fas.harvard.edu/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lichtman Lab&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;NMJ tracing and segmenting with statistical work&lt;/li&gt;
+&lt;li&gt;NMJ automatic segmentation pipeline&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://vcg.seas.harvard.edu/people&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hanspiter Lab&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Synapse prediction&lt;/li&gt;
+&lt;li&gt;Synaptic polarity prediction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For NMJ tracing, segmenting and automatic prediction work, we push forward the project with the generous daily help of our mentor Jeff. &lt;/p&gt;
+&lt;p&gt;For Synapse project, I work with Zudi and Donglai, we now rank No.1 in the &lt;a href=&quot;https://cremi.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CREMI contest&lt;/a&gt;. And we will submit a paper to CVPR this November.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="projects" scheme="https://www.cmwonderland.com/blog/categories/projects/"/>
+    
+    
+      <category term="project" scheme="https://www.cmwonderland.com/blog/tags/project/"/>
+    
+      <category term="neural science" scheme="https://www.cmwonderland.com/blog/tags/neural-science/"/>
+    
+      <category term="summer intern" scheme="https://www.cmwonderland.com/blog/tags/summer-intern/"/>
+    
+      <category term="connectomics" scheme="https://www.cmwonderland.com/blog/tags/connectomics/"/>
+    
+      <category term="computational neural science" scheme="https://www.cmwonderland.com/blog/tags/computational-neural-science/"/>
+    
+      <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
+    
+      <category term="computer vision" scheme="https://www.cmwonderland.com/blog/tags/computer-vision/"/>
+    
+      <category term="Jeff Lichtman" scheme="https://www.cmwonderland.com/blog/tags/Jeff-Lichtman/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Machine Learning for Traits Prediction</title>
+    <link href="https://www.cmwonderland.com/blog/2018/10/10/96-emaize-project/"/>
+    <id>https://www.cmwonderland.com/blog/2018/10/10/96-emaize-project/</id>
+    <published>2018-10-10T12:30:51.000Z</published>
+    <updated>2018-10-11T11:18:37.447Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>eMaize: Machine Learning for Traits Prediction</strong></p><p>Heterosis is the improved or increased function of any biological quality in a hybrid offspring. We have studied yet the largest maize SNP dataset for traits prediction.</p><p>We develop linear and non-linear models which consider relationships between different hybrids as well as other effect. Specially designed model proved to be efficient and robust in prediction maize’s traits.</p><p>We proposed a new mixed linear model <strong>Mixed Ridge</strong> with Fast cross validation to pick parameters. We also propose <strong>Metric Regressor</strong> for few shot learning.</p><a id="more"></a><h2 id="Preprint-paper"><a href="#Preprint-paper" class="headerlink" title="Preprint paper:"></a>Preprint paper:</h2><div class="row">    <embed src="https://arxiv.org/pdf/1808.06275.pdf" width="100%" height="550" type="application/pdf"></div><h2 id="Codes"><a href="#Codes" class="headerlink" title="Codes:"></a>Codes:</h2><p><a href="https://github.com/james20141606/eMaize/" target="_blank" rel="noopener">eMaize GitHub</a></p><h2 id="Presentation"><a href="#Presentation" class="headerlink" title="Presentation"></a>Presentation</h2><div class="row"><iframe src="https://drive.google.com/file/d/1m3fLr_DUkF2NB_DU_YRfAAMV-vkU09AA/preview" style="width:100%; height:550px"></iframe></div><h2 id="Related"><a href="#Related" class="headerlink" title="Related"></a>Related</h2><h3 id="proposal"><a href="#proposal" class="headerlink" title="proposal"></a>proposal</h3><div class="row"><iframe src="https://drive.google.com/file/d/1uD61pNPaNcpAn_MPE9jSjk25qIwhdFAm/preview" style="width:100%; height:550px"></iframe></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;eMaize: Machine Learning for Traits Prediction&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Heterosis is the improved or increased function of any biological quality in a hybrid offspring. We have studied yet the largest maize SNP dataset for traits prediction.&lt;/p&gt;
+&lt;p&gt;We develop linear and non-linear models which consider relationships between different hybrids as well as other effect. Specially designed model proved to be efficient and robust in prediction maize’s traits.&lt;/p&gt;
+&lt;p&gt;We proposed a new mixed linear model &lt;strong&gt;Mixed Ridge&lt;/strong&gt; with Fast cross validation to pick parameters. We also propose &lt;strong&gt;Metric Regressor&lt;/strong&gt; for few shot learning.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="projects" scheme="https://www.cmwonderland.com/blog/categories/projects/"/>
+    
+    
+      <category term="project" scheme="https://www.cmwonderland.com/blog/tags/project/"/>
+    
+      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
+    
+      <category term="breeding" scheme="https://www.cmwonderland.com/blog/tags/breeding/"/>
+    
+      <category term="linear mixed model" scheme="https://www.cmwonderland.com/blog/tags/linear-mixed-model/"/>
+    
+  </entry>
+  
+  <entry>
     <title>MDN for Signal Position Prediction</title>
-    <link href="https://www.cmwonderland.com/blog/2018/10/10/94-signal-project/"/>
-    <id>https://www.cmwonderland.com/blog/2018/10/10/94-signal-project/</id>
-    <published>2018-10-09T16:30:56.000Z</published>
-    <updated>2018-10-11T09:19:46.404Z</updated>
+    <link href="https://www.cmwonderland.com/blog/2018/10/09/94-signal-project/"/>
+    <id>https://www.cmwonderland.com/blog/2018/10/09/94-signal-project/</id>
+    <published>2018-10-08T16:50:56.000Z</published>
+    <updated>2018-10-11T11:18:53.942Z</updated>
     
     <content type="html"><![CDATA[<p>This page summarize our work on using mixture density network to jointly predict position coordinates.</p><p>We collaborate with Jun Li in New York University. </p><h2 id="presentation-of-current-work"><a href="#presentation-of-current-work" class="headerlink" title="presentation of current work"></a>presentation of current work</h2><div class="row"><iframe src="https://drive.google.com/file/d/12kdQZKUrz-z_4k-eSW83ogKvTRwPjn3o/preview" style="width:100%; height:550px"></iframe></div><h2 id="methods"><a href="#methods" class="headerlink" title="methods"></a>methods</h2><h3 id="model"><a href="#model" class="headerlink" title="model"></a>model</h3><p>We use pytorch and tensorflow to develop our mixture density network. </p><ul><li>A MLP is used to generate pi, mu and sigma for 2D isotropic gaussian distribution.</li><li>Several 2D gaussian distribution is mixed to form a mixed gaussian distribution.<br><img src="http://i2.tiimg.com/640680/4d39615fdca66f67.png" alt="Markdown"></li><li>We use Maximum Likelihood Estimation, choose negetive log likelihood as our loss function for optimization</li><li><img src="http://i2.tiimg.com/640680/abf549073048f5f9.png" alt="Markdown"></li></ul><p>Several tricks:</p><ul><li>deal with loss nan: we use log transform of signa, mu and pi, also a cutoff of sigma and pseudo counts of pi is used to prevend loss explosion of vanishing</li><li>z score normalization to optimize the model easier.</li><li>we use mean shift to find modes in gaussian mixture</li></ul><p><img src="http://i2.tiimg.com/640680/0ef0ba152c39f99f.png" alt="Markdown"></p><h3 id="result"><a href="#result" class="headerlink" title="result"></a>result</h3><p><img src="http://i2.tiimg.com/640680/e7e107d4d04e6849.png" alt="Markdown"></p><h3 id="data"><a href="#data" class="headerlink" title="data"></a>data</h3><h4 id="mountain-data"><a href="#mountain-data" class="headerlink" title="mountain data"></a>mountain data</h4><ul><li>data position<br><img src="http://i2.tiimg.com/640680/1668bdf4741445b1.png" alt="Markdown"></li><li>t-SNE to cluster data<br><img src="http://i2.tiimg.com/640680/c06e0baac3381bc4.png" alt="Markdown"></li><li>feature distribution<br><img src="http://i2.tiimg.com/640680/258900a437c4a544.png" alt="Markdown"></li></ul><h4 id="city-data"><a href="#city-data" class="headerlink" title="city data"></a>city data</h4><ul><li>data position<br><img src="http://i2.tiimg.com/640680/c84923de5dd7b62a.png" alt="Markdown"></li><li>receriver position<br><img src="http://i2.tiimg.com/640680/37d804dc03e44805.png" alt="Markdown"></li><li>transmitter position<br><img src="http://i2.tiimg.com/640680/ed56538e48c4a54f.png" alt="Markdown"></li></ul><h4 id="explore-useful-features"><a href="#explore-useful-features" class="headerlink" title="explore useful features"></a>explore useful features</h4><p>We use PCC to quantify the PCC between samples’ features and distance. We use dynamic weight to pick features having higher relation with distance. It seems TOA has the significant higher weight<br><img src="http://i2.tiimg.com/640680/1533405e66d3b4c4.gif" alt="Markdown"></p><p>We plan to use some <strong>imputation method</strong>, including some methods from single cell analysis. We also aim to use <strong>RNN</strong> for changeable size feature and <strong>attention model</strong> to pick more related features.</p><h2 id="codes"><a href="#codes" class="headerlink" title="codes"></a>codes</h2><p><a href="https://github.com/james20141606/Signal" target="_blank" rel="noopener">https://github.com/james20141606/Signal</a></p>]]></content>
     
@@ -51,97 +195,6 @@
       <category term="MDN" scheme="https://www.cmwonderland.com/blog/tags/MDN/"/>
     
       <category term="attention mechanism" scheme="https://www.cmwonderland.com/blog/tags/attention-mechanism/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Machine Learning for Traits Prediction</title>
-    <link href="https://www.cmwonderland.com/blog/2018/10/10/96-emaize-project/"/>
-    <id>https://www.cmwonderland.com/blog/2018/10/10/96-emaize-project/</id>
-    <published>2018-10-09T16:30:51.000Z</published>
-    <updated>2018-10-10T14:32:06.828Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>eMaize: Machine Learning for Traits Prediction</strong></p><p>Heterosis is the improved or increased function of any biological quality in a hybrid offspring. We have studied yet the largest maize SNP dataset for traits prediction.</p><p>We develop linear and non-linear models which consider relationships between different hybrids as well as other effect. Specially designed model proved to be efficient and robust in prediction maize’s traits.</p><p>We proposed a new mixed linear model <strong>Mixed Ridge</strong> with Fast cross validation to pick parameters. We also propose <strong>Metric Regressor</strong> for few shot learning.</p><a id="more"></a><h2 id="Preprint-paper"><a href="#Preprint-paper" class="headerlink" title="Preprint paper:"></a>Preprint paper:</h2><div class="row">    <embed src="https://arxiv.org/pdf/1808.06275.pdf" width="100%" height="550" type="application/pdf"></div><h2 id="Codes"><a href="#Codes" class="headerlink" title="Codes:"></a>Codes:</h2><p><a href="https://github.com/james20141606/eMaize/" target="_blank" rel="noopener">eMaize GitHub</a></p><h2 id="Presentation"><a href="#Presentation" class="headerlink" title="Presentation"></a>Presentation</h2><div class="row"><iframe src="https://drive.google.com/file/d/1m3fLr_DUkF2NB_DU_YRfAAMV-vkU09AA/preview" style="width:100%; height:550px"></iframe></div><h2 id="Related"><a href="#Related" class="headerlink" title="Related"></a>Related</h2><h3 id="proposal"><a href="#proposal" class="headerlink" title="proposal"></a>proposal</h3><div class="row"><iframe src="https://drive.google.com/file/d/1uD61pNPaNcpAn_MPE9jSjk25qIwhdFAm/preview" style="width:100%; height:550px"></iframe></div>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;eMaize: Machine Learning for Traits Prediction&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Heterosis is the improved or increased function of any biological quality in a hybrid offspring. We have studied yet the largest maize SNP dataset for traits prediction.&lt;/p&gt;
-&lt;p&gt;We develop linear and non-linear models which consider relationships between different hybrids as well as other effect. Specially designed model proved to be efficient and robust in prediction maize’s traits.&lt;/p&gt;
-&lt;p&gt;We proposed a new mixed linear model &lt;strong&gt;Mixed Ridge&lt;/strong&gt; with Fast cross validation to pick parameters. We also propose &lt;strong&gt;Metric Regressor&lt;/strong&gt; for few shot learning.&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="projects" scheme="https://www.cmwonderland.com/blog/categories/projects/"/>
-    
-    
-      <category term="project" scheme="https://www.cmwonderland.com/blog/tags/project/"/>
-    
-      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
-    
-      <category term="breeding" scheme="https://www.cmwonderland.com/blog/tags/breeding/"/>
-    
-      <category term="linear mixed model" scheme="https://www.cmwonderland.com/blog/tags/linear-mixed-model/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Identification of Cancer Biomarker</title>
-    <link href="https://www.cmwonderland.com/blog/2018/10/10/101-exrna-project/"/>
-    <id>https://www.cmwonderland.com/blog/2018/10/10/101-exrna-project/</id>
-    <published>2018-10-09T16:30:44.000Z</published>
-    <updated>2018-10-10T15:23:35.975Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>exSeek: Identification of Cancer Biomarker</strong></p><p>The aim of this project is to combine <strong>small cell free RNA sequencing techniques</strong> with <strong>machine learning</strong> to identify promising candidate biomarker for cancers. We establish the pipeline from mapping to feature selection and propose a <strong>robust feature selection method</strong> to identify potential biomarkers.</p><p>Parts of this works difficulty is its steps and precision it requires. For example, we do quality control using many methods and criteria. Since our RNA-seq is different (it has less RNA reads), we have to explore the mapping sequence. I propose a quick mapping order method to check thousands of mapping order in a short time.</p><a id="more"></a><h2 id="Work-Summary"><a href="#Work-Summary" class="headerlink" title="Work Summary"></a>Work Summary</h2><div class="row"><iframe src="https://drive.google.com/file/d/1-o090Cv-_cMOGITgzlC2FrVrlLdA9zva/preview" style="width:100%; height:550px"></iframe></div><p>We use our own data: HCC exRNA and two other data: exoRBase and GSE71008 to establish our robust feature selection methods.</p><p><strong>Our work can be divided into following parts:</strong></p><h3 id="mapping"><a href="#mapping" class="headerlink" title="mapping"></a>mapping</h3><p>We use sequential mapping strategy for small RNA data (HCC exRNA and GSE71008)<br>We use fast mapping order test method to map in thousands of different orders in a very short time and decide the order.<br><img src="http://i2.tiimg.com/640680/a7331057c61ed2a8.png" alt="Markdown"></p><h3 id="construct-expression-matrix"><a href="#construct-expression-matrix" class="headerlink" title="construct expression matrix"></a>construct expression matrix</h3><p>Considering the characteristic of small RNA and exRNA. We think it is better to use domain features instead of full length RNA. So we also do peak calling to construct both full length and peak expression matrix.</p><h3 id="Preprocessing"><a href="#Preprocessing" class="headerlink" title="Preprocessing"></a>Preprocessing</h3><p>All the datasets need to be normalized and remove batch effect.</p><p>I test several normalization method:</p><ul><li>CPM</li><li>remove piRNA and miRNA</li><li>Use several reference miRNA</li><li>SCNorm</li><li>TMM</li><li>RLE</li></ul><p>I also use batch removal method including RUVs and Combat.</p><h3 id="Robust-feature-selection-method"><a href="#Robust-feature-selection-method" class="headerlink" title="Robust feature selection method"></a>Robust feature selection method</h3><p>Our aim is to establish a robust feature selection machine learning model to select very few feature as candidate cancer biomarkers.</p><ul><li>Normalize domain coverage </li><li>Scale each feature (log) independently (using z-scores, min-max, <strong>robust normalization</strong>)</li><li>Run a classifier (<strong>Random Forest, Logistic Regression, Linear SVM</strong>) to select features based on feature importance. Optimize hyper-parameters by <strong>3-fold cross-validation</strong>.</li><li>Optionally, use a recursive feature elimination (<strong>RFE</strong>) to eliminate features.</li><li>Repeat feature selection for 100 times. Randomly remove 10% samples in each run (<strong>Jackknife resampling</strong>) or do <strong>shuflle split</strong>.</li><li>Select features that are recurrently selected across resampling runs (&gt;50%)</li><li>Refit the classifier on selected features</li></ul><p>For detailed illustration of our pipeline please see <strong>Work Summary</strong> above.</p><h2 id="Codes"><a href="#Codes" class="headerlink" title="Codes:"></a>Codes:</h2><p><a href="https://github.com/james20141606/exRNA/" target="_blank" rel="noopener">exSeek GitHub</a></p><h2 id="Related"><a href="#Related" class="headerlink" title="Related"></a>Related</h2><p>As teaching assistant of <a href="https://legacy.gitbook.com/book/lulab/teaching/details" target="_blank" rel="noopener">Bioinformatics Basics</a>. I use part of our work to assign the <a href="https://lulab.gitbooks.io/teaching/content/quiz/quiz_exrna/quiz_exrna_tutorial.html" target="_blank" rel="noopener">final project</a> of this semester’s course.  </p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;exSeek: Identification of Cancer Biomarker&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The aim of this project is to combine &lt;strong&gt;small cell free RNA sequencing techniques&lt;/strong&gt; with &lt;strong&gt;machine learning&lt;/strong&gt; to identify promising candidate biomarker for cancers. We establish the pipeline from mapping to feature selection and propose a &lt;strong&gt;robust feature selection method&lt;/strong&gt; to identify potential biomarkers.&lt;/p&gt;
-&lt;p&gt;Parts of this works difficulty is its steps and precision it requires. For example, we do quality control using many methods and criteria. Since our RNA-seq is different (it has less RNA reads), we have to explore the mapping sequence. I propose a quick mapping order method to check thousands of mapping order in a short time.&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="projects" scheme="https://www.cmwonderland.com/blog/categories/projects/"/>
-    
-    
-      <category term="project" scheme="https://www.cmwonderland.com/blog/tags/project/"/>
-    
-      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
-    
-      <category term="precision medicine" scheme="https://www.cmwonderland.com/blog/tags/precision-medicine/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>RNA Structural Motif Finding using Deep Learning</title>
-    <link href="https://www.cmwonderland.com/blog/2018/10/10/102-deepshape-project/"/>
-    <id>https://www.cmwonderland.com/blog/2018/10/10/102-deepshape-project/</id>
-    <published>2018-10-09T16:30:36.000Z</published>
-    <updated>2018-10-10T15:36:54.022Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>DeepShape: RNA Structural Motif Finding</strong></p><p><strong>DeepShape</strong> is the project I like the most and devote the most during my undergraduate research time. It originates the interests of applying deep learning to predict RNA structure and structure probing data. During a lot of trying we realized current convolutional and recurrent neural network are not suitable to <strong>really understand RNA structure</strong>. We can get a “pseudo” good result yet learn little about the real structure information.</p><p>We then turn to predict RNA motif (especially RNA-protein interaction related motif). It is another harder problem compared with “simply” applying deep neural network to 1D and 2D structure data. We develop the mixture model for PWM optimization. We explore the possibility to use VAE for unsupervised learning. What’s more, I strongly believe a relatively new model: <strong>graph convolutional neural network</strong> has a great potential to really utilize and discover the structural information in motif finding problem. </p><a id="more"></a><h2 id="abstract"><a href="#abstract" class="headerlink" title="abstract"></a>abstract</h2><p>RNAs play key roles in cells through the structural specificity and interactions with proteins known as the RNA-binding proteins(RBP). The binding motifs enable crucial understanding of the regulation of RNAs. Many automatic tools have been developed to predict the RNA-protein binding sites from the rapidly growing multi-resource data, e.g. sequence, structure, their domain specific features. MEME, RNApromo and GraphProt can utilize sequence and structural feature using algorithms like expectation maximization (EM) or support vector machine (SVM). </p><p>However, there are several limitations in existing methods. For example, the SCFG-based model has a very high computational complexity and the position-weight matrix (PWM) model does not learn structural information. Machine learning model like GraphProt and DeepBind relies on class labels and can’t handle unsupervised motif finding task. Deep learning-based algorithms are believed  to be capable of capturing features in structural data, e.g. image and sequence data.  However, current models didn’t incorporate structure probing data like icSHAPE. What’s more, convolutional neural network cannot accept secondary structure data as input.</p><p>We propose to use Variational Auto-Encoder (VAE) as motif model and incorporate it into EM algorithm to predict motif existence and locate motif position.  VAE can encode sequence data and decode it as probability in PWM. It can be optimized by optimizing the combination of KL loss and reconstruction loss. VAE-based mixture model achieves good performance in sequence data (JASPAR). We also propose to use Graph Convolutional Neural Network (GCN) to capture RNA secondary structure feature for structural related motif finding. We first represent RNA structure as graph, encoding nucleotides and base pairs as nodes and edges. We also encode higher level graph features like hairpin, helix and bulge. GCN can incorporate and utilize both sequence and structural features to predict motif existence and location. It achieves good performance compared with other methods considering accuracy and computational efficiency.</p><h2 id="Work-report"><a href="#Work-report" class="headerlink" title="Work report"></a>Work report</h2><p>We are still making progress in DeepShape project, using Graph Convolutional Neural Network to discover structural motif.</p><p>The Project introduction can be divided into two parts: predicting RNA secondary structure probing data and discover motif.</p><h3 id="Predicting-icSHAPE-secondary-structure-probing-data"><a href="#Predicting-icSHAPE-secondary-structure-probing-data" class="headerlink" title="Predicting icSHAPE: secondary structure probing data"></a>Predicting icSHAPE: secondary structure probing data</h3><div class="row"><iframe src="https://drive.google.com/file/d/1Iv1r7LUNpYxNrXm450GGUzT67M61qf4E/preview" style="width:100%; height:550px"></iframe></div><h3 id="methods"><a href="#methods" class="headerlink" title="methods:"></a>methods:</h3><p>We use window to convert RNA sequence into uniform slices for 1D deep learning model. We also try something <strong>new and fun</strong>: we convert one sequence to a 2D map and use <strong>specialized designed 2D U-net</strong> to predict it. (<em>Later we find that google use the similar idea to predict SNP as images</em>).</p><ul><li>1D<ul><li>CNN</li><li>RNN</li><li>ResNet</li><li>Seq2Seq</li><li>Attention</li></ul></li><li>2D<ul><li>U-net</li></ul></li></ul><h3 id="Discover-MOTIF-predict-existence-and-location-of-motif"><a href="#Discover-MOTIF-predict-existence-and-location-of-motif" class="headerlink" title="Discover MOTIF: predict existence and location of motif"></a>Discover MOTIF: predict existence and location of motif</h3><div class="row"><iframe src="https://drive.google.com/file/d/11XfyNguAXpVCcWGKQhgyspLA7w5M2fYa/preview" style="width:100%; height:550px"></iframe></div><h3 id="methods-1"><a href="#methods-1" class="headerlink" title="methods:"></a>methods:</h3><p>We revise and improve MEME’s EM algorithm to Mixture-PWM to make the model more robust to noises.</p><p>We also replace the PWM matrix with a Variational Auto-Encoder (<strong>VAE</strong>).</p><p>We then use Graph Convolutional Neural Network (<strong>GCN</strong>) to explore the possibility to predict <strong>Structural related motif</strong>. During our long time exploration, we find GCN may be the best method (in deep learning) to truly understand the structural information in RNA sequence.</p><h2 id="Codes"><a href="#Codes" class="headerlink" title="Codes:"></a>Codes:</h2><p><a href="https://github.com/james20141606/Deepshape/" target="_blank" rel="noopener">DeepShape GitHub</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;DeepShape: RNA Structural Motif Finding&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;DeepShape&lt;/strong&gt; is the project I like the most and devote the most during my undergraduate research time. It originates the interests of applying deep learning to predict RNA structure and structure probing data. During a lot of trying we realized current convolutional and recurrent neural network are not suitable to &lt;strong&gt;really understand RNA structure&lt;/strong&gt;. We can get a “pseudo” good result yet learn little about the real structure information.&lt;/p&gt;
-&lt;p&gt;We then turn to predict RNA motif (especially RNA-protein interaction related motif). It is another harder problem compared with “simply” applying deep neural network to 1D and 2D structure data. We develop the mixture model for PWM optimization. We explore the possibility to use VAE for unsupervised learning. What’s more, I strongly believe a relatively new model: &lt;strong&gt;graph convolutional neural network&lt;/strong&gt; has a great potential to really utilize and discover the structural information in motif finding problem. &lt;/p&gt;
-    
-    </summary>
-    
-      <category term="projects" scheme="https://www.cmwonderland.com/blog/categories/projects/"/>
-    
-    
-      <category term="project" scheme="https://www.cmwonderland.com/blog/tags/project/"/>
-    
-      <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
-    
-      <category term="RNA structure" scheme="https://www.cmwonderland.com/blog/tags/RNA-structure/"/>
-    
-      <category term="VAE" scheme="https://www.cmwonderland.com/blog/tags/VAE/"/>
-    
-      <category term="GCN" scheme="https://www.cmwonderland.com/blog/tags/GCN/"/>
     
   </entry>
   
@@ -321,59 +374,6 @@
       <category term="techniques" scheme="https://www.cmwonderland.com/blog/tags/techniques/"/>
     
       <category term="paper reading" scheme="https://www.cmwonderland.com/blog/tags/paper-reading/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Summer Intern Project Summary</title>
-    <link href="https://www.cmwonderland.com/blog/2018/09/12/100_summer_intern/"/>
-    <id>https://www.cmwonderland.com/blog/2018/09/12/100_summer_intern/</id>
-    <published>2018-09-12T14:05:19.000Z</published>
-    <updated>2018-10-11T06:38:53.843Z</updated>
-    
-    <content type="html"><![CDATA[<p>This page summarize my summer intern work, includes final report, weekly report, codes, presentation.</p><p>To sum up, I mainly do two projects in this summer, which can be divided again into four works:</p><ul><li><p><a href="https://lichtmanlab.fas.harvard.edu/" target="_blank" rel="noopener">Lichtman Lab</a>:</p><ul><li>NMJ tracing and segmenting with statistical work</li><li>NMJ automatic segmentation pipeline</li></ul></li><li><p><a href="https://vcg.seas.harvard.edu/people" target="_blank" rel="noopener">Hanspiter Lab</a>:</p><ul><li>Synapse prediction</li><li>Synaptic polarity prediction</li></ul></li></ul><p>For NMJ tracing, segmenting and automatic prediction work, we push forward the project with the generous daily help of our mentor Jeff. </p><p>For Synapse project, I work with Zudi and Donglai, we now rank No.1 in the <a href="https://cremi.org" target="_blank" rel="noopener">CREMI contest</a>. And we will submit a paper to CVPR this November.</p><a id="more"></a><h1 id="final-report"><a href="#final-report" class="headerlink" title="final report"></a>final report</h1><ul><li>online pdf</li></ul><div class="row"><iframe src="https://drive.google.com/file/d/1XyEPj9r7p8VNk5nLlLIPNhZjuDHu2KTY/preview" style="width:100%; height:550px"></iframe></div><ul><li>pdf in github</li></ul><p>You may also find the <a href="https://github.com/james20141606/Summer_Intern/blob/master/summer_intern_report_xupeng.pdf" target="_blank" rel="noopener"><strong>PDF Version</strong></a> of this report from github.</p><h1 id="presentation"><a href="#presentation" class="headerlink" title="presentation"></a>presentation</h1><h2 id="in-Lichtman-lab"><a href="#in-Lichtman-lab" class="headerlink" title="in Lichtman lab"></a>in Lichtman lab</h2><ul><li>online pdf</li></ul><div class="row"><iframe src="https://drive.google.com/file/d/1pLtw2eLJl9kMVj1pGSCqehcBfjVdBZ4c/preview" style="width:100%; height:550px"></iframe></div><h2 id="in-Tsinghua"><a href="#in-Tsinghua" class="headerlink" title="in Tsinghua"></a>in Tsinghua</h2><ul><li>online pdf</li></ul><div class="row"><iframe src="https://drive.google.com/file/d/1mVOPchbWZ9nsODPklNjw_OGwl2vehKdF/preview" style="width:100%; height:550px"></iframe></div><h1 id="codes"><a href="#codes" class="headerlink" title="codes"></a>codes</h1><p><a href="https://github.com/james20141606/Summer_Intern" target="_blank" rel="noopener">Main codes</a><br><a href="https://github.com/james20141606/NMJ_automatic_pipeline" target="_blank" rel="noopener">Automatic pipeline</a><br><a href="https://github.com/james20141606/EM-network" target="_blank" rel="noopener">Synapse polarity</a></p><h1 id="detailed-progress"><a href="#detailed-progress" class="headerlink" title="detailed progress"></a>detailed progress</h1><p>I summarized my daily progress about the following project during my summer intern, please visit the related web pages:</p><p><a href="https://www.cmwonderland.com/2018/07/14/summerintern_NMJ/">NMJ project</a><br><a href="https://www.cmwonderland.com/2018/07/14/summerintern_Synapse_Prediction/">Synapse Prediction</a><br><a href="https://www.cmwonderland.com/2018/07/14/summerintern_Synaptic_Partner_and_Cluster_Project/">Synaptic Partner and Cluster Project</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;This page summarize my summer intern work, includes final report, weekly report, codes, presentation.&lt;/p&gt;
-&lt;p&gt;To sum up, I mainly do two projects in this summer, which can be divided again into four works:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://lichtmanlab.fas.harvard.edu/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Lichtman Lab&lt;/a&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;NMJ tracing and segmenting with statistical work&lt;/li&gt;
-&lt;li&gt;NMJ automatic segmentation pipeline&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://vcg.seas.harvard.edu/people&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hanspiter Lab&lt;/a&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Synapse prediction&lt;/li&gt;
-&lt;li&gt;Synaptic polarity prediction&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;For NMJ tracing, segmenting and automatic prediction work, we push forward the project with the generous daily help of our mentor Jeff. &lt;/p&gt;
-&lt;p&gt;For Synapse project, I work with Zudi and Donglai, we now rank No.1 in the &lt;a href=&quot;https://cremi.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CREMI contest&lt;/a&gt;. And we will submit a paper to CVPR this November.&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="projects" scheme="https://www.cmwonderland.com/blog/categories/projects/"/>
-    
-    
-      <category term="project" scheme="https://www.cmwonderland.com/blog/tags/project/"/>
-    
-      <category term="neural science" scheme="https://www.cmwonderland.com/blog/tags/neural-science/"/>
-    
-      <category term="summer intern" scheme="https://www.cmwonderland.com/blog/tags/summer-intern/"/>
-    
-      <category term="connectomics" scheme="https://www.cmwonderland.com/blog/tags/connectomics/"/>
-    
-      <category term="computational neural science" scheme="https://www.cmwonderland.com/blog/tags/computational-neural-science/"/>
-    
-      <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
-    
-      <category term="computer vision" scheme="https://www.cmwonderland.com/blog/tags/computer-vision/"/>
-    
-      <category term="Jeff Lichtman" scheme="https://www.cmwonderland.com/blog/tags/Jeff-Lichtman/"/>
     
   </entry>
   

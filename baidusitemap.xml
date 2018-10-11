@@ -4,12 +4,46 @@
 
     
   <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/10/10/94-signal-project/</loc>
-    <lastmod>2018-10-11T09:19:46.404Z</lastmod>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/10/10/100_summer_intern/</loc>
+    <lastmod>2018-10-11T11:19:09.401Z</lastmod>
+    <data>
+        <display>
+        <title>Summer Intern Project Summary</title>
+        <pubTime>2018-10-10T14:05:19.000Z</pubTime>
+        
+        <tag>project</tag>
+         
+        <tag>neural science</tag>
+         
+        <tag>summer intern</tag>
+         
+        <tag>connectomics</tag>
+         
+        <tag>computational neural science</tag>
+         
+        <tag>deep learning</tag>
+         
+        <tag>computer vision</tag>
+         
+        <tag>Jeff Lichtman</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/10/09/94-signal-project/</loc>
+    <lastmod>2018-10-11T11:18:53.942Z</lastmod>
     <data>
         <display>
         <title>MDN for Signal Position Prediction</title>
-        <pubTime>2018-10-09T16:30:56.000Z</pubTime>
+        <pubTime>2018-10-08T16:50:56.000Z</pubTime>
         
         <tag>project</tag>
          
@@ -24,6 +58,84 @@
         <tag>MDN</tag>
          
         <tag>attention mechanism</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/10/10/96-emaize-project/</loc>
+    <lastmod>2018-10-11T11:18:37.447Z</lastmod>
+    <data>
+        <display>
+        <title>Machine Learning for Traits Prediction</title>
+        <pubTime>2018-10-10T12:30:51.000Z</pubTime>
+        
+        <tag>project</tag>
+         
+        <tag>machine learning</tag>
+         
+        <tag>breeding</tag>
+         
+        <tag>linear mixed model</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/10/11/101-exrna-project/</loc>
+    <lastmod>2018-10-11T11:18:20.187Z</lastmod>
+    <data>
+        <display>
+        <title>Identification of Cancer Biomarker</title>
+        <pubTime>2018-10-10T16:30:44.000Z</pubTime>
+        
+        <tag>project</tag>
+         
+        <tag>machine learning</tag>
+         
+        <tag>precision medicine</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/10/11/102-deepshape-project/</loc>
+    <lastmod>2018-10-11T11:18:08.905Z</lastmod>
+    <data>
+        <display>
+        <title>RNA Structural Motif Finding using Deep Learning</title>
+        <pubTime>2018-10-10T16:30:36.000Z</pubTime>
+        
+        <tag>project</tag>
+         
+        <tag>deep learning</tag>
+         
+        <tag>RNA structure</tag>
+         
+        <tag>VAE</tag>
+         
+        <tag>GCN</tag>
          
          
            
@@ -166,92 +278,6 @@
 
     
   <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/09/12/100_summer_intern/</loc>
-    <lastmod>2018-10-11T06:38:53.843Z</lastmod>
-    <data>
-        <display>
-        <title>Summer Intern Project Summary</title>
-        <pubTime>2018-09-12T14:05:19.000Z</pubTime>
-        
-        <tag>project</tag>
-         
-        <tag>neural science</tag>
-         
-        <tag>summer intern</tag>
-         
-        <tag>connectomics</tag>
-         
-        <tag>computational neural science</tag>
-         
-        <tag>deep learning</tag>
-         
-        <tag>computer vision</tag>
-         
-        <tag>Jeff Lichtman</tag>
-         
-         
-           
-             
-              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/10/10/102-deepshape-project/</loc>
-    <lastmod>2018-10-10T15:36:54.022Z</lastmod>
-    <data>
-        <display>
-        <title>RNA Structural Motif Finding using Deep Learning</title>
-        <pubTime>2018-10-09T16:30:36.000Z</pubTime>
-        
-        <tag>project</tag>
-         
-        <tag>deep learning</tag>
-         
-        <tag>RNA structure</tag>
-         
-        <tag>VAE</tag>
-         
-        <tag>GCN</tag>
-         
-         
-           
-             
-              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/10/10/101-exrna-project/</loc>
-    <lastmod>2018-10-10T15:23:35.975Z</lastmod>
-    <data>
-        <display>
-        <title>Identification of Cancer Biomarker</title>
-        <pubTime>2018-10-09T16:30:44.000Z</pubTime>
-        
-        <tag>project</tag>
-         
-        <tag>machine learning</tag>
-         
-        <tag>precision medicine</tag>
-         
-         
-           
-             
-              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/05/03/40_tlp/</loc>
     <lastmod>2018-10-10T15:19:55.902Z</lastmod>
     <data>
@@ -269,32 +295,6 @@
            
              
               <breadCrumb title="thoughts" url="https://www.cmwonderland.com/blog/blog/categories/thoughts/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/10/10/96-emaize-project/</loc>
-    <lastmod>2018-10-10T14:32:06.828Z</lastmod>
-    <data>
-        <display>
-        <title>Machine Learning for Traits Prediction</title>
-        <pubTime>2018-10-09T16:30:51.000Z</pubTime>
-        
-        <tag>project</tag>
-         
-        <tag>machine learning</tag>
-         
-        <tag>breeding</tag>
-         
-        <tag>linear mixed model</tag>
-         
-         
-           
-             
-              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
           
         </display>
     </data>
