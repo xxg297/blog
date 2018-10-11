@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/07/14/99_summerintern_NMJ/</loc>
-    <lastmod>2018-10-11T06:54:51.713Z</lastmod>
+    <lastmod>2018-10-11T08:37:00.670Z</lastmod>
     <data>
         <display>
         <title>NMJ Project</title>
@@ -39,7 +39,7 @@
     
   <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/07/14/97_summerintern_Synaptic_Partner_and_Cluster_Project/</loc>
-    <lastmod>2018-10-11T06:49:20.504Z</lastmod>
+    <lastmod>2018-10-11T08:36:56.065Z</lastmod>
     <data>
         <display>
         <title>Synaptic Partner and Cluster Project</title>
@@ -60,6 +60,68 @@
         <tag>computer vision</tag>
          
         <tag>Jeff Lichtman</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/07/14/98_summerintern_Synapse_Prediction/</loc>
+    <lastmod>2018-10-11T08:32:01.211Z</lastmod>
+    <data>
+        <display>
+        <title>Synapse Prediction Project</title>
+        <pubTime>2018-07-14T14:50:06.000Z</pubTime>
+        
+        <tag>project</tag>
+         
+        <tag>neural science</tag>
+         
+        <tag>summer intern</tag>
+         
+        <tag>connectomics</tag>
+         
+        <tag>computational neural science</tag>
+         
+        <tag>deep learning</tag>
+         
+        <tag>computer vision</tag>
+         
+        <tag>Jeff Lichtman</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/08/16/95_medical_image_project/</loc>
+    <lastmod>2018-10-11T08:16:32.348Z</lastmod>
+    <data>
+        <display>
+        <title>Deep Learning in Medical Image</title>
+        <pubTime>2018-08-16T11:03:19.000Z</pubTime>
+        
+        <tag>project</tag>
+         
+        <tag>deep learning</tag>
+         
+        <tag>computer vision</tag>
+         
+        <tag>research</tag>
+         
+        <tag>medical image</tag>
          
          
            
@@ -94,34 +156,6 @@
         <tag>computer vision</tag>
          
         <tag>Jeff Lichtman</tag>
-         
-         
-           
-             
-              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/08/16/95_medical_image_project/</loc>
-    <lastmod>2018-10-11T06:30:32.664Z</lastmod>
-    <data>
-        <display>
-        <title>Deep Learning in Medical Image</title>
-        <pubTime>2018-08-16T11:03:19.000Z</pubTime>
-        
-        <tag>project</tag>
-         
-        <tag>deep learning</tag>
-         
-        <tag>computer vision</tag>
-         
-        <tag>research</tag>
-         
-        <tag>medical image</tag>
          
          
            
@@ -319,40 +353,6 @@
            
              
               <breadCrumb title="school work" url="https://www.cmwonderland.com/blog/blog/categories/school-work/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/07/14/98_summerintern_Synapse_Prediction/</loc>
-    <lastmod>2018-10-10T05:02:46.054Z</lastmod>
-    <data>
-        <display>
-        <title>Synapse Prediction Project</title>
-        <pubTime>2018-07-14T14:50:06.000Z</pubTime>
-        
-        <tag>project</tag>
-         
-        <tag>neural science</tag>
-         
-        <tag>summer intern</tag>
-         
-        <tag>connectomics</tag>
-         
-        <tag>computational neural science</tag>
-         
-        <tag>deep learning</tag>
-         
-        <tag>computer vision</tag>
-         
-        <tag>Jeff Lichtman</tag>
-         
-         
-           
-             
-              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
           
         </display>
     </data>
