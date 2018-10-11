@@ -1863,8 +1863,9 @@
 <h2 id="methods"><a href="#methods" class="headerlink" title="methods"></a>methods</h2><h3 id="model"><a href="#model" class="headerlink" title="model"></a>model</h3><p>We use pytorch and tensorflow to develop our mixture density network. </p>
 <ul>
 <li>A MLP is used to generate pi, mu and sigma for 2D isotropic gaussian distribution.</li>
-<li>Several 2D gaussian distribution is mixed to form a mixed gaussian distribution.<br><img src="https://github.com/james20141606/Signal/blob/master/plot/gaussian_mixture.png" alt=""></li>
-<li>We use Maximum Likelihood Estimation, choose negetive log likelihood as our loss function for optimization<br><img src="https://github.com/james20141606/Signal/blob/master/plot/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202018-10-05%20%E4%B8%8B%E5%8D%8810.04.29.png" alt=""></li>
+<li>Several 2D gaussian distribution is mixed to form a mixed gaussian distribution.<br><img src="http://i2.tiimg.com/640680/4d39615fdca66f67.png" alt="Markdown"></li>
+<li>We use Maximum Likelihood Estimation, choose negetive log likelihood as our loss function for optimization</li>
+<li><img src="http://i2.tiimg.com/640680/abf549073048f5f9.png" alt="Markdown"></li>
 </ul>
 <p>Several tricks:</p>
 <ul>
@@ -1872,18 +1873,20 @@
 <li>z score normalization to optimize the model easier.</li>
 <li>we use mean shift to find modes in gaussian mixture</li>
 </ul>
-<p><img src="https://github.com/james20141606/Signal/blob/master/plot/mode_finding.png" alt=""></p>
-<h3 id="result"><a href="#result" class="headerlink" title="result"></a>result</h3><p><img src="https://github.com/james20141606/Signal/blob/master/plot/prediction_gt.png" alt=""></p>
+<p><img src="http://i2.tiimg.com/640680/0ef0ba152c39f99f.png" alt="Markdown"></p>
+<h3 id="result"><a href="#result" class="headerlink" title="result"></a>result</h3><p><img src="http://i2.tiimg.com/640680/e7e107d4d04e6849.png" alt="Markdown"></p>
 <h3 id="data"><a href="#data" class="headerlink" title="data"></a>data</h3><h4 id="mountain-data"><a href="#mountain-data" class="headerlink" title="mountain data"></a>mountain data</h4><ul>
-<li>data position<br><img src="https://github.com/james20141606/Signal/blob/master/plot/split_data.png" alt=""></li>
-<li>t-SNE to cluster data<br><img src="https://github.com/james20141606/Signal/blob/master/plot/t-SNE.png" alt=""></li>
-<li>feature distribution<br><img src="https://github.com/james20141606/Signal/blob/master/plot/3D_surface_of_feature_00.png" alt=""><h4 id="city-data"><a href="#city-data" class="headerlink" title="city data"></a>city data</h4></li>
-<li>data position<br><img src="https://github.com/james20141606/Signal/blob/master/plot/citydata.png" alt=""></li>
-<li>receriver position<br><img src="https://github.com/james20141606/Signal/blob/master/plot/city_rx.png" alt=""></li>
-<li>transmitter position<br><img src="https://github.com/james20141606/Signal/blob/master/plot/city_tx.png" alt=""></li>
+<li>data position<br><img src="http://i2.tiimg.com/640680/1668bdf4741445b1.png" alt="Markdown"></li>
+<li>t-SNE to cluster data<br><img src="http://i2.tiimg.com/640680/c06e0baac3381bc4.png" alt="Markdown"></li>
+<li>feature distribution<br><img src="http://i2.tiimg.com/640680/258900a437c4a544.png" alt="Markdown"></li>
 </ul>
-<h4 id="explore-useful-features"><a href="#explore-useful-features" class="headerlink" title="explore useful features"></a>explore useful features</h4><p>We use PCC to quantify the PCC between samples’ features and distance. We use dynamic weight to pick features having higher relation with distance. It seems TOA has the significant higher weight<br><img src="https://github.com/james20141606/Signal/blob/master/plot/weight_change_10.gif" alt=""></p>
-<p>We plan to use some imputation method, including some methods from single cell analysis. We also aim to use RNN for changeable size feature and attention model to pick more related features.</p>
+<h4 id="city-data"><a href="#city-data" class="headerlink" title="city data"></a>city data</h4><ul>
+<li>data position<br><img src="http://i2.tiimg.com/640680/c84923de5dd7b62a.png" alt="Markdown"></li>
+<li>receriver position<br><img src="http://i2.tiimg.com/640680/37d804dc03e44805.png" alt="Markdown"></li>
+<li>transmitter position<br><img src="http://i2.tiimg.com/640680/ed56538e48c4a54f.png" alt="Markdown"></li>
+</ul>
+<h4 id="explore-useful-features"><a href="#explore-useful-features" class="headerlink" title="explore useful features"></a>explore useful features</h4><p>We use PCC to quantify the PCC between samples’ features and distance. We use dynamic weight to pick features having higher relation with distance. It seems TOA has the significant higher weight<br><img src="http://i2.tiimg.com/640680/1533405e66d3b4c4.gif" alt="Markdown"></p>
+<p>We plan to use some <strong>imputation method</strong>, including some methods from single cell analysis. We also aim to use <strong>RNN</strong> for changeable size feature and <strong>attention model</strong> to pick more related features.</p>
 <h2 id="codes"><a href="#codes" class="headerlink" title="codes"></a>codes</h2><p><a href="https://github.com/james20141606/Signal" target="_blank" rel="noopener">https://github.com/james20141606/Signal</a></p>
 
           
