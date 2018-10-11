@@ -1811,7 +1811,7 @@
                   <span class="post-meta-item-text">Words count in article&#58;</span>
                 
                 <span title="Words count in article">
-                  0
+                  228
                 </span>
               
 
@@ -1850,7 +1850,42 @@
       
         
           
-            
+            <p>This page summarize our work on using mixture density network to jointly predict position coordinates.</p>
+<p>We collaborate with Jun Li in New York University. </p>
+<h2 id="presentation-of-current-work"><a href="#presentation-of-current-work" class="headerlink" title="presentation of current work"></a>presentation of current work</h2>
+
+	<div class="row">
+		<iframe src="https://drive.google.com/file/d/12kdQZKUrz-z_4k-eSW83ogKvTRwPjn3o/preview" style="width:100%; height:550px"></iframe>
+	</div>
+
+
+
+<h2 id="methods"><a href="#methods" class="headerlink" title="methods"></a>methods</h2><h3 id="model"><a href="#model" class="headerlink" title="model"></a>model</h3><p>We use pytorch and tensorflow to develop our mixture density network. </p>
+<ul>
+<li>A MLP is used to generate pi, mu and sigma for 2D isotropic gaussian distribution.</li>
+<li>Several 2D gaussian distribution is mixed to form a mixed gaussian distribution.<br><img src="https://github.com/james20141606/Signal/blob/master/plot/gaussian_mixture.png" alt=""></li>
+<li>We use Maximum Likelihood Estimation, choose negetive log likelihood as our loss function for optimization<br><img src="https://github.com/james20141606/Signal/blob/master/plot/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202018-10-05%20%E4%B8%8B%E5%8D%8810.04.29.png" alt=""></li>
+</ul>
+<p>Several tricks:</p>
+<ul>
+<li>deal with loss nan: we use log transform of signa, mu and pi, also a cutoff of sigma and pseudo counts of pi is used to prevend loss explosion of vanishing</li>
+<li>z score normalization to optimize the model easier.</li>
+<li>we use mean shift to find modes in gaussian mixture</li>
+</ul>
+<p><img src="https://github.com/james20141606/Signal/blob/master/plot/mode_finding.png" alt=""></p>
+<h3 id="result"><a href="#result" class="headerlink" title="result"></a>result</h3><p><img src="https://github.com/james20141606/Signal/blob/master/plot/prediction_gt.png" alt=""></p>
+<h3 id="data"><a href="#data" class="headerlink" title="data"></a>data</h3><h4 id="mountain-data"><a href="#mountain-data" class="headerlink" title="mountain data"></a>mountain data</h4><ul>
+<li>data position<br><img src="https://github.com/james20141606/Signal/blob/master/plot/split_data.png" alt=""></li>
+<li>t-SNE to cluster data<br><img src="https://github.com/james20141606/Signal/blob/master/plot/t-SNE.png" alt=""></li>
+<li>feature distribution<br><img src="https://github.com/james20141606/Signal/blob/master/plot/3D_surface_of_feature_00.png" alt=""><h4 id="city-data"><a href="#city-data" class="headerlink" title="city data"></a>city data</h4></li>
+<li>data position<br><img src="https://github.com/james20141606/Signal/blob/master/plot/citydata.png" alt=""></li>
+<li>receriver position<br><img src="https://github.com/james20141606/Signal/blob/master/plot/city_rx.png" alt=""></li>
+<li>transmitter position<br><img src="https://github.com/james20141606/Signal/blob/master/plot/city_tx.png" alt=""></li>
+</ul>
+<h4 id="explore-useful-features"><a href="#explore-useful-features" class="headerlink" title="explore useful features"></a>explore useful features</h4><p>We use PCC to quantify the PCC between samples’ features and distance. We use dynamic weight to pick features having higher relation with distance. It seems TOA has the significant higher weight<br><img src="https://github.com/james20141606/Signal/blob/master/plot/weight_change_10.gif" alt=""></p>
+<p>We plan to use some imputation method, including some methods from single cell analysis. We also aim to use RNN for changeable size feature and attention model to pick more related features.</p>
+<h2 id="codes"><a href="#codes" class="headerlink" title="codes"></a>codes</h2><p><a href="https://github.com/james20141606/Signal" target="_blank" rel="noopener">https://github.com/james20141606/Signal</a></p>
+
           
         
       
@@ -2439,7 +2474,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共147.7k字</span>
+  <span class="post-count">博客全站共147.9k字</span>
 </div>
 
         

@@ -4,6 +4,38 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/10/10/94-signal-project/</loc>
+    <lastmod>2018-10-11T09:08:25.765Z</lastmod>
+    <data>
+        <display>
+        <title>MDN for Signal Position Prediction</title>
+        <pubTime>2018-10-09T16:30:56.000Z</pubTime>
+        
+        <tag>project</tag>
+         
+        <tag>machine learning</tag>
+         
+        <tag>signal</tag>
+         
+        <tag>MLP</tag>
+         
+        <tag>Mixture model</tag>
+         
+        <tag>MDN</tag>
+         
+        <tag>attention mechanism</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/07/14/99_summerintern_NMJ/</loc>
     <lastmod>2018-10-11T08:37:00.670Z</lastmod>
     <data>
@@ -258,38 +290,6 @@
         <tag>breeding</tag>
          
         <tag>linear mixed model</tag>
-         
-         
-           
-             
-              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/10/10/94-signal-project/</loc>
-    <lastmod>2018-10-10T06:27:09.362Z</lastmod>
-    <data>
-        <display>
-        <title>MDN for Signal Position Prediction</title>
-        <pubTime>2018-10-09T16:30:56.000Z</pubTime>
-        
-        <tag>project</tag>
-         
-        <tag>machine learning</tag>
-         
-        <tag>signal</tag>
-         
-        <tag>MLP</tag>
-         
-        <tag>Mixture model</tag>
-         
-        <tag>MDN</tag>
-         
-        <tag>attention mechanism</tag>
          
          
            
