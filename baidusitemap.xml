@@ -4,6 +4,102 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/07/14/99_summerintern_NMJ/</loc>
+    <lastmod>2018-10-11T06:46:23.349Z</lastmod>
+    <data>
+        <display>
+        <title>NMJ Project</title>
+        <pubTime>2018-07-14T12:35:19.000Z</pubTime>
+        
+        <tag>project</tag>
+         
+        <tag>neural science</tag>
+         
+        <tag>summer intern</tag>
+         
+        <tag>connectomics</tag>
+         
+        <tag>computational neural science</tag>
+         
+        <tag>deep learning</tag>
+         
+        <tag>computer vision</tag>
+         
+        <tag>Jeff Lichtman</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/09/12/100_summer_intern/</loc>
+    <lastmod>2018-10-11T06:38:53.843Z</lastmod>
+    <data>
+        <display>
+        <title>Summer Intern Project Summary</title>
+        <pubTime>2018-09-12T14:05:19.000Z</pubTime>
+        
+        <tag>project</tag>
+         
+        <tag>neural science</tag>
+         
+        <tag>summer intern</tag>
+         
+        <tag>connectomics</tag>
+         
+        <tag>computational neural science</tag>
+         
+        <tag>deep learning</tag>
+         
+        <tag>computer vision</tag>
+         
+        <tag>Jeff Lichtman</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/08/16/95_medical_image_project/</loc>
+    <lastmod>2018-10-11T06:30:32.664Z</lastmod>
+    <data>
+        <display>
+        <title>Deep Learning in Medical Image</title>
+        <pubTime>2018-08-16T11:03:19.000Z</pubTime>
+        
+        <tag>project</tag>
+         
+        <tag>deep learning</tag>
+         
+        <tag>computer vision</tag>
+         
+        <tag>research</tag>
+         
+        <tag>medical image</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/10/10/102-deepshape-project/</loc>
     <lastmod>2018-10-10T15:36:54.022Z</lastmod>
     <data>
@@ -196,102 +292,6 @@
 
     
   <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/08/16/95_medical_image_project/</loc>
-    <lastmod>2018-10-10T05:03:03.539Z</lastmod>
-    <data>
-        <display>
-        <title>Deep Learning in Medical Image</title>
-        <pubTime>2018-08-16T11:03:19.000Z</pubTime>
-        
-        <tag>project</tag>
-         
-        <tag>deep learning</tag>
-         
-        <tag>computer vision</tag>
-         
-        <tag>research</tag>
-         
-        <tag>medical image</tag>
-         
-         
-           
-             
-              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/09/12/100_summer_intern/</loc>
-    <lastmod>2018-10-10T05:02:54.312Z</lastmod>
-    <data>
-        <display>
-        <title>Summer Intern Project Summary</title>
-        <pubTime>2018-09-12T14:05:19.000Z</pubTime>
-        
-        <tag>project</tag>
-         
-        <tag>neural science</tag>
-         
-        <tag>summer intern</tag>
-         
-        <tag>connectomics</tag>
-         
-        <tag>computational neural science</tag>
-         
-        <tag>deep learning</tag>
-         
-        <tag>computer vision</tag>
-         
-        <tag>Jeff Lichtman</tag>
-         
-         
-           
-             
-              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/07/14/99_summerintern_NMJ/</loc>
-    <lastmod>2018-10-10T05:02:48.629Z</lastmod>
-    <data>
-        <display>
-        <title>NMJ Project</title>
-        <pubTime>2018-07-14T12:35:19.000Z</pubTime>
-        
-        <tag>project</tag>
-         
-        <tag>neural science</tag>
-         
-        <tag>summer intern</tag>
-         
-        <tag>connectomics</tag>
-         
-        <tag>computational neural science</tag>
-         
-        <tag>deep learning</tag>
-         
-        <tag>computer vision</tag>
-         
-        <tag>Jeff Lichtman</tag>
-         
-         
-           
-             
-              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/07/14/98_summerintern_Synapse_Prediction/</loc>
     <lastmod>2018-10-10T05:02:46.054Z</lastmod>
     <data>
@@ -417,11 +417,11 @@
         <title>Solution of MCM Problem C</title>
         <pubTime>2018-04-21T01:15:19.000Z</pubTime>
         
+        <tag>machine learning</tag>
+         
         <tag>codes</tag>
          
         <tag>data science</tag>
-         
-        <tag>machine learning</tag>
          
         <tag>contest</tag>
          
@@ -445,11 +445,11 @@
         <title>Machine Learning Basics Tutorial</title>
         <pubTime>2018-10-05T02:03:19.000Z</pubTime>
         
-        <tag>bioinformatics</tag>
-         
         <tag>machine learning</tag>
          
         <tag>python</tag>
+         
+        <tag>bioinformatics</tag>
          
         <tag>teaching</tag>
          
@@ -473,11 +473,11 @@
         <title>Python Tutorial</title>
         <pubTime>2018-10-06T12:03:19.000Z</pubTime>
         
-        <tag>bioinformatics</tag>
-         
         <tag>machine learning</tag>
          
         <tag>python</tag>
+         
+        <tag>bioinformatics</tag>
          
         <tag>teaching</tag>
          
@@ -1001,11 +1001,11 @@
         <title>QUIZ identification of cancer biomarker from exRNA-seq data</title>
         <pubTime>2018-10-06T11:01:19.000Z</pubTime>
         
-        <tag>bioinformatics</tag>
-         
         <tag>machine learning</tag>
          
         <tag>python</tag>
+         
+        <tag>bioinformatics</tag>
          
         <tag>teaching</tag>
          
@@ -1029,11 +1029,11 @@
         <title>QUIZ Predicting maize traits using SNP data</title>
         <pubTime>2018-10-06T12:03:19.000Z</pubTime>
         
-        <tag>bioinformatics</tag>
-         
         <tag>machine learning</tag>
          
         <tag>python</tag>
+         
+        <tag>bioinformatics</tag>
          
         <tag>teaching</tag>
          
@@ -1057,6 +1057,8 @@
         <title>eMaize_Tutorial</title>
         <pubTime>2018-04-12T15:30:17.000Z</pubTime>
         
+        <tag>machine learning</tag>
+         
         <tag>techniques</tag>
          
         <tag>codes</tag>
@@ -1064,8 +1066,6 @@
         <tag>bioinformatics</tag>
          
         <tag>statistics</tag>
-         
-        <tag>machine learning</tag>
          
          
            
@@ -1089,9 +1089,9 @@
          
         <tag>software</tag>
          
-        <tag>bioinformatics</tag>
-         
         <tag>python</tag>
+         
+        <tag>bioinformatics</tag>
          
          
            
@@ -1189,9 +1189,9 @@
         
         <tag>deep learning</tag>
          
-        <tag>techniques</tag>
-         
         <tag>machine learning</tag>
+         
+        <tag>techniques</tag>
          
          
            
