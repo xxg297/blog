@@ -5,11 +5,45 @@
     
   <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/07/14/99_summerintern_NMJ/</loc>
-    <lastmod>2018-10-11T06:46:23.349Z</lastmod>
+    <lastmod>2018-10-11T06:54:51.713Z</lastmod>
     <data>
         <display>
         <title>NMJ Project</title>
         <pubTime>2018-07-14T12:35:19.000Z</pubTime>
+        
+        <tag>project</tag>
+         
+        <tag>neural science</tag>
+         
+        <tag>summer intern</tag>
+         
+        <tag>connectomics</tag>
+         
+        <tag>computational neural science</tag>
+         
+        <tag>deep learning</tag>
+         
+        <tag>computer vision</tag>
+         
+        <tag>Jeff Lichtman</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/07/14/97_summerintern_Synaptic_Partner_and_Cluster_Project/</loc>
+    <lastmod>2018-10-11T06:49:20.504Z</lastmod>
+    <data>
+        <display>
+        <title>Synaptic Partner and Cluster Project</title>
+        <pubTime>2018-07-14T15:58:06.000Z</pubTime>
         
         <tag>project</tag>
          
@@ -298,40 +332,6 @@
         <display>
         <title>Synapse Prediction Project</title>
         <pubTime>2018-07-14T14:50:06.000Z</pubTime>
-        
-        <tag>project</tag>
-         
-        <tag>neural science</tag>
-         
-        <tag>summer intern</tag>
-         
-        <tag>connectomics</tag>
-         
-        <tag>computational neural science</tag>
-         
-        <tag>deep learning</tag>
-         
-        <tag>computer vision</tag>
-         
-        <tag>Jeff Lichtman</tag>
-         
-         
-           
-             
-              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/07/14/97_summerintern_Synaptic_Partner_and_Cluster_Project/</loc>
-    <lastmod>2018-10-10T05:02:43.134Z</lastmod>
-    <data>
-        <display>
-        <title>Synaptic Partner and Cluster Project</title>
-        <pubTime>2018-07-14T15:58:06.000Z</pubTime>
         
         <tag>project</tag>
          
@@ -1087,9 +1087,9 @@
         
         <tag>techniques</tag>
          
-        <tag>software</tag>
-         
         <tag>python</tag>
+         
+        <tag>software</tag>
          
         <tag>bioinformatics</tag>
          
