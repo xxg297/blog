@@ -4,6 +4,58 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/09/30/93_book_high_school/</loc>
+    <lastmod>2018-10-17T12:06:18.740Z</lastmod>
+    <data>
+        <display>
+        <title>High School Experience Sharing Book</title>
+        <pubTime>2018-09-30T11:47:25.000Z</pubTime>
+        
+        <tag>life</tag>
+         
+        <tag>book</tag>
+         
+        <tag>techniques</tag>
+         
+        <tag>teaching</tag>
+         
+         
+           
+             
+              <breadCrumb title="book" url="https://www.cmwonderland.com/blog/blog/categories/book/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/10/11/93_book_summary/</loc>
+    <lastmod>2018-10-17T11:46:08.179Z</lastmod>
+    <data>
+        <display>
+        <title>Book Summary</title>
+        <pubTime>2018-10-11T11:57:25.000Z</pubTime>
+        
+        <tag>life</tag>
+         
+        <tag>book</tag>
+         
+        <tag>techniques</tag>
+         
+        <tag>teaching</tag>
+         
+         
+           
+             
+              <breadCrumb title="book" url="https://www.cmwonderland.com/blog/blog/categories/book/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/08/16/95_medical_image_project/</loc>
     <lastmod>2018-10-11T11:26:34.939Z</lastmod>
     <data>
@@ -388,7 +440,7 @@
 
     
   <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/09/30/93_gitbook_book/</loc>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/09/30/93_gitbook_teaching_book/</loc>
     <lastmod>2018-10-10T05:02:40.212Z</lastmod>
     <data>
         <display>
@@ -1089,9 +1141,9 @@
          
         <tag>python</tag>
          
-        <tag>bioinformatics</tag>
-         
         <tag>software</tag>
+         
+        <tag>bioinformatics</tag>
          
          
            
@@ -1302,30 +1354,6 @@
 
     
   <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/04/28/20_gre/</loc>
-    <lastmod>2018-10-10T05:00:48.791Z</lastmod>
-    <data>
-        <display>
-        <title>记一下人生第一次GRE</title>
-        <pubTime>2018-04-28T11:49:36.000Z</pubTime>
-        
-        <tag>school</tag>
-         
-        <tag>language</tag>
-         
-        <tag>exam</tag>
-         
-         
-           
-             
-              <breadCrumb title="school work" url="https://www.cmwonderland.com/blog/blog/categories/school-work/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/05/04/19_jupyter/</loc>
     <lastmod>2018-10-10T05:00:46.374Z</lastmod>
     <data>
@@ -1359,38 +1387,14 @@
         
         <tag>techniques</tag>
          
-        <tag>mac</tag>
-         
         <tag>setup</tag>
+         
+        <tag>mac</tag>
          
          
            
              
               <breadCrumb title="techniques" url="https://www.cmwonderland.com/blog/blog/categories/techniques/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/05/15/18_J-1-Visa/</loc>
-    <lastmod>2018-10-10T05:00:41.049Z</lastmod>
-    <data>
-        <display>
-        <title>J-1 Visa申请流程回忆</title>
-        <pubTime>2018-05-15T14:32:38.000Z</pubTime>
-        
-        <tag>school</tag>
-         
-        <tag>research</tag>
-         
-        <tag>summer research</tag>
-         
-         
-           
-             
-              <breadCrumb title="research" url="https://www.cmwonderland.com/blog/blog/categories/research/"/>
           
         </display>
     </data>
@@ -1407,11 +1411,11 @@
         
         <tag>techniques</tag>
          
-        <tag>setup</tag>
-         
         <tag>zsh</tag>
          
         <tag>alias</tag>
+         
+        <tag>setup</tag>
          
          
            
