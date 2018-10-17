@@ -4,6 +4,34 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/04/21/57_mcm/</loc>
+    <lastmod>2018-10-17T12:51:34.556Z</lastmod>
+    <data>
+        <display>
+        <title>Solution of MCM Problem C</title>
+        <pubTime>2018-04-21T01:15:19.000Z</pubTime>
+        
+        <tag>machine learning</tag>
+         
+        <tag>codes</tag>
+         
+        <tag>data science</tag>
+         
+        <tag>contest</tag>
+         
+        <tag>math model</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/09/30/93_book_high_school/</loc>
     <lastmod>2018-10-17T12:06:18.740Z</lastmod>
     <data>
@@ -72,34 +100,6 @@
         <tag>research</tag>
          
         <tag>medical image</tag>
-         
-         
-           
-             
-              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/04/21/57_mcm/</loc>
-    <lastmod>2018-10-11T11:21:21.910Z</lastmod>
-    <data>
-        <display>
-        <title>Solution of MCM Problem C</title>
-        <pubTime>2018-04-21T01:15:19.000Z</pubTime>
-        
-        <tag>machine learning</tag>
-         
-        <tag>codes</tag>
-         
-        <tag>data science</tag>
-         
-        <tag>contest</tag>
-         
-        <tag>math model</tag>
          
          
            
@@ -931,9 +931,9 @@
         
         <tag>codes</tag>
          
-        <tag>statistics</tag>
-         
         <tag>girl friend</tag>
+         
+        <tag>statistics</tag>
          
         <tag>economics</tag>
          
@@ -1165,9 +1165,9 @@
         
         <tag>codes</tag>
          
-        <tag>data science</tag>
-         
         <tag>statistics</tag>
+         
+        <tag>data science</tag>
          
         <tag>data mining</tag>
          
@@ -1387,9 +1387,9 @@
         
         <tag>techniques</tag>
          
-        <tag>setup</tag>
-         
         <tag>mac</tag>
+         
+        <tag>setup</tag>
          
          
            
@@ -1411,11 +1411,11 @@
         
         <tag>techniques</tag>
          
+        <tag>setup</tag>
+         
         <tag>zsh</tag>
          
         <tag>alias</tag>
-         
-        <tag>setup</tag>
          
          
            
