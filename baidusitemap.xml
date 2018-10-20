@@ -4,6 +4,32 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/10/11/93_book_summary/</loc>
+    <lastmod>2018-10-20T16:10:01.010Z</lastmod>
+    <data>
+        <display>
+        <title>Book Summary</title>
+        <pubTime>2018-10-11T11:57:25.000Z</pubTime>
+        
+        <tag>life</tag>
+         
+        <tag>book</tag>
+         
+        <tag>techniques</tag>
+         
+        <tag>teaching</tag>
+         
+         
+           
+             
+              <breadCrumb title="book" url="https://www.cmwonderland.com/blog/blog/categories/book/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/09/28/93_gitbook_teaching_book/</loc>
     <lastmod>2018-10-20T16:03:25.977Z</lastmod>
     <data>
@@ -36,32 +62,6 @@
         <display>
         <title>High School Experience Sharing Book</title>
         <pubTime>2018-09-29T11:47:15.000Z</pubTime>
-        
-        <tag>life</tag>
-         
-        <tag>book</tag>
-         
-        <tag>techniques</tag>
-         
-        <tag>teaching</tag>
-         
-         
-           
-             
-              <breadCrumb title="book" url="https://www.cmwonderland.com/blog/blog/categories/book/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/10/11/93_book_summary/</loc>
-    <lastmod>2018-10-20T15:25:17.519Z</lastmod>
-    <data>
-        <display>
-        <title>Book Summary</title>
-        <pubTime>2018-10-11T11:57:25.000Z</pubTime>
         
         <tag>life</tag>
          
@@ -1239,9 +1239,9 @@
         <title>Deep Learning Practice</title>
         <pubTime>2018-04-10T13:23:55.000Z</pubTime>
         
-        <tag>machine learning</tag>
-         
         <tag>deep learning</tag>
+         
+        <tag>machine learning</tag>
          
         <tag>techniques</tag>
          
