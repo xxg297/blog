@@ -32,58 +32,6 @@
 
     
   <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/09/30/93_book_high_school/</loc>
-    <lastmod>2018-10-17T12:06:18.740Z</lastmod>
-    <data>
-        <display>
-        <title>High School Experience Sharing Book</title>
-        <pubTime>2018-09-30T11:47:25.000Z</pubTime>
-        
-        <tag>life</tag>
-         
-        <tag>book</tag>
-         
-        <tag>techniques</tag>
-         
-        <tag>teaching</tag>
-         
-         
-           
-             
-              <breadCrumb title="book" url="https://www.cmwonderland.com/blog/blog/categories/book/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/10/11/93_book_summary/</loc>
-    <lastmod>2018-10-17T11:46:08.179Z</lastmod>
-    <data>
-        <display>
-        <title>Book Summary</title>
-        <pubTime>2018-10-11T11:57:25.000Z</pubTime>
-        
-        <tag>life</tag>
-         
-        <tag>book</tag>
-         
-        <tag>techniques</tag>
-         
-        <tag>teaching</tag>
-         
-         
-           
-             
-              <breadCrumb title="book" url="https://www.cmwonderland.com/blog/blog/categories/book/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/08/16/95_medical_image_project/</loc>
     <lastmod>2018-10-11T11:26:34.939Z</lastmod>
     <data>
@@ -433,32 +381,6 @@
            
              
               <breadCrumb title="school work" url="https://www.cmwonderland.com/blog/blog/categories/school-work/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/09/30/93_gitbook_teaching_book/</loc>
-    <lastmod>2018-10-10T05:02:40.212Z</lastmod>
-    <data>
-        <display>
-        <title>Teaching Book</title>
-        <pubTime>2018-09-30T11:47:25.000Z</pubTime>
-        
-        <tag>life</tag>
-         
-        <tag>book</tag>
-         
-        <tag>techniques</tag>
-         
-        <tag>teaching</tag>
-         
-         
-           
-             
-              <breadCrumb title="book" url="https://www.cmwonderland.com/blog/blog/categories/book/"/>
           
         </display>
     </data>
@@ -1141,9 +1063,9 @@
          
         <tag>python</tag>
          
-        <tag>software</tag>
-         
         <tag>bioinformatics</tag>
+         
+        <tag>software</tag>
          
          
            
