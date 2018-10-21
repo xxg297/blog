@@ -1415,48 +1415,20 @@
 
       
         
-          
-            <p>I always have a strong interests in applying deep learning models to medical images analysis. I have two projects related to medical image analysis using deep learning. During the projects I tried to experience the whole pipeline: </p>
+          <p>I always have a strong interests in applying deep learning models to medical images analysis. I have two projects related to medical image analysis using deep learning. During the projects I tried to experience the whole pipeline: </p>
 <ul>
 <li>collect data from hospitals and open source database</li>
 <li>clean data and organize information</li>
 <li>learn experience from doctors, develop models and consider about its reliability.</li>
 </ul>
 <p>As a student from life science background with machine learning and deep learning skills, I have a broader mind to think about medical image problems from different views. From my perspectives, deep learning aided medical image analysis will soon have a wide range of application. </p>
-<h1 id="Work-Summary"><a href="#Work-Summary" class="headerlink" title="Work Summary"></a>Work Summary</h1><h2 id="X-ray-image-for-heart-disease-analysis"><a href="#X-ray-image-for-heart-disease-analysis" class="headerlink" title="X-ray image for heart disease analysis"></a>X-ray image for heart disease analysis</h2>
-
-	<div class="row">
-    <embed src="https://arxiv.org/pdf/1808.08277.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-<h2 id="CT-images-for-lung-disease-analysis"><a href="#CT-images-for-lung-disease-analysis" class="headerlink" title="CT images for lung disease analysis"></a>CT images for lung disease analysis</h2>
-
-	<div class="row">
-		<iframe src="https://drive.google.com/file/d/1L6WLM41eIwzIi1NB6x8X6UrChYFtH_2u/preview" style="width:100%; height:550px"></iframe>
-	</div>
-
-
-
-<p>We propose some change to analyze the image. For example we propose to use U-net to segment heart mask first. Force the classification model to pay more attention to heart region to make the model more reliable.</p>
-<p>For segmentation task, it is suggested to use DICE coefficient. However, it is really hard to use DICE loss to optimize model. We make some changes to DICE loss to restrict the predicted region.</p>
-
-
-	<div class="row">
-		<iframe src="https://drive.google.com/file/d/1VE2Ni3iAJLEtiMks2WmuT-uqamUaqxt-/preview" style="width:100%; height:550px"></iframe>
-	</div>
-
-
-
-<h1 id="codes"><a href="#codes" class="headerlink" title="codes"></a>codes</h1><p><a href="https://github.com/james20141606/Summer_Intern" target="_blank" rel="noopener">3D deep learning model for lung disease CT images</a><br><a href="https://github.com/james20141606/CardiacAI" target="_blank" rel="noopener">X-ray heart disease image classification</a></p>
-<h1 id="related"><a href="#related" class="headerlink" title="related:"></a>related:</h1><ul>
-<li>X-ray image for heart disease analysis is under the instruction of <a href="http://www.cs.tsinghua.edu.cn/publish/cs/4616/2013/20130423133349415867263/20130423133349415867263_.html" target="_blank" rel="noopener">Hongliang Yu</a> in a student research training program. With fundings of $20,000</li>
-<li>X-ray image for heart disease analysis also wins second prize in <strong>The First National College Students’ Brain Computation and Application Competition</strong>.</li>
-<li>CT image analysis is under the construction of <a href="http://www.au.tsinghua.edu.cn/publish/au/1714/2011/20110323105408606814635/20110323105408606814635_.html" target="_blank" rel="noopener">Professor Xuegong Zhang</a></li>
-</ul>
-
-          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/blog/2018/08/16/95_medical_image_project/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1849,47 +1821,20 @@
 
       
         
-          
-            <p>This page summarize our work on using mixture density network to jointly predict position coordinates.</p>
+          <p>This page summarize our work on using mixture density network to jointly predict position coordinates.</p>
 <p>We collaborate with Jun Li in New York University. </p>
 <h2 id="presentation-of-current-work"><a href="#presentation-of-current-work" class="headerlink" title="presentation of current work"></a>presentation of current work</h2>
 
 	<div class="row">
 		<iframe src="https://drive.google.com/file/d/12kdQZKUrz-z_4k-eSW83ogKvTRwPjn3o/preview" style="width:100%; height:550px"></iframe>
 	</div>
-
-
-
-<h2 id="methods"><a href="#methods" class="headerlink" title="methods"></a>methods</h2><h3 id="model"><a href="#model" class="headerlink" title="model"></a>model</h3><p>We use pytorch and tensorflow to develop our mixture density network. </p>
-<ul>
-<li>A MLP is used to generate pi, mu and sigma for 2D isotropic gaussian distribution.</li>
-<li>Several 2D gaussian distribution is mixed to form a mixed gaussian distribution.<br><img src="http://i2.tiimg.com/640680/4d39615fdca66f67.png" alt="Markdown"></li>
-<li>We use Maximum Likelihood Estimation, choose negetive log likelihood as our loss function for optimization</li>
-<li><img src="http://i2.tiimg.com/640680/abf549073048f5f9.png" alt="Markdown"></li>
-</ul>
-<p>Several tricks:</p>
-<ul>
-<li>deal with loss nan: we use log transform of signa, mu and pi, also a cutoff of sigma and pseudo counts of pi is used to prevend loss explosion of vanishing</li>
-<li>z score normalization to optimize the model easier.</li>
-<li>we use mean shift to find modes in gaussian mixture</li>
-</ul>
-<p><img src="http://i2.tiimg.com/640680/0ef0ba152c39f99f.png" alt="Markdown"></p>
-<h3 id="result"><a href="#result" class="headerlink" title="result"></a>result</h3><p><img src="http://i2.tiimg.com/640680/e7e107d4d04e6849.png" alt="Markdown"></p>
-<h3 id="data"><a href="#data" class="headerlink" title="data"></a>data</h3><h4 id="mountain-data"><a href="#mountain-data" class="headerlink" title="mountain data"></a>mountain data</h4><ul>
-<li>data position<br><img src="http://i2.tiimg.com/640680/1668bdf4741445b1.png" alt="Markdown"></li>
-<li>t-SNE to cluster data<br><img src="http://i2.tiimg.com/640680/c06e0baac3381bc4.png" alt="Markdown"></li>
-<li>feature distribution<br><img src="http://i2.tiimg.com/640680/258900a437c4a544.png" alt="Markdown"></li>
-</ul>
-<h4 id="city-data"><a href="#city-data" class="headerlink" title="city data"></a>city data</h4><ul>
-<li>data position<br><img src="http://i2.tiimg.com/640680/c84923de5dd7b62a.png" alt="Markdown"></li>
-<li>receriver position<br><img src="http://i2.tiimg.com/640680/37d804dc03e44805.png" alt="Markdown"></li>
-<li>transmitter position<br><img src="http://i2.tiimg.com/640680/ed56538e48c4a54f.png" alt="Markdown"></li>
-</ul>
-<h4 id="explore-useful-features"><a href="#explore-useful-features" class="headerlink" title="explore useful features"></a>explore useful features</h4><p>We use PCC to quantify the PCC between samples’ features and distance. We use dynamic weight to pick features having higher relation with distance. It seems TOA has the significant higher weight<br><img src="http://i2.tiimg.com/640680/1533405e66d3b4c4.gif" alt="Markdown"></p>
-<p>We plan to use some <strong>imputation method</strong>, including some methods from single cell analysis. We also aim to use <strong>RNN</strong> for changeable size feature and <strong>attention model</strong> to pick more related features.</p>
-<h2 id="codes"><a href="#codes" class="headerlink" title="codes"></a>codes</h2><p><a href="https://github.com/james20141606/Signal" target="_blank" rel="noopener">https://github.com/james20141606/Signal</a></p>
-
-          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/blog/2018/10/09/94-signal-project/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>

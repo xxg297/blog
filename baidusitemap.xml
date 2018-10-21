@@ -4,6 +4,66 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/10/09/94-signal-project/</loc>
+    <lastmod>2018-10-21T05:20:38.314Z</lastmod>
+    <data>
+        <display>
+        <title>MDN for Signal Position Prediction</title>
+        <pubTime>2018-10-08T16:50:56.000Z</pubTime>
+        
+        <tag>project</tag>
+         
+        <tag>machine learning</tag>
+         
+        <tag>signal</tag>
+         
+        <tag>MLP</tag>
+         
+        <tag>Mixture model</tag>
+         
+        <tag>MDN</tag>
+         
+        <tag>attention mechanism</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/08/16/95_medical_image_project/</loc>
+    <lastmod>2018-10-21T05:20:22.664Z</lastmod>
+    <data>
+        <display>
+        <title>Deep Learning in Medical Image</title>
+        <pubTime>2018-08-16T11:03:19.000Z</pubTime>
+        
+        <tag>project</tag>
+         
+        <tag>deep learning</tag>
+         
+        <tag>computer vision</tag>
+         
+        <tag>research</tag>
+         
+        <tag>medical image</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/10/11/93_book_summary/</loc>
     <lastmod>2018-10-20T16:10:01.010Z</lastmod>
     <data>
@@ -110,34 +170,6 @@
 
     
   <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/08/16/95_medical_image_project/</loc>
-    <lastmod>2018-10-11T11:26:34.939Z</lastmod>
-    <data>
-        <display>
-        <title>Deep Learning in Medical Image</title>
-        <pubTime>2018-08-16T11:03:19.000Z</pubTime>
-        
-        <tag>project</tag>
-         
-        <tag>deep learning</tag>
-         
-        <tag>computer vision</tag>
-         
-        <tag>research</tag>
-         
-        <tag>medical image</tag>
-         
-         
-           
-             
-              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/10/10/100_summer_intern/</loc>
     <lastmod>2018-10-11T11:19:09.401Z</lastmod>
     <data>
@@ -160,38 +192,6 @@
         <tag>computer vision</tag>
          
         <tag>Jeff Lichtman</tag>
-         
-         
-           
-             
-              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/10/09/94-signal-project/</loc>
-    <lastmod>2018-10-11T11:18:53.942Z</lastmod>
-    <data>
-        <display>
-        <title>MDN for Signal Position Prediction</title>
-        <pubTime>2018-10-08T16:50:56.000Z</pubTime>
-        
-        <tag>project</tag>
-         
-        <tag>machine learning</tag>
-         
-        <tag>signal</tag>
-         
-        <tag>MLP</tag>
-         
-        <tag>Mixture model</tag>
-         
-        <tag>MDN</tag>
-         
-        <tag>attention mechanism</tag>
          
          
            
@@ -1165,9 +1165,9 @@
         
         <tag>codes</tag>
          
-        <tag>data science</tag>
-         
         <tag>statistics</tag>
+         
+        <tag>data science</tag>
          
         <tag>data mining</tag>
          
