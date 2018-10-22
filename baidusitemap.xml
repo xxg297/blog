@@ -3,6 +3,7 @@
 
 
     
+    
   <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/10/09/94-signal-project/</loc>
     <lastmod>2018-10-21T05:20:38.314Z</lastmod>
@@ -1165,9 +1166,9 @@
         
         <tag>codes</tag>
          
-        <tag>statistics</tag>
-         
         <tag>data science</tag>
+         
+        <tag>statistics</tag>
          
         <tag>data mining</tag>
          
@@ -1387,9 +1388,9 @@
         
         <tag>techniques</tag>
          
-        <tag>setup</tag>
-         
         <tag>mac</tag>
+         
+        <tag>setup</tag>
          
          
            
@@ -1411,11 +1412,11 @@
         
         <tag>techniques</tag>
          
+        <tag>setup</tag>
+         
         <tag>zsh</tag>
          
         <tag>alias</tag>
-         
-        <tag>setup</tag>
          
          
            
@@ -1848,5 +1849,4 @@
     </data>
     </url>
 
-    
 </urlset>
