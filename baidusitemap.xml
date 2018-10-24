@@ -3,6 +3,58 @@
 
 
     
+  <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/08/16/95_medical_image_project/</loc>
+    <lastmod>2018-10-24T07:24:32.344Z</lastmod>
+    <data>
+        <display>
+        <title>Deep Learning in Medical Image</title>
+        <pubTime>2018-08-16T11:03:19.000Z</pubTime>
+        
+        <tag>project</tag>
+         
+        <tag>deep learning</tag>
+         
+        <tag>computer vision</tag>
+         
+        <tag>research</tag>
+         
+        <tag>medical image</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/05/23/27_aboutbrain&dl/</loc>
+    <lastmod>2018-10-24T07:22:52.161Z</lastmod>
+    <data>
+        <display>
+        <title>Equilibrium inspiring AI</title>
+        <pubTime>2018-05-23T08:49:39.000Z</pubTime>
+        
+        <tag>deep learning</tag>
+         
+        <tag>thoughts</tag>
+         
+        <tag>brain</tag>
+         
+         
+           
+             
+              <breadCrumb title="machine learning" url="https://www.cmwonderland.com/blog/blog/categories/machine-learning/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/10/09/94-signal-project/</loc>
@@ -25,34 +77,6 @@
         <tag>MDN</tag>
          
         <tag>attention mechanism</tag>
-         
-         
-           
-             
-              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/08/16/95_medical_image_project/</loc>
-    <lastmod>2018-10-21T05:20:22.664Z</lastmod>
-    <data>
-        <display>
-        <title>Deep Learning in Medical Image</title>
-        <pubTime>2018-08-16T11:03:19.000Z</pubTime>
-        
-        <tag>project</tag>
-         
-        <tag>deep learning</tag>
-         
-        <tag>research</tag>
-         
-        <tag>computer vision</tag>
-         
-        <tag>medical image</tag>
          
          
            
@@ -180,10 +204,6 @@
         
         <tag>project</tag>
          
-        <tag>deep learning</tag>
-         
-        <tag>computer vision</tag>
-         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -191,6 +211,10 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
+         
+        <tag>deep learning</tag>
+         
+        <tag>computer vision</tag>
          
         <tag>Jeff Lichtman</tag>
          
@@ -292,10 +316,6 @@
         
         <tag>project</tag>
          
-        <tag>deep learning</tag>
-         
-        <tag>computer vision</tag>
-         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -303,6 +323,10 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
+         
+        <tag>deep learning</tag>
+         
+        <tag>computer vision</tag>
          
         <tag>Jeff Lichtman</tag>
          
@@ -326,10 +350,6 @@
         
         <tag>project</tag>
          
-        <tag>deep learning</tag>
-         
-        <tag>computer vision</tag>
-         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -337,6 +357,10 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
+         
+        <tag>deep learning</tag>
+         
+        <tag>computer vision</tag>
          
         <tag>Jeff Lichtman</tag>
          
@@ -360,10 +384,6 @@
         
         <tag>project</tag>
          
-        <tag>deep learning</tag>
-         
-        <tag>computer vision</tag>
-         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -371,6 +391,10 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
+         
+        <tag>deep learning</tag>
+         
+        <tag>computer vision</tag>
          
         <tag>Jeff Lichtman</tag>
          
@@ -1178,30 +1202,6 @@
            
              
               <breadCrumb title="techniques" url="https://www.cmwonderland.com/blog/blog/categories/techniques/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/05/23/27_aboutbrain&dl/</loc>
-    <lastmod>2018-10-10T05:01:08.758Z</lastmod>
-    <data>
-        <display>
-        <title>Equilibrium inspiring AI</title>
-        <pubTime>2018-05-23T08:49:39.000Z</pubTime>
-        
-        <tag>deep learning</tag>
-         
-        <tag>thoughts</tag>
-         
-        <tag>brain</tag>
-         
-         
-           
-             
-              <breadCrumb title="machine learning" url="https://www.cmwonderland.com/blog/blog/categories/machine-learning/"/>
           
         </display>
     </data>
