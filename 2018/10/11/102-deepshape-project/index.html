@@ -98,10 +98,12 @@
 <meta property="og:site_name" content="WonderLand">
 <meta property="og:description" content="DeepShape: RNA Structural Motif Finding DeepShape is the project I like the most and devote the most during my undergraduate research time. It originates the interests of applying deep learning to pre">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-10-11T11:18:08.905Z">
+<meta property="og:image" content="http://i1.fuimg.com/640680/c5d74bc8ee9e44d9.jpg">
+<meta property="og:updated_time" content="2018-10-24T15:37:28.552Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="RNA Structural Motif Finding using Deep Learning">
 <meta name="twitter:description" content="DeepShape: RNA Structural Motif Finding DeepShape is the project I like the most and devote the most during my undergraduate research time. It originates the interests of applying deep learning to pre">
+<meta name="twitter:image" content="http://i1.fuimg.com/640680/c5d74bc8ee9e44d9.jpg">
 
 
 
@@ -379,7 +381,7 @@
                   <span class="post-meta-item-text">Words count in article&#58;</span>
                 
                 <span title="Words count in article">
-                  663
+                  664
                 </span>
               
 
@@ -423,6 +425,7 @@
 <h2 id="abstract"><a href="#abstract" class="headerlink" title="abstract"></a>abstract</h2><p>RNAs play key roles in cells through the structural specificity and interactions with proteins known as the RNA-binding proteins(RBP). The binding motifs enable crucial understanding of the regulation of RNAs. Many automatic tools have been developed to predict the RNA-protein binding sites from the rapidly growing multi-resource data, e.g. sequence, structure, their domain specific features. MEME, RNApromo and GraphProt can utilize sequence and structural feature using algorithms like expectation maximization (EM) or support vector machine (SVM). </p>
 <p>However, there are several limitations in existing methods. For example, the SCFG-based model has a very high computational complexity and the position-weight matrix (PWM) model does not learn structural information. Machine learning model like GraphProt and DeepBind relies on class labels and can’t handle unsupervised motif finding task. Deep learning-based algorithms are believed  to be capable of capturing features in structural data, e.g. image and sequence data.  However, current models didn’t incorporate structure probing data like icSHAPE. What’s more, convolutional neural network cannot accept secondary structure data as input.</p>
 <p>We propose to use Variational Auto-Encoder (VAE) as motif model and incorporate it into EM algorithm to predict motif existence and locate motif position.  VAE can encode sequence data and decode it as probability in PWM. It can be optimized by optimizing the combination of KL loss and reconstruction loss. VAE-based mixture model achieves good performance in sequence data (JASPAR). We also propose to use Graph Convolutional Neural Network (GCN) to capture RNA secondary structure feature for structural related motif finding. We first represent RNA structure as graph, encoding nucleotides and base pairs as nodes and edges. We also encode higher level graph features like hairpin, helix and bulge. GCN can incorporate and utilize both sequence and structural features to predict motif existence and location. It achieves good performance compared with other methods considering accuracy and computational efficiency.</p>
+<h2 id="Poster"><a href="#Poster" class="headerlink" title="Poster"></a>Poster</h2><p><img src="http://i1.fuimg.com/640680/c5d74bc8ee9e44d9.jpg" alt="Markdown"></p>
 <h2 id="Work-report"><a href="#Work-report" class="headerlink" title="Work report"></a>Work report</h2><p>We are still making progress in DeepShape project, using Graph Convolutional Neural Network to discover structural motif.</p>
 <p>The Project introduction can be divided into two parts: predicting RNA secondary structure probing data and discover motif.</p>
 <h3 id="Predicting-icSHAPE-secondary-structure-probing-data"><a href="#Predicting-icSHAPE-secondary-structure-probing-data" class="headerlink" title="Predicting icSHAPE: secondary structure probing data"></a>Predicting icSHAPE: secondary structure probing data</h3>
@@ -680,7 +683,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#abstract"><span class="nav-number">1.</span> <span class="nav-text">abstract</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Work-report"><span class="nav-number">2.</span> <span class="nav-text">Work report</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Predicting-icSHAPE-secondary-structure-probing-data"><span class="nav-number">2.1.</span> <span class="nav-text">Predicting icSHAPE: secondary structure probing data</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#methods"><span class="nav-number">2.2.</span> <span class="nav-text">methods:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Discover-MOTIF-predict-existence-and-location-of-motif"><span class="nav-number">2.3.</span> <span class="nav-text">Discover MOTIF: predict existence and location of motif</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#methods-1"><span class="nav-number">2.4.</span> <span class="nav-text">methods:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Codes"><span class="nav-number">3.</span> <span class="nav-text">Codes:</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#abstract"><span class="nav-number">1.</span> <span class="nav-text">abstract</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Poster"><span class="nav-number">2.</span> <span class="nav-text">Poster</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Work-report"><span class="nav-number">3.</span> <span class="nav-text">Work report</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Predicting-icSHAPE-secondary-structure-probing-data"><span class="nav-number">3.1.</span> <span class="nav-text">Predicting icSHAPE: secondary structure probing data</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#methods"><span class="nav-number">3.2.</span> <span class="nav-text">methods:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Discover-MOTIF-predict-existence-and-location-of-motif"><span class="nav-number">3.3.</span> <span class="nav-text">Discover MOTIF: predict existence and location of motif</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#methods-1"><span class="nav-number">3.4.</span> <span class="nav-text">methods:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Codes"><span class="nav-number">4.</span> <span class="nav-text">Codes:</span></a></li></ol></div>
             
 
           </div>
