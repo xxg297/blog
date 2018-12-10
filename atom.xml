@@ -49,34 +49,6 @@
   </entry>
   
   <entry>
-    <title>Identification of Cancer Biomarker</title>
-    <link href="https://www.cmwonderland.com/blog/2018/10/11/101-exrna-project/"/>
-    <id>https://www.cmwonderland.com/blog/2018/10/11/101-exrna-project/</id>
-    <published>2018-10-10T16:30:44.000Z</published>
-    <updated>2018-10-11T11:18:20.187Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>exSeek: Identification of Cancer Biomarker</strong></p><p>The aim of this project is to combine <strong>small cell free RNA sequencing techniques</strong> with <strong>machine learning</strong> to identify promising candidate biomarker for cancers. We establish the pipeline from mapping to feature selection and propose a <strong>robust feature selection method</strong> to identify potential biomarkers.</p><p>Parts of this works difficulty is its steps and precision it requires. For example, we do quality control using many methods and criteria. Since our RNA-seq is different (it has less RNA reads), we have to explore the mapping sequence. I propose a quick mapping order method to check thousands of mapping order in a short time.</p><a id="more"></a><h2 id="Work-Summary"><a href="#Work-Summary" class="headerlink" title="Work Summary"></a>Work Summary</h2><div class="row"><iframe src="https://drive.google.com/file/d/1-o090Cv-_cMOGITgzlC2FrVrlLdA9zva/preview" style="width:100%; height:550px"></iframe></div><p>We use our own data: HCC exRNA and two other data: exoRBase and GSE71008 to establish our robust feature selection methods.</p><p><strong>Our work can be divided into following parts:</strong></p><h3 id="mapping"><a href="#mapping" class="headerlink" title="mapping"></a>mapping</h3><p>We use sequential mapping strategy for small RNA data (HCC exRNA and GSE71008)<br>We use fast mapping order test method to map in thousands of different orders in a very short time and decide the order.<br><img src="http://i2.tiimg.com/640680/a7331057c61ed2a8.png" alt="Markdown"></p><h3 id="construct-expression-matrix"><a href="#construct-expression-matrix" class="headerlink" title="construct expression matrix"></a>construct expression matrix</h3><p>Considering the characteristic of small RNA and exRNA. We think it is better to use domain features instead of full length RNA. So we also do peak calling to construct both full length and peak expression matrix.</p><h3 id="Preprocessing"><a href="#Preprocessing" class="headerlink" title="Preprocessing"></a>Preprocessing</h3><p>All the datasets need to be normalized and remove batch effect.</p><p>I test several normalization method:</p><ul><li>CPM</li><li>remove piRNA and miRNA</li><li>Use several reference miRNA</li><li>SCNorm</li><li>TMM</li><li>RLE</li></ul><p>I also use batch removal method including RUVs and Combat.</p><h3 id="Robust-feature-selection-method"><a href="#Robust-feature-selection-method" class="headerlink" title="Robust feature selection method"></a>Robust feature selection method</h3><p>Our aim is to establish a robust feature selection machine learning model to select very few feature as candidate cancer biomarkers.</p><ul><li>Normalize domain coverage </li><li>Scale each feature (log) independently (using z-scores, min-max, <strong>robust normalization</strong>)</li><li>Run a classifier (<strong>Random Forest, Logistic Regression, Linear SVM</strong>) to select features based on feature importance. Optimize hyper-parameters by <strong>3-fold cross-validation</strong>.</li><li>Optionally, use a recursive feature elimination (<strong>RFE</strong>) to eliminate features.</li><li>Repeat feature selection for 100 times. Randomly remove 10% samples in each run (<strong>Jackknife resampling</strong>) or do <strong>shuflle split</strong>.</li><li>Select features that are recurrently selected across resampling runs (&gt;50%)</li><li>Refit the classifier on selected features</li></ul><p>For detailed illustration of our pipeline please see <strong>Work Summary</strong> above.</p><h2 id="Codes"><a href="#Codes" class="headerlink" title="Codes:"></a>Codes:</h2><p><a href="https://github.com/james20141606/exRNA/" target="_blank" rel="noopener">exSeek GitHub</a></p><h2 id="Related"><a href="#Related" class="headerlink" title="Related"></a>Related</h2><p>As teaching assistant of <a href="https://legacy.gitbook.com/book/lulab/teaching/details" target="_blank" rel="noopener">Bioinformatics Basics</a>. I use part of our work to assign the <a href="https://lulab.gitbooks.io/teaching/content/quiz/quiz_exrna/quiz_exrna_tutorial.html" target="_blank" rel="noopener">final project</a> of this semester’s course.  </p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;exSeek: Identification of Cancer Biomarker&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The aim of this project is to combine &lt;strong&gt;small cell free RNA sequencing techniques&lt;/strong&gt; with &lt;strong&gt;machine learning&lt;/strong&gt; to identify promising candidate biomarker for cancers. We establish the pipeline from mapping to feature selection and propose a &lt;strong&gt;robust feature selection method&lt;/strong&gt; to identify potential biomarkers.&lt;/p&gt;
-&lt;p&gt;Parts of this works difficulty is its steps and precision it requires. For example, we do quality control using many methods and criteria. Since our RNA-seq is different (it has less RNA reads), we have to explore the mapping sequence. I propose a quick mapping order method to check thousands of mapping order in a short time.&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="projects" scheme="https://www.cmwonderland.com/blog/categories/projects/"/>
-    
-    
-      <category term="project" scheme="https://www.cmwonderland.com/blog/tags/project/"/>
-    
-      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
-    
-      <category term="precision medicine" scheme="https://www.cmwonderland.com/blog/tags/precision-medicine/"/>
-    
-  </entry>
-  
-  <entry>
     <title>RNA Structural Motif Finding using Deep Learning</title>
     <link href="https://www.cmwonderland.com/blog/2018/10/11/102-deepshape-project/"/>
     <id>https://www.cmwonderland.com/blog/2018/10/11/102-deepshape-project/</id>
@@ -251,11 +223,11 @@
       <category term="teaching" scheme="https://www.cmwonderland.com/blog/categories/teaching/"/>
     
     
-      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
-    
       <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
     
       <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
+    
+      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
     
       <category term="teaching" scheme="https://www.cmwonderland.com/blog/tags/teaching/"/>
     
@@ -282,11 +254,11 @@
       <category term="school work" scheme="https://www.cmwonderland.com/blog/categories/school-work/"/>
     
     
-      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
-    
       <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
     
       <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
+    
+      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
     
       <category term="teaching" scheme="https://www.cmwonderland.com/blog/tags/teaching/"/>
     
@@ -313,11 +285,11 @@
       <category term="school work" scheme="https://www.cmwonderland.com/blog/categories/school-work/"/>
     
     
-      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
-    
       <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
     
       <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
+    
+      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
     
       <category term="teaching" scheme="https://www.cmwonderland.com/blog/tags/teaching/"/>
     
@@ -344,11 +316,11 @@
       <category term="machine learning" scheme="https://www.cmwonderland.com/blog/categories/machine-learning/"/>
     
     
-      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
-    
       <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
     
       <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
+    
+      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
     
       <category term="teaching" scheme="https://www.cmwonderland.com/blog/tags/teaching/"/>
     
@@ -704,6 +676,36 @@
       <category term="Wittgenstein" scheme="https://www.cmwonderland.com/blog/tags/Wittgenstein/"/>
     
       <category term="AI" scheme="https://www.cmwonderland.com/blog/tags/AI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linear Regression Assignment 13</title>
+    <link href="https://www.cmwonderland.com/blog/2018/05/28/48_line7/"/>
+    <id>https://www.cmwonderland.com/blog/2018/05/28/48_line7/</id>
+    <published>2018-05-28T08:01:19.000Z</published>
+    <updated>2018-10-10T05:02:08.520Z</updated>
+    
+    <content type="html"><![CDATA[<p>The thirteenth assignment of Linear Regression. The assignment is written in Rmarkdown, a smart syntax supported by RStudio helping with formula, plot visualization and plugin codes running.</p><a id="more"></a><blockquote><p><strong>most recommend:</strong> <a href="https://www.cmwonderland.com/linearweek13.html"><strong>click here</strong></a> for <strong>html version</strong> of assignment, you can see codes as well as plots.</p></blockquote><p>You may also find the <a href="https://github.com/james20141606/somethingmore/tree/master/linear_regression_pdf" target="_blank" rel="noopener"><strong>PDF Version</strong></a> of this assignment from github. <strong>Or if you can cross the fire wall, just see below</strong>:<br><div class="row"><iframe src="https://drive.google.com/file/d/1WibEAysXOszktnD3d1BK8bDNcS-vN6wN/preview" style="width:100%; height:550px"></iframe></div></p><h1 id="1"><a href="#1" class="headerlink" title="1"></a>1</h1><h2 id="a"><a href="#a" class="headerlink" title="a"></a>a</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">dat&lt;-read.table(&quot;CH19PR10.txt&quot;)</span><br><span class="line">names(dat)&lt;-c(&apos;y&apos;,&apos;age&apos;,&apos;gender&apos;)</span><br><span class="line">dat$age&lt;-factor(dat$age)</span><br><span class="line">dat$gender&lt;-factor(dat$gender)</span><br><span class="line">fit&lt;-aov(data=dat,y~age*gender)</span><br><span class="line">summary(fit)</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">library(&quot;ggpubr&quot;)</span><br><span class="line">ggboxplot(dat, x = &quot;age&quot;, y = &quot;y&quot;, color = &quot;gender&quot;,</span><br><span class="line">          palette = c(&quot;#00AFBB&quot;, &quot;#E7B800&quot;))</span><br></pre></td></tr></table></figure><h2 id="b"><a href="#b" class="headerlink" title="b"></a>b</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">for (i in c(1,2,3,4,5,6))&#123;</span><br><span class="line">  print (sum(fit$residuals[(6*(i-1)+1):(6*i)]))</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>Yes, they sum to zero for each treatment.</p><h2 id="c"><a href="#c" class="headerlink" title="c"></a>c</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">par(mfrow=c(1,2))</span><br><span class="line">stripchart(split(resid(fit), dat$gender), method = &quot;stack&quot;,  pch = 19)</span><br><span class="line">abline(h = seq(2, 4)-0.1)</span><br><span class="line">title(&quot;Aligned Residual Dot Plot gender&quot;)</span><br><span class="line">stripchart(split(resid(fit), dat$age), method = &quot;stack&quot;,  pch = 19)</span><br><span class="line">abline(h = seq(2, 4)-0.1)</span><br><span class="line">title(&quot;Aligned Residual Dot Plot age&quot;)</span><br></pre></td></tr></table></figure><h2 id="d"><a href="#d" class="headerlink" title="d"></a>d</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">rq&lt;-c()</span><br><span class="line">for (i in c(1:36)) &#123;</span><br><span class="line">  qq&lt;-qnorm((i-3/8)/(36+1/4))</span><br><span class="line">  rq&lt;-c(rq,qq)</span><br><span class="line">&#125;</span><br><span class="line">plot(rq,sort(fit$residuals))</span><br><span class="line">abline(0,1)</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cor(rq,sort(fit$residuals))**2</span><br></pre></td></tr></table></figure><p>when n = 36 and significance value = 0.05, the Critical Values for Coefficient of Correlation between Ordered Residuals and Expected Values under Normality is 0.97. And the correlation calculated is 0.9720399. So it appears reasonable.</p><h2 id="e"><a href="#e" class="headerlink" title="e"></a>e</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">par(mfrow=c(1,2))</span><br><span class="line">arrofres = matrix(nrow = 6,ncol = 6)</span><br><span class="line">for (i in c(1,2,3,4,5,6))&#123;</span><br><span class="line">  arrofres[i,]&lt;-fit$residuals[(6*(i-1)+1):(6*i)]</span><br><span class="line">&#125;</span><br><span class="line">matplot(arrofres)</span><br><span class="line">plot(fit$residuals,type = &apos;b&apos;)</span><br></pre></td></tr></table></figure><p>residuals in each treatment’s sum is equal to zero, and it seems that the residuals has no relation with treatments.</p><h1 id="2"><a href="#2" class="headerlink" title="2"></a>2</h1><h2 id="a-1"><a href="#a-1" class="headerlink" title="a"></a>a</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">interaction.plot(dat$age,dat$gender,dat$y,type=&quot;b&quot;,col=c(&quot;red&quot;,&quot;blue&quot;),pch=c(16,18))</span><br></pre></td></tr></table></figure><p>age has larger effect and gender has small effect, since they are nearly parrallel, they have little interaction.</p><h2 id="b-1"><a href="#b-1" class="headerlink" title="b"></a>b</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">fit&lt;-aov(data=dat,y~age*gender)</span><br><span class="line">anova(fit)</span><br></pre></td></tr></table></figure><p>age, it has the largest SSR.</p><h2 id="c-1"><a href="#c-1" class="headerlink" title="c"></a>c</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">fit&lt;-aov(data=dat,y~age*gender)</span><br><span class="line">anova(fit)</span><br><span class="line">qf(0.95,2,30)</span><br><span class="line">1-pf(1.0581,2,30)</span><br></pre></td></tr></table></figure><ul><li>Hypothesis: $H<em>0 : \sigma^2</em>{\alpha\beta}&gt;0, i =1,2,3,j=1,2 $</li><li>Decision rule: Reject $H<em>0$ if $F* &gt;F</em>{0.95,2,30}$</li><li>Conclusion: Since $F∗ = \frac{MSAB}{MSE} = 1.0581$ , we do not reject $H_0$ and conclude that there<br>are no interaction effects with p = 0.3597133</li></ul><h2 id="d-1"><a href="#d-1" class="headerlink" title="d"></a>d</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">qf(0.95,2,2)</span><br><span class="line">qf(0.95,1,2)</span><br><span class="line">1-pf(66.2907,2,2)</span><br><span class="line">1-pf(2.2791,1,2)</span><br></pre></td></tr></table></figure><h3 id="i-Factor-A-age-main-effect"><a href="#i-Factor-A-age-main-effect" class="headerlink" title="i. Factor A (age) main effect"></a>i. Factor A (age) main effect</h3><ul><li>Hypothesis: $H_0 : \alpha_i = 0 vs H_a$ : at least one $\alpha_i$ is not 0, i = 1, 2, 3</li><li>Decision rule: Reject $H<em>0$ if $F∗ = MSA/MSE &gt; F</em>{0.95,2,2} = 19$</li><li>Conclusion: Since F∗ = 158.361/2.528 =62.6428 , we reject $H_0$ and conclude that there is<br>Factor A main effect for the number of coats with p =0.01486089</li></ul><h3 id="ii-Factor-B-gender-main-effect"><a href="#ii-Factor-B-gender-main-effect" class="headerlink" title="ii. Factor B (gender) main effect"></a>ii. Factor B (gender) main effect</h3><ul><li>Hypothesis: $H_0 : \beta_i = 0 vs H_a$ : at least one $\beta_i$ is not 0, i = 1, 2</li><li>Decision rule: Reject $H<em>0$ if $F∗ = MSB/MSE &gt; F</em>{0.95,1,2} = 18.51282$</li><li>Conclusion: Since F∗ = 2.2791 , we do not reject $H_0$ and conclude that there is no<br>Factor B main effect for the number of coats with p =0.2701973</li></ul><h2 id="f"><a href="#f" class="headerlink" title="f"></a>f</h2><p>Yes, age has large effect and gender has little effect, and there are no apparent interactions</p><h2 id="g"><a href="#g" class="headerlink" title="g"></a>g</h2><ul><li>single factor: age 316.7, Residuals   82.2 </li><li>two factor: age 316.7, gender    5.44, age:gender   5.06, Residuals   71.67<br>factor A age has same sum of squares, and residuals’ sum of squares in single factor ANOVA equals to all other sum of squares in two factor ANOVA except age. Yes, the degree holds the same relation.</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;The thirteenth assignment of Linear Regression. The assignment is written in Rmarkdown, a smart syntax supported by RStudio helping with formula, plot visualization and plugin codes running.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="school work" scheme="https://www.cmwonderland.com/blog/categories/school-work/"/>
+    
+    
+      <category term="codes" scheme="https://www.cmwonderland.com/blog/tags/codes/"/>
+    
+      <category term="assignment" scheme="https://www.cmwonderland.com/blog/tags/assignment/"/>
+    
+      <category term="statistics" scheme="https://www.cmwonderland.com/blog/tags/statistics/"/>
+    
+      <category term="R" scheme="https://www.cmwonderland.com/blog/tags/R/"/>
+    
+      <category term="linear regression" scheme="https://www.cmwonderland.com/blog/tags/linear-regression/"/>
     
   </entry>
   
