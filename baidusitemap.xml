@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/10/11/101-exrna-project/</loc>
+    <lastmod>2018-12-10T07:21:22.342Z</lastmod>
+    <data>
+        <display>
+        <title>exSeek extracellular RNA analysis tool for noninvasive biomarker</title>
+        <pubTime>2018-10-10T16:30:44.000Z</pubTime>
+        
+        <tag>project</tag>
+         
+        <tag>machine learning</tag>
+         
+        <tag>precision medicine</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/10/11/102-deepshape-project/</loc>
     <lastmod>2018-10-24T15:37:28.552Z</lastmod>
     <data>
@@ -202,9 +226,9 @@
         <title>Solution of MCM Problem C</title>
         <pubTime>2018-04-21T01:15:19.000Z</pubTime>
         
-        <tag>codes</tag>
-         
         <tag>machine learning</tag>
+         
+        <tag>codes</tag>
          
         <tag>data science</tag>
          
@@ -232,6 +256,8 @@
         
         <tag>project</tag>
          
+        <tag>deep learning</tag>
+         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -239,8 +265,6 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
-         
-        <tag>deep learning</tag>
          
         <tag>computer vision</tag>
          
@@ -292,6 +316,8 @@
         
         <tag>project</tag>
          
+        <tag>deep learning</tag>
+         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -299,8 +325,6 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
-         
-        <tag>deep learning</tag>
          
         <tag>computer vision</tag>
          
@@ -326,6 +350,8 @@
         
         <tag>project</tag>
          
+        <tag>deep learning</tag>
+         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -333,8 +359,6 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
-         
-        <tag>deep learning</tag>
          
         <tag>computer vision</tag>
          
@@ -360,6 +384,8 @@
         
         <tag>project</tag>
          
+        <tag>deep learning</tag>
+         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -367,8 +393,6 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
-         
-        <tag>deep learning</tag>
          
         <tag>computer vision</tag>
          
@@ -420,9 +444,9 @@
         
         <tag>codes</tag>
          
-        <tag>assignment</tag>
-         
         <tag>statistics</tag>
+         
+        <tag>assignment</tag>
          
         <tag>R</tag>
          
@@ -448,9 +472,9 @@
         
         <tag>codes</tag>
          
-        <tag>assignment</tag>
-         
         <tag>statistics</tag>
+         
+        <tag>assignment</tag>
          
         <tag>R</tag>
          
@@ -498,11 +522,11 @@
         <title>Machine Learning Basics Tutorial</title>
         <pubTime>2018-10-05T02:03:19.000Z</pubTime>
         
+        <tag>machine learning</tag>
+         
         <tag>python</tag>
          
         <tag>bioinformatics</tag>
-         
-        <tag>machine learning</tag>
          
         <tag>teaching</tag>
          
@@ -526,11 +550,11 @@
         <title>Python Tutorial</title>
         <pubTime>2018-10-06T12:03:19.000Z</pubTime>
         
+        <tag>machine learning</tag>
+         
         <tag>python</tag>
          
         <tag>bioinformatics</tag>
-         
-        <tag>machine learning</tag>
          
         <tag>teaching</tag>
          
@@ -556,9 +580,9 @@
         
         <tag>codes</tag>
          
-        <tag>assignment</tag>
-         
         <tag>statistics</tag>
+         
+        <tag>assignment</tag>
          
         <tag>R</tag>
          
@@ -632,9 +656,9 @@
         
         <tag>codes</tag>
          
-        <tag>assignment</tag>
-         
         <tag>statistics</tag>
+         
+        <tag>assignment</tag>
          
         <tag>R</tag>
          
@@ -660,9 +684,9 @@
         
         <tag>codes</tag>
          
-        <tag>assignment</tag>
-         
         <tag>statistics</tag>
+         
+        <tag>assignment</tag>
          
         <tag>R</tag>
          
@@ -688,9 +712,9 @@
         
         <tag>codes</tag>
          
-        <tag>assignment</tag>
-         
         <tag>statistics</tag>
+         
+        <tag>assignment</tag>
          
         <tag>R</tag>
          
@@ -716,9 +740,9 @@
         
         <tag>codes</tag>
          
-        <tag>assignment</tag>
-         
         <tag>statistics</tag>
+         
+        <tag>assignment</tag>
          
         <tag>R</tag>
          
@@ -744,9 +768,9 @@
         
         <tag>codes</tag>
          
-        <tag>assignment</tag>
-         
         <tag>statistics</tag>
+         
+        <tag>assignment</tag>
          
         <tag>R</tag>
          
@@ -772,9 +796,9 @@
         
         <tag>codes</tag>
          
-        <tag>assignment</tag>
-         
         <tag>statistics</tag>
+         
+        <tag>assignment</tag>
          
         <tag>R</tag>
          
@@ -800,9 +824,9 @@
         
         <tag>codes</tag>
          
-        <tag>assignment</tag>
-         
         <tag>statistics</tag>
+         
+        <tag>assignment</tag>
          
         <tag>R</tag>
          
@@ -828,9 +852,9 @@
         
         <tag>codes</tag>
          
-        <tag>assignment</tag>
-         
         <tag>statistics</tag>
+         
+        <tag>assignment</tag>
          
         <tag>R</tag>
          
@@ -856,9 +880,9 @@
         
         <tag>codes</tag>
          
-        <tag>assignment</tag>
-         
         <tag>statistics</tag>
+         
+        <tag>assignment</tag>
          
         <tag>R</tag>
          
@@ -932,11 +956,11 @@
         
         <tag>codes</tag>
          
+        <tag>statistics</tag>
+         
         <tag>girl friend</tag>
          
         <tag>economics</tag>
-         
-        <tag>statistics</tag>
          
          
            
@@ -1054,11 +1078,11 @@
         <title>QUIZ identification of cancer biomarker from exRNA-seq data</title>
         <pubTime>2018-10-06T11:01:19.000Z</pubTime>
         
+        <tag>machine learning</tag>
+         
         <tag>python</tag>
          
         <tag>bioinformatics</tag>
-         
-        <tag>machine learning</tag>
          
         <tag>teaching</tag>
          
@@ -1082,11 +1106,11 @@
         <title>QUIZ Predicting maize traits using SNP data</title>
         <pubTime>2018-10-06T12:03:19.000Z</pubTime>
         
+        <tag>machine learning</tag>
+         
         <tag>python</tag>
          
         <tag>bioinformatics</tag>
-         
-        <tag>machine learning</tag>
          
         <tag>teaching</tag>
          
@@ -1110,13 +1134,13 @@
         <title>eMaize_Tutorial</title>
         <pubTime>2018-04-12T15:30:17.000Z</pubTime>
         
+        <tag>machine learning</tag>
+         
         <tag>techniques</tag>
          
         <tag>codes</tag>
          
         <tag>bioinformatics</tag>
-         
-        <tag>machine learning</tag>
          
         <tag>statistics</tag>
          
@@ -1166,9 +1190,9 @@
         
         <tag>codes</tag>
          
-        <tag>statistics</tag>
-         
         <tag>data science</tag>
+         
+        <tag>statistics</tag>
          
         <tag>data mining</tag>
          
@@ -1218,9 +1242,9 @@
         
         <tag>deep learning</tag>
          
-        <tag>techniques</tag>
-         
         <tag>machine learning</tag>
+         
+        <tag>techniques</tag>
          
          
            
