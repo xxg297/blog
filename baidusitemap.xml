@@ -4,6 +4,38 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/12/20/research_summary/</loc>
+    <lastmod>2019-01-15T08:23:17.365Z</lastmod>
+    <data>
+        <display>
+        <title>Undergraduate Research Summary</title>
+        <pubTime>2018-12-19T16:30:44.000Z</pubTime>
+        
+        <tag>project</tag>
+         
+        <tag>connectomics</tag>
+         
+        <tag>deep learning</tag>
+         
+        <tag>machine learning</tag>
+         
+        <tag>precision medicine</tag>
+         
+        <tag>bioinformatics</tag>
+         
+        <tag>medical image</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/10/11/101-exrna-project/</loc>
     <lastmod>2019-01-08T12:27:08.810Z</lastmod>
     <data>
@@ -1240,9 +1272,9 @@
         <title>Deep Learning Practice</title>
         <pubTime>2018-04-10T13:23:55.000Z</pubTime>
         
-        <tag>machine learning</tag>
-         
         <tag>deep learning</tag>
+         
+        <tag>machine learning</tag>
          
         <tag>techniques</tag>
          
