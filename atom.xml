@@ -42,15 +42,15 @@
     
       <category term="project" scheme="https://www.cmwonderland.com/blog/tags/project/"/>
     
-      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
-    
-      <category term="precision medicine" scheme="https://www.cmwonderland.com/blog/tags/precision-medicine/"/>
+      <category term="connectomics" scheme="https://www.cmwonderland.com/blog/tags/connectomics/"/>
     
       <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
     
-      <category term="connectomics" scheme="https://www.cmwonderland.com/blog/tags/connectomics/"/>
-    
       <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
+    
+      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
+    
+      <category term="precision medicine" scheme="https://www.cmwonderland.com/blog/tags/precision-medicine/"/>
     
       <category term="medical image" scheme="https://www.cmwonderland.com/blog/tags/medical-image/"/>
     
@@ -185,8 +185,6 @@
     
       <category term="project" scheme="https://www.cmwonderland.com/blog/tags/project/"/>
     
-      <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
-    
       <category term="neural science" scheme="https://www.cmwonderland.com/blog/tags/neural-science/"/>
     
       <category term="summer intern" scheme="https://www.cmwonderland.com/blog/tags/summer-intern/"/>
@@ -194,6 +192,8 @@
       <category term="connectomics" scheme="https://www.cmwonderland.com/blog/tags/connectomics/"/>
     
       <category term="computational neural science" scheme="https://www.cmwonderland.com/blog/tags/computational-neural-science/"/>
+    
+      <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
     
       <category term="computer vision" scheme="https://www.cmwonderland.com/blog/tags/computer-vision/"/>
     
@@ -291,11 +291,11 @@
       <category term="school work" scheme="https://www.cmwonderland.com/blog/categories/school-work/"/>
     
     
-      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
-    
       <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
     
       <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
+    
+      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
     
       <category term="teaching" scheme="https://www.cmwonderland.com/blog/tags/teaching/"/>
     
@@ -322,11 +322,11 @@
       <category term="teaching" scheme="https://www.cmwonderland.com/blog/categories/teaching/"/>
     
     
-      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
-    
       <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
     
       <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
+    
+      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
     
       <category term="teaching" scheme="https://www.cmwonderland.com/blog/tags/teaching/"/>
     
@@ -353,11 +353,11 @@
       <category term="school work" scheme="https://www.cmwonderland.com/blog/categories/school-work/"/>
     
     
-      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
-    
       <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
     
       <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
+    
+      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
     
       <category term="teaching" scheme="https://www.cmwonderland.com/blog/tags/teaching/"/>
     
@@ -384,11 +384,11 @@
       <category term="machine learning" scheme="https://www.cmwonderland.com/blog/categories/machine-learning/"/>
     
     
-      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
-    
       <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
     
       <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
+    
+      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
     
       <category term="teaching" scheme="https://www.cmwonderland.com/blog/tags/teaching/"/>
     
@@ -509,9 +509,9 @@
     
       <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
     
-      <category term="research" scheme="https://www.cmwonderland.com/blog/tags/research/"/>
-    
       <category term="computer vision" scheme="https://www.cmwonderland.com/blog/tags/computer-vision/"/>
+    
+      <category term="research" scheme="https://www.cmwonderland.com/blog/tags/research/"/>
     
       <category term="medical image" scheme="https://www.cmwonderland.com/blog/tags/medical-image/"/>
     
@@ -553,8 +553,6 @@
     
       <category term="project" scheme="https://www.cmwonderland.com/blog/tags/project/"/>
     
-      <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
-    
       <category term="neural science" scheme="https://www.cmwonderland.com/blog/tags/neural-science/"/>
     
       <category term="summer intern" scheme="https://www.cmwonderland.com/blog/tags/summer-intern/"/>
@@ -562,6 +560,8 @@
       <category term="connectomics" scheme="https://www.cmwonderland.com/blog/tags/connectomics/"/>
     
       <category term="computational neural science" scheme="https://www.cmwonderland.com/blog/tags/computational-neural-science/"/>
+    
+      <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
     
       <category term="computer vision" scheme="https://www.cmwonderland.com/blog/tags/computer-vision/"/>
     
@@ -605,8 +605,6 @@
     
       <category term="project" scheme="https://www.cmwonderland.com/blog/tags/project/"/>
     
-      <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
-    
       <category term="neural science" scheme="https://www.cmwonderland.com/blog/tags/neural-science/"/>
     
       <category term="summer intern" scheme="https://www.cmwonderland.com/blog/tags/summer-intern/"/>
@@ -614,6 +612,8 @@
       <category term="connectomics" scheme="https://www.cmwonderland.com/blog/tags/connectomics/"/>
     
       <category term="computational neural science" scheme="https://www.cmwonderland.com/blog/tags/computational-neural-science/"/>
+    
+      <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
     
       <category term="computer vision" scheme="https://www.cmwonderland.com/blog/tags/computer-vision/"/>
     
@@ -652,8 +652,6 @@
     
       <category term="project" scheme="https://www.cmwonderland.com/blog/tags/project/"/>
     
-      <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
-    
       <category term="neural science" scheme="https://www.cmwonderland.com/blog/tags/neural-science/"/>
     
       <category term="summer intern" scheme="https://www.cmwonderland.com/blog/tags/summer-intern/"/>
@@ -661,6 +659,8 @@
       <category term="connectomics" scheme="https://www.cmwonderland.com/blog/tags/connectomics/"/>
     
       <category term="computational neural science" scheme="https://www.cmwonderland.com/blog/tags/computational-neural-science/"/>
+    
+      <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
     
       <category term="computer vision" scheme="https://www.cmwonderland.com/blog/tags/computer-vision/"/>
     

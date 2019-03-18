@@ -3,6 +3,7 @@
 
 
     
+    
   <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/12/20/research_summary/</loc>
     <lastmod>2019-03-18T06:40:09.882Z</lastmod>
@@ -13,15 +14,15 @@
         
         <tag>project</tag>
          
-        <tag>machine learning</tag>
-         
-        <tag>precision medicine</tag>
+        <tag>connectomics</tag>
          
         <tag>deep learning</tag>
          
-        <tag>connectomics</tag>
-         
         <tag>bioinformatics</tag>
+         
+        <tag>machine learning</tag>
+         
+        <tag>precision medicine</tag>
          
         <tag>medical image</tag>
          
@@ -99,9 +100,9 @@
          
         <tag>deep learning</tag>
          
-        <tag>research</tag>
-         
         <tag>computer vision</tag>
+         
+        <tag>research</tag>
          
         <tag>medical image</tag>
          
@@ -138,7 +139,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/10/09/94-signal-project/</loc>
@@ -258,9 +258,9 @@
         <title>Solution of MCM Problem C</title>
         <pubTime>2018-04-21T01:15:19.000Z</pubTime>
         
-        <tag>machine learning</tag>
-         
         <tag>codes</tag>
+         
+        <tag>machine learning</tag>
          
         <tag>data science</tag>
          
@@ -288,8 +288,6 @@
         
         <tag>project</tag>
          
-        <tag>deep learning</tag>
-         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -297,6 +295,8 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
+         
+        <tag>deep learning</tag>
          
         <tag>computer vision</tag>
          
@@ -348,8 +348,6 @@
         
         <tag>project</tag>
          
-        <tag>deep learning</tag>
-         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -357,6 +355,8 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
+         
+        <tag>deep learning</tag>
          
         <tag>computer vision</tag>
          
@@ -382,8 +382,6 @@
         
         <tag>project</tag>
          
-        <tag>deep learning</tag>
-         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -391,6 +389,8 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
+         
+        <tag>deep learning</tag>
          
         <tag>computer vision</tag>
          
@@ -416,8 +416,6 @@
         
         <tag>project</tag>
          
-        <tag>deep learning</tag>
-         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -425,6 +423,8 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
+         
+        <tag>deep learning</tag>
          
         <tag>computer vision</tag>
          
@@ -554,11 +554,11 @@
         <title>Machine Learning Basics Tutorial</title>
         <pubTime>2018-10-05T02:03:19.000Z</pubTime>
         
-        <tag>machine learning</tag>
-         
         <tag>python</tag>
          
         <tag>bioinformatics</tag>
+         
+        <tag>machine learning</tag>
          
         <tag>teaching</tag>
          
@@ -582,11 +582,11 @@
         <title>Python Tutorial</title>
         <pubTime>2018-10-06T12:03:19.000Z</pubTime>
         
-        <tag>machine learning</tag>
-         
         <tag>python</tag>
          
         <tag>bioinformatics</tag>
+         
+        <tag>machine learning</tag>
          
         <tag>teaching</tag>
          
@@ -1110,11 +1110,11 @@
         <title>QUIZ identification of cancer biomarker from exRNA-seq data</title>
         <pubTime>2018-10-06T11:01:19.000Z</pubTime>
         
-        <tag>machine learning</tag>
-         
         <tag>python</tag>
          
         <tag>bioinformatics</tag>
+         
+        <tag>machine learning</tag>
          
         <tag>teaching</tag>
          
@@ -1138,11 +1138,11 @@
         <title>QUIZ Predicting maize traits using SNP data</title>
         <pubTime>2018-10-06T12:03:19.000Z</pubTime>
         
-        <tag>machine learning</tag>
-         
         <tag>python</tag>
          
         <tag>bioinformatics</tag>
+         
+        <tag>machine learning</tag>
          
         <tag>teaching</tag>
          
@@ -1166,13 +1166,13 @@
         <title>eMaize_Tutorial</title>
         <pubTime>2018-04-12T15:30:17.000Z</pubTime>
         
-        <tag>machine learning</tag>
-         
         <tag>techniques</tag>
          
         <tag>codes</tag>
          
         <tag>bioinformatics</tag>
+         
+        <tag>machine learning</tag>
          
         <tag>statistics</tag>
          
@@ -1272,11 +1272,11 @@
         <title>Deep Learning Practice</title>
         <pubTime>2018-04-10T13:23:55.000Z</pubTime>
         
-        <tag>machine learning</tag>
-         
         <tag>deep learning</tag>
          
         <tag>techniques</tag>
+         
+        <tag>machine learning</tag>
          
          
            
@@ -1420,9 +1420,9 @@
         
         <tag>techniques</tag>
          
-        <tag>setup</tag>
-         
         <tag>mac</tag>
+         
+        <tag>setup</tag>
          
          
            
@@ -1444,11 +1444,11 @@
         
         <tag>techniques</tag>
          
+        <tag>setup</tag>
+         
         <tag>zsh</tag>
          
         <tag>alias</tag>
-         
-        <tag>setup</tag>
          
          
            
