@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://www.cmwonderland.com/blog/"/>
-  <updated>2019-03-26T00:22:38.948Z</updated>
+  <updated>2019-03-26T00:28:55.836Z</updated>
   <id>https://www.cmwonderland.com/blog/</id>
   
   <author>
@@ -21,16 +21,16 @@
     <link href="https://www.cmwonderland.com/blog/2019/03/26/latex2mathml/"/>
     <id>https://www.cmwonderland.com/blog/2019/03/26/latex2mathml/</id>
     <published>2019-03-26T00:30:44.000Z</published>
-    <updated>2019-03-26T00:22:38.948Z</updated>
+    <updated>2019-03-26T00:28:55.836Z</updated>
     
-    <content type="html"><![CDATA[<p>It is a small tool converting LaTeX style code to MathML which can be used in places like word.</p>]]></content>
+    <content type="html"><![CDATA[<p>It is a small tool converting LaTeX style code to MathML which can be used in places like word.</p><p><img src="http://i1.fuimg.com/640680/ed21032fb30bef6b.png" alt="Markdown"></p><p><a href="https://github.com/ltbyshi/misc_progs/blob/master/html/latex_to_mathml.html" target="_blank" rel="noopener">Credit to Shi binbin</a></p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;It is a small tool converting LaTeX style code to MathML which can be used in places like word.&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&quot;http://i1.fuimg.com/6406
       
     
     </summary>
@@ -70,13 +70,13 @@
     
       <category term="project" scheme="https://www.cmwonderland.com/blog/tags/project/"/>
     
-      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
-    
-      <category term="precision medicine" scheme="https://www.cmwonderland.com/blog/tags/precision-medicine/"/>
-    
       <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
     
       <category term="connectomics" scheme="https://www.cmwonderland.com/blog/tags/connectomics/"/>
+    
+      <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
+    
+      <category term="precision medicine" scheme="https://www.cmwonderland.com/blog/tags/precision-medicine/"/>
     
       <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
     
@@ -321,9 +321,9 @@
     
       <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
     
-      <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
-    
       <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
+    
+      <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
     
       <category term="teaching" scheme="https://www.cmwonderland.com/blog/tags/teaching/"/>
     
@@ -352,9 +352,9 @@
     
       <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
     
-      <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
-    
       <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
+    
+      <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
     
       <category term="teaching" scheme="https://www.cmwonderland.com/blog/tags/teaching/"/>
     
@@ -383,9 +383,9 @@
     
       <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
     
-      <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
-    
       <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
+    
+      <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
     
       <category term="teaching" scheme="https://www.cmwonderland.com/blog/tags/teaching/"/>
     
@@ -414,9 +414,9 @@
     
       <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
     
-      <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
-    
       <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
+    
+      <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
     
       <category term="teaching" scheme="https://www.cmwonderland.com/blog/tags/teaching/"/>
     
