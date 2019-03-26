@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://www.cmwonderland.com/blog/blog/2019/03/26/latex2mathml/</loc>
-    <lastmod>2019-03-26T00:37:31.755Z</lastmod>
+    <lastmod>2019-03-26T00:43:45.617Z</lastmod>
     <data>
         <display>
         <title>LaTeX to MathML tool</title>
@@ -36,17 +36,17 @@
         
         <tag>project</tag>
          
-        <tag>connectomics</tag>
-         
-        <tag>deep learning</tag>
-         
         <tag>machine learning</tag>
          
         <tag>precision medicine</tag>
          
         <tag>bioinformatics</tag>
          
+        <tag>deep learning</tag>
+         
         <tag>medical image</tag>
+         
+        <tag>connectomics</tag>
          
          
            
@@ -120,11 +120,11 @@
         
         <tag>project</tag>
          
+        <tag>research</tag>
+         
         <tag>deep learning</tag>
          
         <tag>computer vision</tag>
-         
-        <tag>research</tag>
          
         <tag>medical image</tag>
          
@@ -310,6 +310,10 @@
         
         <tag>project</tag>
          
+        <tag>deep learning</tag>
+         
+        <tag>computer vision</tag>
+         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -317,10 +321,6 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
-         
-        <tag>deep learning</tag>
-         
-        <tag>computer vision</tag>
          
         <tag>Jeff Lichtman</tag>
          
@@ -370,6 +370,10 @@
         
         <tag>project</tag>
          
+        <tag>deep learning</tag>
+         
+        <tag>computer vision</tag>
+         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -377,10 +381,6 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
-         
-        <tag>deep learning</tag>
-         
-        <tag>computer vision</tag>
          
         <tag>Jeff Lichtman</tag>
          
@@ -404,6 +404,10 @@
         
         <tag>project</tag>
          
+        <tag>deep learning</tag>
+         
+        <tag>computer vision</tag>
+         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -411,10 +415,6 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
-         
-        <tag>deep learning</tag>
-         
-        <tag>computer vision</tag>
          
         <tag>Jeff Lichtman</tag>
          
@@ -438,6 +438,10 @@
         
         <tag>project</tag>
          
+        <tag>deep learning</tag>
+         
+        <tag>computer vision</tag>
+         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -445,10 +449,6 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
-         
-        <tag>deep learning</tag>
-         
-        <tag>computer vision</tag>
          
         <tag>Jeff Lichtman</tag>
          
@@ -984,9 +984,9 @@
         <title>ECCV 2018 paper reading</title>
         <pubTime>2018-09-26T13:23:55.000Z</pubTime>
         
-        <tag>deep learning</tag>
-         
         <tag>techniques</tag>
+         
+        <tag>deep learning</tag>
          
         <tag>paper reading</tag>
          
@@ -1294,11 +1294,11 @@
         <title>Deep Learning Practice</title>
         <pubTime>2018-04-10T13:23:55.000Z</pubTime>
         
-        <tag>deep learning</tag>
-         
         <tag>machine learning</tag>
          
         <tag>techniques</tag>
+         
+        <tag>deep learning</tag>
          
          
            
@@ -1442,9 +1442,9 @@
         
         <tag>techniques</tag>
          
-        <tag>mac</tag>
-         
         <tag>setup</tag>
+         
+        <tag>mac</tag>
          
          
            
@@ -1466,11 +1466,11 @@
         
         <tag>techniques</tag>
          
-        <tag>setup</tag>
-         
         <tag>zsh</tag>
          
         <tag>alias</tag>
+         
+        <tag>setup</tag>
          
          
            
