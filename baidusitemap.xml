@@ -36,13 +36,13 @@
         
         <tag>project</tag>
          
-        <tag>deep learning</tag>
-         
-        <tag>connectomics</tag>
-         
         <tag>machine learning</tag>
          
         <tag>precision medicine</tag>
+         
+        <tag>connectomics</tag>
+         
+        <tag>deep learning</tag>
          
         <tag>bioinformatics</tag>
          
@@ -310,8 +310,6 @@
         
         <tag>project</tag>
          
-        <tag>deep learning</tag>
-         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -319,6 +317,8 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
+         
+        <tag>deep learning</tag>
          
         <tag>computer vision</tag>
          
@@ -370,8 +370,6 @@
         
         <tag>project</tag>
          
-        <tag>deep learning</tag>
-         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -379,6 +377,8 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
+         
+        <tag>deep learning</tag>
          
         <tag>computer vision</tag>
          
@@ -404,8 +404,6 @@
         
         <tag>project</tag>
          
-        <tag>deep learning</tag>
-         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -413,6 +411,8 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
+         
+        <tag>deep learning</tag>
          
         <tag>computer vision</tag>
          
@@ -438,8 +438,6 @@
         
         <tag>project</tag>
          
-        <tag>deep learning</tag>
-         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -447,6 +445,8 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
+         
+        <tag>deep learning</tag>
          
         <tag>computer vision</tag>
          
@@ -578,9 +578,9 @@
         
         <tag>machine learning</tag>
          
-        <tag>bioinformatics</tag>
-         
         <tag>python</tag>
+         
+        <tag>bioinformatics</tag>
          
         <tag>teaching</tag>
          
@@ -606,9 +606,9 @@
         
         <tag>machine learning</tag>
          
-        <tag>bioinformatics</tag>
-         
         <tag>python</tag>
+         
+        <tag>bioinformatics</tag>
          
         <tag>teaching</tag>
          
@@ -1134,9 +1134,9 @@
         
         <tag>machine learning</tag>
          
-        <tag>bioinformatics</tag>
-         
         <tag>python</tag>
+         
+        <tag>bioinformatics</tag>
          
         <tag>teaching</tag>
          
@@ -1162,9 +1162,9 @@
         
         <tag>machine learning</tag>
          
-        <tag>bioinformatics</tag>
-         
         <tag>python</tag>
+         
+        <tag>bioinformatics</tag>
          
         <tag>teaching</tag>
          
@@ -1218,11 +1218,11 @@
         
         <tag>techniques</tag>
          
+        <tag>python</tag>
+         
         <tag>software</tag>
          
         <tag>bioinformatics</tag>
-         
-        <tag>python</tag>
          
          
            
@@ -1294,9 +1294,9 @@
         <title>Deep Learning Practice</title>
         <pubTime>2018-04-10T13:23:55.000Z</pubTime>
         
-        <tag>deep learning</tag>
-         
         <tag>machine learning</tag>
+         
+        <tag>deep learning</tag>
          
         <tag>techniques</tag>
          
