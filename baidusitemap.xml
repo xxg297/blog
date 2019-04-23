@@ -4,6 +4,54 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2019/04/23/52_raspberry/</loc>
+    <lastmod>2019-04-23T15:30:16.640Z</lastmod>
+    <data>
+        <display>
+        <title>Raspberry for the first time</title>
+        <pubTime>2019-04-23T06:59:19.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+        <tag>hardware</tag>
+         
+        <tag>raspberry</tag>
+         
+         
+           
+             
+              <breadCrumb title="techniques" url="https://www.cmwonderland.com/blog/blog/categories/techniques/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2019/04/23/52_android/</loc>
+    <lastmod>2019-04-23T15:30:01.727Z</lastmod>
+    <data>
+        <display>
+        <title>Android terminal for the first time</title>
+        <pubTime>2019-04-23T09:59:19.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+        <tag>hardware</tag>
+         
+        <tag>android</tag>
+         
+         
+           
+             
+              <breadCrumb title="techniques" url="https://www.cmwonderland.com/blog/blog/categories/techniques/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2019/04/23/52_undergraduate_thesis/</loc>
     <lastmod>2019-04-23T15:28:18.557Z</lastmod>
     <data>
@@ -24,30 +72,6 @@
         <tag>thesis</tag>
          
         <tag>biomarker</tag>
-         
-         
-           
-             
-              <breadCrumb title="school work" url="https://www.cmwonderland.com/blog/blog/categories/school-work/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2019/04/23/52_raspberry/</loc>
-    <lastmod>2019-04-23T15:27:46.431Z</lastmod>
-    <data>
-        <display>
-        <title>Raspberry for the first time</title>
-        <pubTime>2019-04-23T06:59:19.000Z</pubTime>
-        
-        <tag>linux</tag>
-         
-        <tag>hardware</tag>
-         
-        <tag>raspberry</tag>
          
          
            
@@ -123,9 +147,9 @@
         <title>我的申请故事</title>
         <pubTime>2019-04-22T16:30:44.000Z</pubTime>
         
-        <tag>deep learning</tag>
-         
         <tag>life</tag>
+         
+        <tag>deep learning</tag>
          
         <tag>bioinformatics</tag>
          
@@ -251,9 +275,9 @@
          
         <tag>statistics</tag>
          
-        <tag>R</tag>
-         
         <tag>assignment</tag>
+         
+        <tag>R</tag>
          
         <tag>linear regression</tag>
          
@@ -433,9 +457,9 @@
          
         <tag>statistics</tag>
          
-        <tag>R</tag>
-         
         <tag>assignment</tag>
+         
+        <tag>R</tag>
          
         <tag>linear regression</tag>
          
@@ -461,9 +485,9 @@
          
         <tag>statistics</tag>
          
-        <tag>R</tag>
-         
         <tag>assignment</tag>
+         
+        <tag>R</tag>
          
         <tag>linear regression</tag>
          
@@ -559,9 +583,9 @@
          
         <tag>statistics</tag>
          
-        <tag>R</tag>
-         
         <tag>assignment</tag>
+         
+        <tag>R</tag>
          
         <tag>linear regression</tag>
          
@@ -685,11 +709,11 @@
         
         <tag>techniques</tag>
          
-        <tag>setup</tag>
-         
         <tag>zsh</tag>
          
         <tag>alias</tag>
+         
+        <tag>setup</tag>
          
          
            
@@ -711,9 +735,9 @@
         
         <tag>techniques</tag>
          
-        <tag>mac</tag>
-         
         <tag>setup</tag>
+         
+        <tag>mac</tag>
          
          
            
@@ -763,9 +787,9 @@
          
         <tag>statistics</tag>
          
-        <tag>R</tag>
-         
         <tag>assignment</tag>
+         
+        <tag>R</tag>
          
         <tag>linear regression</tag>
          
@@ -849,9 +873,9 @@
          
         <tag>statistics</tag>
          
-        <tag>R</tag>
-         
         <tag>assignment</tag>
+         
+        <tag>R</tag>
          
         <tag>linear regression</tag>
          
@@ -901,9 +925,9 @@
          
         <tag>statistics</tag>
          
-        <tag>R</tag>
-         
         <tag>assignment</tag>
+         
+        <tag>R</tag>
          
         <tag>linear regression</tag>
          
@@ -953,9 +977,9 @@
          
         <tag>statistics</tag>
          
-        <tag>R</tag>
-         
         <tag>assignment</tag>
+         
+        <tag>R</tag>
          
         <tag>linear regression</tag>
          
@@ -1035,9 +1059,9 @@
          
         <tag>statistics</tag>
          
-        <tag>R</tag>
-         
         <tag>assignment</tag>
+         
+        <tag>R</tag>
          
         <tag>linear regression</tag>
          
@@ -1139,9 +1163,9 @@
          
         <tag>statistics</tag>
          
-        <tag>R</tag>
-         
         <tag>assignment</tag>
+         
+        <tag>R</tag>
          
         <tag>linear regression</tag>
          
@@ -1167,9 +1191,9 @@
          
         <tag>statistics</tag>
          
-        <tag>R</tag>
-         
         <tag>assignment</tag>
+         
+        <tag>R</tag>
          
          
            
@@ -1323,9 +1347,9 @@
          
         <tag>statistics</tag>
          
-        <tag>R</tag>
-         
         <tag>assignment</tag>
+         
+        <tag>R</tag>
          
         <tag>linear regression</tag>
          
@@ -1403,9 +1427,9 @@
          
         <tag>statistics</tag>
          
-        <tag>R</tag>
-         
         <tag>assignment</tag>
+         
+        <tag>R</tag>
          
         <tag>linear regression</tag>
          
@@ -1481,9 +1505,9 @@
          
         <tag>statistics</tag>
          
-        <tag>R</tag>
-         
         <tag>assignment</tag>
+         
+        <tag>R</tag>
          
         <tag>linear regression</tag>
          
@@ -1615,9 +1639,9 @@
          
         <tag>statistics</tag>
          
-        <tag>R</tag>
-         
         <tag>assignment</tag>
+         
+        <tag>R</tag>
          
         <tag>linear regression</tag>
          
@@ -1713,9 +1737,9 @@
          
         <tag>statistics</tag>
          
-        <tag>R</tag>
-         
         <tag>assignment</tag>
+         
+        <tag>R</tag>
          
         <tag>linear regression</tag>
          
@@ -1855,9 +1879,9 @@
          
         <tag>statistics</tag>
          
-        <tag>R</tag>
-         
         <tag>assignment</tag>
+         
+        <tag>R</tag>
          
         <tag>linear regression</tag>
          
@@ -2041,9 +2065,9 @@
          
         <tag>statistics</tag>
          
-        <tag>R</tag>
-         
         <tag>assignment</tag>
+         
+        <tag>R</tag>
          
         <tag>linear regression</tag>
          
@@ -2069,9 +2093,9 @@
          
         <tag>statistics</tag>
          
-        <tag>R</tag>
-         
         <tag>assignment</tag>
+         
+        <tag>R</tag>
          
         <tag>linear regression</tag>
          
@@ -2151,9 +2175,9 @@
          
         <tag>statistics</tag>
          
-        <tag>R</tag>
-         
         <tag>assignment</tag>
+         
+        <tag>R</tag>
          
         <tag>linear regression</tag>
          
@@ -2203,9 +2227,9 @@
          
         <tag>statistics</tag>
          
-        <tag>R</tag>
-         
         <tag>assignment</tag>
+         
+        <tag>R</tag>
          
         <tag>linear regression</tag>
          
