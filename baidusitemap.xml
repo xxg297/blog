@@ -4,6 +4,36 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2019/04/23/my_application_story/</loc>
+    <lastmod>2019-04-23T14:37:38.195Z</lastmod>
+    <data>
+        <display>
+        <title>我的申请故事</title>
+        <pubTime>2019-04-22T16:30:44.000Z</pubTime>
+        
+        <tag>life</tag>
+         
+        <tag>deep learning</tag>
+         
+        <tag>bioinformatics</tag>
+         
+        <tag>medical image</tag>
+         
+        <tag>school</tag>
+         
+        <tag>EE</tag>
+         
+         
+           
+             
+              <breadCrumb title="life" url="https://www.cmwonderland.com/blog/blog/categories/life/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/04/23/26_dailythoughts/</loc>
     <lastmod>2019-04-23T14:30:23.806Z</lastmod>
     <data>
@@ -37,6 +67,8 @@
         
         <tag>project</tag>
          
+        <tag>deep learning</tag>
+         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -44,8 +76,6 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
-         
-        <tag>deep learning</tag>
          
         <tag>computer vision</tag>
          
@@ -97,6 +127,8 @@
         
         <tag>project</tag>
          
+        <tag>deep learning</tag>
+         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -104,8 +136,6 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
-         
-        <tag>deep learning</tag>
          
         <tag>computer vision</tag>
          
@@ -835,9 +865,9 @@
         <title>Deep Learning Practice</title>
         <pubTime>2018-04-10T13:23:55.000Z</pubTime>
         
-        <tag>deep learning</tag>
-         
         <tag>machine learning</tag>
+         
+        <tag>deep learning</tag>
          
         <tag>techniques</tag>
          
@@ -1171,6 +1201,8 @@
         
         <tag>project</tag>
          
+        <tag>deep learning</tag>
+         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -1178,8 +1210,6 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
-         
-        <tag>deep learning</tag>
          
         <tag>computer vision</tag>
          
@@ -1285,9 +1315,9 @@
          
         <tag>deep learning</tag>
          
-        <tag>computer vision</tag>
-         
         <tag>research</tag>
+         
+        <tag>computer vision</tag>
          
         <tag>medical image</tag>
          
@@ -1649,6 +1679,8 @@
         
         <tag>project</tag>
          
+        <tag>deep learning</tag>
+         
         <tag>neural science</tag>
          
         <tag>summer intern</tag>
@@ -1656,8 +1688,6 @@
         <tag>connectomics</tag>
          
         <tag>computational neural science</tag>
-         
-        <tag>deep learning</tag>
          
         <tag>computer vision</tag>
          
@@ -1791,15 +1821,15 @@
         
         <tag>project</tag>
          
-        <tag>connectomics</tag>
-         
-        <tag>deep learning</tag>
-         
         <tag>machine learning</tag>
          
         <tag>precision medicine</tag>
          
+        <tag>deep learning</tag>
+         
         <tag>bioinformatics</tag>
+         
+        <tag>connectomics</tag>
          
         <tag>medical image</tag>
          
