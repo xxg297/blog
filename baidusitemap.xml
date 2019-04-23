@@ -5,10 +5,10 @@
     
   <url>
     <loc>https://www.cmwonderland.com/blog/blog/2019/04/23/52_DIP/</loc>
-    <lastmod>2019-04-23T15:10:37.998Z</lastmod>
+    <lastmod>2019-04-23T15:13:44.963Z</lastmod>
     <data>
         <display>
-        <title>DIP assignment 1 image fusion and morphing</title>
+        <title>DIP assignment image fusion and morphing</title>
         <pubTime>2019-04-23T04:59:19.000Z</pubTime>
         
         <tag>deep learning</tag>
@@ -869,9 +869,9 @@
         <title>Deep Learning Practice</title>
         <pubTime>2018-04-10T13:23:55.000Z</pubTime>
         
-        <tag>deep learning</tag>
-         
         <tag>machine learning</tag>
+         
+        <tag>deep learning</tag>
          
         <tag>techniques</tag>
          
@@ -925,9 +925,9 @@
          
         <tag>statistics</tag>
          
-        <tag>girl friend</tag>
-         
         <tag>economics</tag>
+         
+        <tag>girl friend</tag>
          
          
            
@@ -1005,9 +1005,9 @@
         
         <tag>codes</tag>
          
-        <tag>statistics</tag>
-         
         <tag>data science</tag>
+         
+        <tag>statistics</tag>
          
         <tag>data mining</tag>
          
@@ -1788,38 +1788,6 @@
 
     
   <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/12/20/research_summary/</loc>
-    <lastmod>2019-04-23T13:07:13.883Z</lastmod>
-    <data>
-        <display>
-        <title>Undergraduate Research Summary</title>
-        <pubTime>2018-12-19T16:30:44.000Z</pubTime>
-        
-        <tag>project</tag>
-         
-        <tag>connectomics</tag>
-         
-        <tag>deep learning</tag>
-         
-        <tag>machine learning</tag>
-         
-        <tag>precision medicine</tag>
-         
-        <tag>bioinformatics</tag>
-         
-        <tag>medical image</tag>
-         
-         
-           
-             
-              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/05/16/51_multi1/</loc>
     <lastmod>2019-04-23T13:07:13.883Z</lastmod>
     <data>
@@ -1841,6 +1809,38 @@
            
              
               <breadCrumb title="school work" url="https://www.cmwonderland.com/blog/blog/categories/school-work/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/12/20/research_summary/</loc>
+    <lastmod>2019-04-23T13:07:13.883Z</lastmod>
+    <data>
+        <display>
+        <title>Undergraduate Research Summary</title>
+        <pubTime>2018-12-19T16:30:44.000Z</pubTime>
+        
+        <tag>project</tag>
+         
+        <tag>machine learning</tag>
+         
+        <tag>precision medicine</tag>
+         
+        <tag>connectomics</tag>
+         
+        <tag>deep learning</tag>
+         
+        <tag>bioinformatics</tag>
+         
+        <tag>medical image</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
           
         </display>
     </data>
