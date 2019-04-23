@@ -50,9 +50,9 @@
     <link href="https://www.cmwonderland.com/blog/2019/04/23/52_DIP/"/>
     <id>https://www.cmwonderland.com/blog/2019/04/23/52_DIP/</id>
     <published>2019-04-23T04:59:19.000Z</published>
-    <updated>2019-04-23T14:59:43.422Z</updated>
+    <updated>2019-04-23T15:10:37.998Z</updated>
     
-    <content type="html"><![CDATA[<p>The first assignment of Digital Image Processing course (2019 spring in Tsinghua)</p><a id="more"></a>]]></content>
+    <content type="html"><![CDATA[<p>The first assignment of Digital Image Processing course (2019 spring in Tsinghua)</p><a id="more"></a><p>let’s post my report first:</p><h2 id="report"><a href="#report" class="headerlink" title="report"></a>report</h2><div class="row"><iframe src="https://drive.google.com/file/d/1XyEPj9r7p8VNk5nLlLIPNhZjuDHu2KTY/preview" style="width:100%; height:550px"></iframe></div><h2 id="then-you-can-have-the-codes-here"><a href="#then-you-can-have-the-codes-here" class="headerlink" title="then you can have the codes here:"></a>then you can have the codes here:</h2><p><a href="https://github.com/james20141606/DIP-assignment/tree/master" target="_blank" rel="noopener">https://github.com/james20141606/DIP-assignment/tree/master</a></p><h2 id="a-jupyter-to-html-version-introduction-of-the-two-parts"><a href="#a-jupyter-to-html-version-introduction-of-the-two-parts" class="headerlink" title="a jupyter to html version introduction of the two parts:"></a>a jupyter to html version introduction of the two parts:</h2><ul><li>image fusion</li></ul><p><a href="https://www.cmwonderland.com/poisson_image_editing.html"><strong>click here</strong></a> for <strong>html version</strong> of assignment, you can see codes as well as plots.</p><ul><li>face morhping</li></ul><p><a href="https://www.cmwonderland.com/image_morphing.html"><strong>click here</strong></a> for <strong>html version</strong> of assignment, you can see codes as well as plots.</p><p>you can enjoy some extra benefits of the <a href="https://github.com/james20141606/DIP-assignment/blob/master/first%20assignment/image_fusion/bin/utils.py" target="_blank" rel="noopener">plots codes</a>. Here I have some pretty cool codes to help better visualize the plots by matplotlib</p>]]></content>
     
     <summary type="html">
     
