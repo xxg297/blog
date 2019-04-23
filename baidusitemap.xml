@@ -4,6 +4,38 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2019/04/23/52_DIP/</loc>
+    <lastmod>2019-04-23T14:59:43.422Z</lastmod>
+    <data>
+        <display>
+        <title>DIP assignment 1 image fusion and morphing</title>
+        <pubTime>2019-04-23T04:59:19.000Z</pubTime>
+        
+        <tag>deep learning</tag>
+         
+        <tag>codes</tag>
+         
+        <tag>python</tag>
+         
+        <tag>opencv</tag>
+         
+        <tag>image processing</tag>
+         
+        <tag>poisson image editing</tag>
+         
+        <tag>face morphing</tag>
+         
+         
+           
+             
+              <breadCrumb title="school work" url="https://www.cmwonderland.com/blog/blog/categories/school-work/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2019/04/23/26_dailythoughts/</loc>
     <lastmod>2019-04-23T14:45:54.003Z</lastmod>
     <data>
@@ -221,34 +253,6 @@
            
              
               <breadCrumb title="book" url="https://www.cmwonderland.com/blog/blog/categories/book/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/05/23/52_DIP/</loc>
-    <lastmod>2019-04-23T13:07:13.969Z</lastmod>
-    <data>
-        <display>
-        <title>Multivariate Statistics Assignment 5</title>
-        <pubTime>2018-05-23T04:59:19.000Z</pubTime>
-        
-        <tag>codes</tag>
-         
-        <tag>statistics</tag>
-         
-        <tag>assignment</tag>
-         
-        <tag>R</tag>
-         
-        <tag>linear regression</tag>
-         
-         
-           
-             
-              <breadCrumb title="school work" url="https://www.cmwonderland.com/blog/blog/categories/school-work/"/>
           
         </display>
     </data>
@@ -865,9 +869,9 @@
         <title>Deep Learning Practice</title>
         <pubTime>2018-04-10T13:23:55.000Z</pubTime>
         
-        <tag>machine learning</tag>
-         
         <tag>deep learning</tag>
+         
+        <tag>machine learning</tag>
          
         <tag>techniques</tag>
          
@@ -1784,6 +1788,38 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/12/20/research_summary/</loc>
+    <lastmod>2019-04-23T13:07:13.883Z</lastmod>
+    <data>
+        <display>
+        <title>Undergraduate Research Summary</title>
+        <pubTime>2018-12-19T16:30:44.000Z</pubTime>
+        
+        <tag>project</tag>
+         
+        <tag>connectomics</tag>
+         
+        <tag>deep learning</tag>
+         
+        <tag>machine learning</tag>
+         
+        <tag>precision medicine</tag>
+         
+        <tag>bioinformatics</tag>
+         
+        <tag>medical image</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/05/16/51_multi1/</loc>
     <lastmod>2019-04-23T13:07:13.883Z</lastmod>
     <data>
@@ -1805,38 +1841,6 @@
            
              
               <breadCrumb title="school work" url="https://www.cmwonderland.com/blog/blog/categories/school-work/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/12/20/research_summary/</loc>
-    <lastmod>2019-04-23T13:07:13.883Z</lastmod>
-    <data>
-        <display>
-        <title>Undergraduate Research Summary</title>
-        <pubTime>2018-12-19T16:30:44.000Z</pubTime>
-        
-        <tag>project</tag>
-         
-        <tag>machine learning</tag>
-         
-        <tag>precision medicine</tag>
-         
-        <tag>connectomics</tag>
-         
-        <tag>deep learning</tag>
-         
-        <tag>bioinformatics</tag>
-         
-        <tag>medical image</tag>
-         
-         
-           
-             
-              <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
           
         </display>
     </data>
