@@ -4,8 +4,64 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2019/04/23/52_undergraduate_thesis/</loc>
+    <lastmod>2019-04-23T15:28:18.557Z</lastmod>
+    <data>
+        <display>
+        <title>Undergraduate Thesis</title>
+        <pubTime>2019-04-23T08:59:19.000Z</pubTime>
+        
+        <tag>codes</tag>
+         
+        <tag>python</tag>
+         
+        <tag>bioinformatics</tag>
+         
+        <tag>projects</tag>
+         
+        <tag>exseek</tag>
+         
+        <tag>thesis</tag>
+         
+        <tag>biomarker</tag>
+         
+         
+           
+             
+              <breadCrumb title="school work" url="https://www.cmwonderland.com/blog/blog/categories/school-work/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2019/04/23/52_raspberry/</loc>
+    <lastmod>2019-04-23T15:27:46.431Z</lastmod>
+    <data>
+        <display>
+        <title>Raspberry for the first time</title>
+        <pubTime>2019-04-23T06:59:19.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+        <tag>hardware</tag>
+         
+        <tag>raspberry</tag>
+         
+         
+           
+             
+              <breadCrumb title="school work" url="https://www.cmwonderland.com/blog/blog/categories/school-work/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2019/04/23/52_DIP/</loc>
-    <lastmod>2019-04-23T15:13:44.963Z</lastmod>
+    <lastmod>2019-04-23T15:15:30.818Z</lastmod>
     <data>
         <display>
         <title>DIP assignment image fusion and morphing</title>
@@ -195,9 +251,9 @@
          
         <tag>statistics</tag>
          
-        <tag>assignment</tag>
-         
         <tag>R</tag>
+         
+        <tag>assignment</tag>
          
         <tag>linear regression</tag>
          
@@ -377,9 +433,9 @@
          
         <tag>statistics</tag>
          
-        <tag>assignment</tag>
-         
         <tag>R</tag>
+         
+        <tag>assignment</tag>
          
         <tag>linear regression</tag>
          
@@ -405,9 +461,9 @@
          
         <tag>statistics</tag>
          
-        <tag>assignment</tag>
-         
         <tag>R</tag>
+         
+        <tag>assignment</tag>
          
         <tag>linear regression</tag>
          
@@ -503,9 +559,9 @@
          
         <tag>statistics</tag>
          
-        <tag>assignment</tag>
-         
         <tag>R</tag>
+         
+        <tag>assignment</tag>
          
         <tag>linear regression</tag>
          
@@ -629,11 +685,11 @@
         
         <tag>techniques</tag>
          
+        <tag>setup</tag>
+         
         <tag>zsh</tag>
          
         <tag>alias</tag>
-         
-        <tag>setup</tag>
          
          
            
@@ -655,9 +711,9 @@
         
         <tag>techniques</tag>
          
-        <tag>setup</tag>
-         
         <tag>mac</tag>
+         
+        <tag>setup</tag>
          
          
            
@@ -707,9 +763,9 @@
          
         <tag>statistics</tag>
          
-        <tag>assignment</tag>
-         
         <tag>R</tag>
+         
+        <tag>assignment</tag>
          
         <tag>linear regression</tag>
          
@@ -793,9 +849,9 @@
          
         <tag>statistics</tag>
          
-        <tag>assignment</tag>
-         
         <tag>R</tag>
+         
+        <tag>assignment</tag>
          
         <tag>linear regression</tag>
          
@@ -845,9 +901,9 @@
          
         <tag>statistics</tag>
          
-        <tag>assignment</tag>
-         
         <tag>R</tag>
+         
+        <tag>assignment</tag>
          
         <tag>linear regression</tag>
          
@@ -869,9 +925,9 @@
         <title>Deep Learning Practice</title>
         <pubTime>2018-04-10T13:23:55.000Z</pubTime>
         
-        <tag>machine learning</tag>
-         
         <tag>deep learning</tag>
+         
+        <tag>machine learning</tag>
          
         <tag>techniques</tag>
          
@@ -897,9 +953,9 @@
          
         <tag>statistics</tag>
          
-        <tag>assignment</tag>
-         
         <tag>R</tag>
+         
+        <tag>assignment</tag>
          
         <tag>linear regression</tag>
          
@@ -925,9 +981,9 @@
          
         <tag>statistics</tag>
          
-        <tag>economics</tag>
-         
         <tag>girl friend</tag>
+         
+        <tag>economics</tag>
          
          
            
@@ -979,9 +1035,9 @@
          
         <tag>statistics</tag>
          
-        <tag>assignment</tag>
-         
         <tag>R</tag>
+         
+        <tag>assignment</tag>
          
         <tag>linear regression</tag>
          
@@ -1083,9 +1139,9 @@
          
         <tag>statistics</tag>
          
-        <tag>assignment</tag>
-         
         <tag>R</tag>
+         
+        <tag>assignment</tag>
          
         <tag>linear regression</tag>
          
@@ -1111,9 +1167,9 @@
          
         <tag>statistics</tag>
          
-        <tag>assignment</tag>
-         
         <tag>R</tag>
+         
+        <tag>assignment</tag>
          
          
            
@@ -1267,9 +1323,9 @@
          
         <tag>statistics</tag>
          
-        <tag>assignment</tag>
-         
         <tag>R</tag>
+         
+        <tag>assignment</tag>
          
         <tag>linear regression</tag>
          
@@ -1347,9 +1403,9 @@
          
         <tag>statistics</tag>
          
-        <tag>assignment</tag>
-         
         <tag>R</tag>
+         
+        <tag>assignment</tag>
          
         <tag>linear regression</tag>
          
@@ -1425,9 +1481,9 @@
          
         <tag>statistics</tag>
          
-        <tag>assignment</tag>
-         
         <tag>R</tag>
+         
+        <tag>assignment</tag>
          
         <tag>linear regression</tag>
          
@@ -1559,9 +1615,9 @@
          
         <tag>statistics</tag>
          
-        <tag>assignment</tag>
-         
         <tag>R</tag>
+         
+        <tag>assignment</tag>
          
         <tag>linear regression</tag>
          
@@ -1657,9 +1713,9 @@
          
         <tag>statistics</tag>
          
-        <tag>assignment</tag>
-         
         <tag>R</tag>
+         
+        <tag>assignment</tag>
          
         <tag>linear regression</tag>
          
@@ -1799,9 +1855,9 @@
          
         <tag>statistics</tag>
          
-        <tag>assignment</tag>
-         
         <tag>R</tag>
+         
+        <tag>assignment</tag>
          
         <tag>linear regression</tag>
          
@@ -1825,13 +1881,13 @@
         
         <tag>project</tag>
          
-        <tag>machine learning</tag>
-         
-        <tag>precision medicine</tag>
-         
         <tag>connectomics</tag>
          
         <tag>deep learning</tag>
+         
+        <tag>machine learning</tag>
+         
+        <tag>precision medicine</tag>
          
         <tag>bioinformatics</tag>
          
@@ -1985,9 +2041,9 @@
          
         <tag>statistics</tag>
          
-        <tag>assignment</tag>
-         
         <tag>R</tag>
+         
+        <tag>assignment</tag>
          
         <tag>linear regression</tag>
          
@@ -2013,9 +2069,9 @@
          
         <tag>statistics</tag>
          
-        <tag>assignment</tag>
-         
         <tag>R</tag>
+         
+        <tag>assignment</tag>
          
         <tag>linear regression</tag>
          
@@ -2095,9 +2151,9 @@
          
         <tag>statistics</tag>
          
-        <tag>assignment</tag>
-         
         <tag>R</tag>
+         
+        <tag>assignment</tag>
          
         <tag>linear regression</tag>
          
@@ -2147,9 +2203,9 @@
          
         <tag>statistics</tag>
          
-        <tag>assignment</tag>
-         
         <tag>R</tag>
+         
+        <tag>assignment</tag>
          
         <tag>linear regression</tag>
          
