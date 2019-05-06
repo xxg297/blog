@@ -98,7 +98,7 @@
 <meta property="og:site_name" content="WonderLand">
 <meta property="og:description" content="Today I found an interesting revision of Avengers: Endgame. It says:  六人组，每人带一宝石手套，去找灭霸决战，到了草屋，七人围圈而坐，六对一，灭霸人少，给予先打响指的权利，灭霸打后，超级英雄全化灰就灭霸胜，没全化灰就由一个活着的超级英雄打一个响指，看二分之一消失的概率能不能把灭霸打成灰。没成灰就继续第二回合，灭霸继续优先打响指。">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-05-06T13:46:49.172Z">
+<meta property="og:updated_time" content="2019-05-06T13:54:38.987Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Thanos and Avengers playing roulette">
 <meta name="twitter:description" content="Today I found an interesting revision of Avengers: Endgame. It says:  六人组，每人带一宝石手套，去找灭霸决战，到了草屋，七人围圈而坐，六对一，灭霸人少，给予先打响指的权利，灭霸打后，超级英雄全化灰就灭霸胜，没全化灰就由一个活着的超级英雄打一个响指，看二分之一消失的概率能不能把灭霸打成灰。没成灰就继续第二回合，灭霸继续优先打响指。">
@@ -379,7 +379,7 @@
                   <span class="post-meta-item-text">Words count in article&#58;</span>
                 
                 <span title="Words count in article">
-                  1,454
+                  1,470
                 </span>
               
 
@@ -422,7 +422,9 @@
 <p>The original six avengers, each carrying a stone and fight with Thanos. Thanos snaps his fingers first and each avenger has a 50% probability to die. If all of the avengers die, thanos wins. If not, one of the alive avengers snap fingers and thanos has 50% percent to die. The fights will continue until one side wins. <strong>the question is: what is the probability of thanos death?</strong></p>
 </blockquote>
 <a id="more"></a>
-<p>I still didn’t have a mathematical depict of the probability. But I simulate the data to find out the probability of Thanos’ death is about 80%</p>
+<p>I still didn’t have a mathematical depict of the probability. But I simulate the data to find out the probability of Thanos’ death is about 80%.</p>
+<p>Like Dr. Strange, I also find the result from 14000605 times test.</p>
+<p>Refer to <a href="https://github.com/james20141606/somethingmore/tree/master/thanos_avengers" target="_blank" rel="noopener">this repo</a></p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line">%pylab inline</span><br><span class="line"><span class="keyword">from</span> tqdm <span class="keyword">import</span> tqdm_notebook <span class="keyword">as</span> tqdm</span><br><span class="line"><span class="keyword">import</span> seaborn <span class="keyword">as</span> sns</span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line">np.random.seed(<span class="number">1111</span>)</span><br><span class="line"><span class="comment">#setup figure template</span></span><br><span class="line"></span><br><span class="line">figure_template_path = <span class="string">'bin'</span></span><br><span class="line"><span class="keyword">if</span> figure_template_path <span class="keyword">not</span> <span class="keyword">in</span> sys.path:</span><br><span class="line">    sys.path.append(figure_template_path)</span><br><span class="line"><span class="keyword">from</span> importlib <span class="keyword">import</span> reload</span><br><span class="line"><span class="keyword">import</span> figure_template</span><br><span class="line"><span class="comment">#force reload of the module</span></span><br><span class="line">reload(figure_template)</span><br><span class="line"><span class="keyword">from</span> figure_template <span class="keyword">import</span> display_dataframe, embed_pdf_figure, embed_pdf_pages,std_plot</span><br></pre></td></tr></table></figure>
 <pre><code>Populating the interactive namespace from numpy and matplotlib
 </code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">np.random.randint(<span class="number">0</span>,<span class="number">2</span>,size=<span class="number">6</span>)</span><br></pre></td></tr></table></figure>
