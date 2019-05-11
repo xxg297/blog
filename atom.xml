@@ -47,6 +47,40 @@
   </entry>
   
   <entry>
+    <title>Undergraduate Thesis</title>
+    <link href="https://www.cmwonderland.com/blog/2019/04/29/52_undergraduate_thesis/"/>
+    <id>https://www.cmwonderland.com/blog/2019/04/29/52_undergraduate_thesis/</id>
+    <published>2019-04-29T08:59:19.000Z</published>
+    <updated>2019-05-11T15:35:18.624Z</updated>
+    
+    <content type="html"><![CDATA[<p>My undergraduate thesis</p><a id="more"></a><p>It is a relatively “pleasant” and relaxing thing for me. Since I have devoted and contributed a lot to the exSEEK project, I didn’t need to do a lot more on my undergraduate thesis.</p><h2 id="my-preparation"><a href="#my-preparation" class="headerlink" title="my preparation"></a>my preparation</h2><ul><li>setting up vscode+latex environment</li><li>thuthesis $\LaTeX$ template, <a href="https://github.com/xueruini/thuthesis" target="_blank" rel="noopener">chn and eng version</a></li></ul><h2 id="midterm-presentation"><a href="#midterm-presentation" class="headerlink" title="midterm presentation"></a>midterm presentation</h2><p>a good feedback from the committe (since I have prepared, practices and refined all this a long time)<br><div class="row"><iframe src="https://drive.google.com/file/d/151oiolbWfQ5Ssp4HF_jYXrqwMTE3KG86/preview" style="width:100%; height:550px"></iframe></div></p><h2 id="our-software"><a href="#our-software" class="headerlink" title="our software"></a>our software</h2><ul><li>[ ] to be released</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;My undergraduate thesis&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="school work" scheme="https://www.cmwonderland.com/blog/categories/school-work/"/>
+    
+    
+      <category term="codes" scheme="https://www.cmwonderland.com/blog/tags/codes/"/>
+    
+      <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
+    
+      <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
+    
+      <category term="thesis" scheme="https://www.cmwonderland.com/blog/tags/thesis/"/>
+    
+      <category term="projects" scheme="https://www.cmwonderland.com/blog/tags/projects/"/>
+    
+      <category term="exseek" scheme="https://www.cmwonderland.com/blog/tags/exseek/"/>
+    
+      <category term="biomarker" scheme="https://www.cmwonderland.com/blog/tags/biomarker/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Life of Love</title>
     <link href="https://www.cmwonderland.com/blog/2019/04/24/11_lovetimecounting/"/>
     <id>https://www.cmwonderland.com/blog/2019/04/24/11_lovetimecounting/</id>
@@ -156,40 +190,6 @@
       <category term="android" scheme="https://www.cmwonderland.com/blog/tags/android/"/>
     
       <category term="linux" scheme="https://www.cmwonderland.com/blog/tags/linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Undergraduate Thesis</title>
-    <link href="https://www.cmwonderland.com/blog/2019/04/23/52_undergraduate_thesis/"/>
-    <id>https://www.cmwonderland.com/blog/2019/04/23/52_undergraduate_thesis/</id>
-    <published>2019-04-23T08:59:19.000Z</published>
-    <updated>2019-04-23T15:28:18.557Z</updated>
-    
-    <content type="html"><![CDATA[<p>My undergraduate thesis</p><a id="more"></a><p>It is a relatively “pleasant” and relaxing thing for me. Since I have devoted and contributed a lot to the exSEEK project, I didn’t need to do a lot more on my undergraduate thesis.</p><h2 id="my-preparation"><a href="#my-preparation" class="headerlink" title="my preparation"></a>my preparation</h2><ul><li>setting up vscode+latex environment</li><li>thuthesis $\LaTeX$ template, <a href="https://github.com/xueruini/thuthesis" target="_blank" rel="noopener">chn and eng version</a></li></ul><h2 id="midterm-presentation"><a href="#midterm-presentation" class="headerlink" title="midterm presentation"></a>midterm presentation</h2><p>a good feedback from the committe (since I have prepared, practices and refined all this a long time)<br><div class="row"><iframe src="https://drive.google.com/file/d/151oiolbWfQ5Ssp4HF_jYXrqwMTE3KG86/preview" style="width:100%; height:550px"></iframe></div></p><h2 id="our-software"><a href="#our-software" class="headerlink" title="our software"></a>our software</h2><ul><li>[ ] to be released</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;My undergraduate thesis&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="school work" scheme="https://www.cmwonderland.com/blog/categories/school-work/"/>
-    
-    
-      <category term="codes" scheme="https://www.cmwonderland.com/blog/tags/codes/"/>
-    
-      <category term="python" scheme="https://www.cmwonderland.com/blog/tags/python/"/>
-    
-      <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
-    
-      <category term="thesis" scheme="https://www.cmwonderland.com/blog/tags/thesis/"/>
-    
-      <category term="projects" scheme="https://www.cmwonderland.com/blog/tags/projects/"/>
-    
-      <category term="exseek" scheme="https://www.cmwonderland.com/blog/tags/exseek/"/>
-    
-      <category term="biomarker" scheme="https://www.cmwonderland.com/blog/tags/biomarker/"/>
     
   </entry>
   
@@ -339,13 +339,13 @@
     
       <category term="project" scheme="https://www.cmwonderland.com/blog/tags/project/"/>
     
-      <category term="connectomics" scheme="https://www.cmwonderland.com/blog/tags/connectomics/"/>
-    
-      <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
-    
       <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
     
       <category term="precision medicine" scheme="https://www.cmwonderland.com/blog/tags/precision-medicine/"/>
+    
+      <category term="connectomics" scheme="https://www.cmwonderland.com/blog/tags/connectomics/"/>
+    
+      <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
     
       <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
     
