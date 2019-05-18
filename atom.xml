@@ -271,9 +271,9 @@
       <category term="life" scheme="https://www.cmwonderland.com/blog/categories/life/"/>
     
     
-      <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
-    
       <category term="life" scheme="https://www.cmwonderland.com/blog/tags/life/"/>
+    
+      <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
     
       <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
     
@@ -339,13 +339,13 @@
     
       <category term="project" scheme="https://www.cmwonderland.com/blog/tags/project/"/>
     
+      <category term="connectomics" scheme="https://www.cmwonderland.com/blog/tags/connectomics/"/>
+    
       <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
     
       <category term="machine learning" scheme="https://www.cmwonderland.com/blog/tags/machine-learning/"/>
     
       <category term="precision medicine" scheme="https://www.cmwonderland.com/blog/tags/precision-medicine/"/>
-    
-      <category term="connectomics" scheme="https://www.cmwonderland.com/blog/tags/connectomics/"/>
     
       <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
     
@@ -482,8 +482,6 @@
     
       <category term="project" scheme="https://www.cmwonderland.com/blog/tags/project/"/>
     
-      <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
-    
       <category term="neural science" scheme="https://www.cmwonderland.com/blog/tags/neural-science/"/>
     
       <category term="summer intern" scheme="https://www.cmwonderland.com/blog/tags/summer-intern/"/>
@@ -491,6 +489,8 @@
       <category term="connectomics" scheme="https://www.cmwonderland.com/blog/tags/connectomics/"/>
     
       <category term="computational neural science" scheme="https://www.cmwonderland.com/blog/tags/computational-neural-science/"/>
+    
+      <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
     
       <category term="computer vision" scheme="https://www.cmwonderland.com/blog/tags/computer-vision/"/>
     
