@@ -187,9 +187,9 @@
     
       <category term="hardware" scheme="https://www.cmwonderland.com/blog/tags/hardware/"/>
     
-      <category term="android" scheme="https://www.cmwonderland.com/blog/tags/android/"/>
-    
       <category term="linux" scheme="https://www.cmwonderland.com/blog/tags/linux/"/>
+    
+      <category term="android" scheme="https://www.cmwonderland.com/blog/tags/android/"/>
     
   </entry>
   
@@ -213,9 +213,9 @@
     
       <category term="hardware" scheme="https://www.cmwonderland.com/blog/tags/hardware/"/>
     
-      <category term="linux" scheme="https://www.cmwonderland.com/blog/tags/linux/"/>
-    
       <category term="raspberry" scheme="https://www.cmwonderland.com/blog/tags/raspberry/"/>
+    
+      <category term="linux" scheme="https://www.cmwonderland.com/blog/tags/linux/"/>
     
   </entry>
   

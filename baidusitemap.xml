@@ -4,6 +4,32 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/05/04/35_gitbook/</loc>
+    <lastmod>2019-05-20T07:41:37.973Z</lastmod>
+    <data>
+        <display>
+        <title>GitBook intro & Grandpa's Bio</title>
+        <pubTime>2018-05-03T18:01:38.000Z</pubTime>
+        
+        <tag>techniques</tag>
+         
+        <tag>markdown</tag>
+         
+        <tag>syntax</tag>
+         
+        <tag>composing</tag>
+         
+         
+           
+             
+              <breadCrumb title="book" url="https://www.cmwonderland.com/blog/blog/categories/book/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/09/28/93_gitbook_teaching_book/</loc>
     <lastmod>2019-05-18T08:46:05.963Z</lastmod>
     <data>
@@ -149,9 +175,9 @@
         
         <tag>hardware</tag>
          
-        <tag>linux</tag>
-         
         <tag>raspberry</tag>
+         
+        <tag>linux</tag>
          
          
            
@@ -173,9 +199,9 @@
         
         <tag>hardware</tag>
          
-        <tag>android</tag>
-         
         <tag>linux</tag>
+         
+        <tag>android</tag>
          
          
            
@@ -1572,32 +1598,6 @@
 
     
   <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/05/04/35_gitbook/</loc>
-    <lastmod>2019-04-23T13:07:13.908Z</lastmod>
-    <data>
-        <display>
-        <title>GitBook intro & Grandpa's Bio</title>
-        <pubTime>2018-05-03T18:01:38.000Z</pubTime>
-        
-        <tag>techniques</tag>
-         
-        <tag>markdown</tag>
-         
-        <tag>syntax</tag>
-         
-        <tag>composing</tag>
-         
-         
-           
-             
-              <breadCrumb title="techniques" url="https://www.cmwonderland.com/blog/blog/categories/techniques/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/04/16/42_line1/</loc>
     <lastmod>2019-04-23T13:07:13.906Z</lastmod>
     <data>
@@ -1972,6 +1972,34 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/05/16/51_multi1/</loc>
+    <lastmod>2019-04-23T13:07:13.883Z</lastmod>
+    <data>
+        <display>
+        <title>Multivariate Statistics Assignment 4</title>
+        <pubTime>2018-05-16T04:59:19.000Z</pubTime>
+        
+        <tag>codes</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>R</tag>
+         
+        <tag>assignment</tag>
+         
+        <tag>linear regression</tag>
+         
+         
+           
+             
+              <breadCrumb title="school work" url="https://www.cmwonderland.com/blog/blog/categories/school-work/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/12/20/research_summary/</loc>
     <lastmod>2019-04-23T13:07:13.883Z</lastmod>
     <data>
@@ -1997,34 +2025,6 @@
            
              
               <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/05/16/51_multi1/</loc>
-    <lastmod>2019-04-23T13:07:13.883Z</lastmod>
-    <data>
-        <display>
-        <title>Multivariate Statistics Assignment 4</title>
-        <pubTime>2018-05-16T04:59:19.000Z</pubTime>
-        
-        <tag>codes</tag>
-         
-        <tag>statistics</tag>
-         
-        <tag>R</tag>
-         
-        <tag>assignment</tag>
-         
-        <tag>linear regression</tag>
-         
-         
-           
-             
-              <breadCrumb title="school work" url="https://www.cmwonderland.com/blog/blog/categories/school-work/"/>
           
         </display>
     </data>
