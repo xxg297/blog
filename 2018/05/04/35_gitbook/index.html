@@ -101,7 +101,7 @@
 <meta property="og:image" content="http://i4.fuimg.com/640680/36e1abf41b49870e.png">
 <meta property="og:image" content="http://i4.fuimg.com/640680/393c5bd3f8debba7.png">
 <meta property="og:image" content="http://i4.fuimg.com/640680/18392c162ed87862.png">
-<meta property="og:updated_time" content="2019-05-20T07:41:37.973Z">
+<meta property="og:updated_time" content="2019-05-21T12:24:13.848Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="GitBook intro &amp; Grandpa&#39;s Bio">
 <meta name="twitter:description" content="写书必备的工具GitBook是写书的必备工具，之所以比LaTeX强，在于GitBook有强大的后盾，不仅可以本地排版，还可以挂在gitbook网站上，还可以做一些嵌入自己网页的设计(借助github pages之类的)。可以说是非常有用了，这次梳理了一下gitbook尤其是本地版的适用，以排版爷爷的回忆录为例，回忆录的一系列文章也更新在了博客和gitbook页面。 之前用过一些，比如：  帮老板写">
@@ -383,7 +383,7 @@
                   <span class="post-meta-item-text">Words count in article&#58;</span>
                 
                 <span title="Words count in article">
-                  1,946
+                  2,276
                 </span>
               
 
@@ -399,7 +399,7 @@
                   <span class="post-meta-item-text">Reading time &asymp;</span>
                 
                 <span title="Reading time">
-                  8
+                  10
                 </span>
               
             </div>
@@ -484,6 +484,24 @@
 
 
 </p>
+<h2 id="Edit-2019-5-20-update"><a href="#Edit-2019-5-20-update" class="headerlink" title="Edit: 2019.5.20 update"></a>Edit: 2019.5.20 update</h2><blockquote>
+<p>Gitbook 新版不再支持pdf和其他静态导出，也不再兼容旧版command line版本，旧版command line不支持右边栏和一些hint和embed语法，需要第三方插件，</p>
+</blockquote>
+<h3 id="安装command-line-gitbook"><a href="#安装command-line-gitbook" class="headerlink" title="安装command line gitbook"></a>安装command line gitbook</h3><p>先安装brew和npm两个包管理软件</p>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="regexp">/usr/</span>bin<span class="regexp">/ruby -e "$(curl -fsSL https:/</span><span class="regexp">/raw.githubusercontent.com/</span>Homebrew<span class="regexp">/install/m</span>aster<span class="regexp">/install)"</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">brew install <span class="keyword">node</span><span class="title"></span></span><br><span class="line"><span class="title">brew</span> install npm</span><br></pre></td></tr></table></figure>
+<p>再用npm安装gitbook<br><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> gitbook -g</span><br><span class="line">npm <span class="keyword">install</span> gitbook-cli -g</span><br><span class="line">gitbook -V <span class="comment">#查看版本gitbook和gitbook-cli版本</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h3><p>在<code>book.json</code>中填入插件名称，then run <code>gitbook install</code>就可以自动安装依赖的插件。安装新版gitbook的一些替代插件以及一些额外的美化插件。</p>
+<blockquote>
+<p>urlembed取代embed，效果不是很完美，tabs也没有新版gitbook的效果<br>插件用法<br><figure class="highlight django"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">urlembed</span> %&#125;</span><span class="xml"></span></span><br><span class="line"><span class="xml">https://website.org/stuff/this-is-the-path-name</span></span><br><span class="line"><span class="xml"></span><span class="template-tag">&#123;% <span class="name">endurlembed</span> %&#125;</span><span class="xml"></span></span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&#123;<span class="symbol">%</span> tabs <span class="built_in">first</span>=<span class="string">"First Tab"</span>, <span class="built_in">second</span>=<span class="string">"Second Tab"</span>, <span class="built_in">third</span>=<span class="string">"Third Tab"</span> <span class="symbol">%</span>&#125;</span><br><span class="line"></span><br><span class="line">&#123;<span class="symbol">%</span> <span class="built_in">content</span> <span class="string">"first"</span> <span class="symbol">%</span>&#125;</span><br><span class="line">Content <span class="keyword">for</span> <span class="built_in">first</span> <span class="built_in">tab</span> ...</span><br><span class="line"></span><br><span class="line">&#123;<span class="symbol">%</span> <span class="built_in">content</span> <span class="string">"second"</span> <span class="symbol">%</span>&#125;</span><br><span class="line">Content <span class="keyword">for</span> <span class="built_in">second</span> <span class="built_in">tab</span> ...</span><br><span class="line"></span><br><span class="line">&#123;<span class="symbol">%</span> <span class="built_in">content</span> <span class="string">"third"</span> <span class="symbol">%</span>&#125;</span><br><span class="line">Content <span class="keyword">for</span> <span class="built_in">third</span> <span class="built_in">tab</span> ...</span><br><span class="line"></span><br><span class="line">&#123;<span class="symbol">%</span> endtabs <span class="symbol">%</span>&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="build书籍"><a href="#build书籍" class="headerlink" title="build书籍"></a>build书籍</h3><figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">gitbook init <span class="meta">#会自动生成SUMMARY.md，无需手动产生</span></span><br><span class="line">gitbook serve <span class="meta">#可在浏览器预览，默认在http:<span class="comment">//localhost:4000</span></span></span><br><span class="line">gitbook build <span class="meta">#产生html</span></span><br></pre></td></tr></table></figure>
+<h3 id="生成pdf"><a href="#生成pdf" class="headerlink" title="生成pdf"></a>生成pdf</h3><ul>
+<li>下载calibre<br><a href="https://calibre-ebook.com/dist/osx" target="_blank" rel="noopener">https://calibre-ebook.com/dist/osx</a></li>
+<li>链接到<code>bin</code>下<br><code>ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/local/bin</code></li>
+<li>产生pdf<br><code>gitbook pdf . training_book.pdf</code></li>
+</ul>
 
       
     </div>
@@ -702,7 +720,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#写书必备的工具"><span class="nav-number">1.</span> <span class="nav-text">写书必备的工具</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#资源"><span class="nav-number">1.1.</span> <span class="nav-text">资源</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#step-by-step"><span class="nav-number">2.</span> <span class="nav-text">step by step</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#初级"><span class="nav-number">2.1.</span> <span class="nav-text">初级</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#gitbook-init"><span class="nav-number">2.1.1.</span> <span class="nav-text">gitbook init</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#gitbook-serve"><span class="nav-number">2.1.2.</span> <span class="nav-text">gitbook serve</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#常用命令"><span class="nav-number">2.1.3.</span> <span class="nav-text">常用命令</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#高级"><span class="nav-number">2.2.</span> <span class="nav-text">高级</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#book-json"><span class="nav-number">2.2.1.</span> <span class="nav-text">book.json</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#封面"><span class="nav-number">2.2.2.</span> <span class="nav-text">封面</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#插件"><span class="nav-number">2.2.3.</span> <span class="nav-text">插件</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#写书必备的工具"><span class="nav-number">1.</span> <span class="nav-text">写书必备的工具</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#资源"><span class="nav-number">1.1.</span> <span class="nav-text">资源</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#step-by-step"><span class="nav-number">2.</span> <span class="nav-text">step by step</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#初级"><span class="nav-number">2.1.</span> <span class="nav-text">初级</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#gitbook-init"><span class="nav-number">2.1.1.</span> <span class="nav-text">gitbook init</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#gitbook-serve"><span class="nav-number">2.1.2.</span> <span class="nav-text">gitbook serve</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#常用命令"><span class="nav-number">2.1.3.</span> <span class="nav-text">常用命令</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#高级"><span class="nav-number">2.2.</span> <span class="nav-text">高级</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#book-json"><span class="nav-number">2.2.1.</span> <span class="nav-text">book.json</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#封面"><span class="nav-number">2.2.2.</span> <span class="nav-text">封面</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#插件"><span class="nav-number">2.2.3.</span> <span class="nav-text">插件</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Edit-2019-5-20-update"><span class="nav-number">3.</span> <span class="nav-text">Edit: 2019.5.20 update</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装command-line-gitbook"><span class="nav-number">3.1.</span> <span class="nav-text">安装command line gitbook</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装插件"><span class="nav-number">3.2.</span> <span class="nav-text">安装插件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#build书籍"><span class="nav-number">3.3.</span> <span class="nav-text">build书籍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#生成pdf"><span class="nav-number">3.4.</span> <span class="nav-text">生成pdf</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -740,7 +758,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共160.1k字</span>
+  <span class="post-count">博客全站共160.5k字</span>
 </div>
 
         
