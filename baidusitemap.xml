@@ -4,6 +4,36 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2019/04/23/my_application_story/</loc>
+    <lastmod>2019-05-30T12:29:27.398Z</lastmod>
+    <data>
+        <display>
+        <title>我的申请故事</title>
+        <pubTime>2019-04-22T16:30:44.000Z</pubTime>
+        
+        <tag>life</tag>
+         
+        <tag>deep learning</tag>
+         
+        <tag>bioinformatics</tag>
+         
+        <tag>medical image</tag>
+         
+        <tag>school</tag>
+         
+        <tag>EE</tag>
+         
+         
+           
+             
+              <breadCrumb title="life" url="https://www.cmwonderland.com/blog/blog/categories/life/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/05/04/35_gitbook/</loc>
     <lastmod>2019-05-21T12:24:13.848Z</lastmod>
     <data>
@@ -93,11 +123,11 @@
          
         <tag>bioinformatics</tag>
          
+        <tag>thesis</tag>
+         
         <tag>projects</tag>
          
         <tag>exseek</tag>
-         
-        <tag>thesis</tag>
          
         <tag>biomarker</tag>
          
@@ -123,11 +153,11 @@
          
         <tag>economics</tag>
          
-        <tag>thesis</tag>
-         
         <tag>interpolation</tag>
          
         <tag>3D plot</tag>
+         
+        <tag>thesis</tag>
          
          
            
@@ -270,36 +300,6 @@
 
     
   <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2019/04/23/my_application_story/</loc>
-    <lastmod>2019-04-23T14:37:38.195Z</lastmod>
-    <data>
-        <display>
-        <title>我的申请故事</title>
-        <pubTime>2019-04-22T16:30:44.000Z</pubTime>
-        
-        <tag>life</tag>
-         
-        <tag>deep learning</tag>
-         
-        <tag>bioinformatics</tag>
-         
-        <tag>medical image</tag>
-         
-        <tag>school</tag>
-         
-        <tag>EE</tag>
-         
-         
-           
-             
-              <breadCrumb title="life" url="https://www.cmwonderland.com/blog/blog/categories/life/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/10/10/100_summer_intern/</loc>
     <lastmod>2019-04-23T13:07:13.978Z</lastmod>
     <data>
@@ -403,11 +403,11 @@
         
         <tag>codes</tag>
          
+        <tag>statistics</tag>
+         
         <tag>R</tag>
          
         <tag>assignment</tag>
-         
-        <tag>statistics</tag>
          
         <tag>linear regression</tag>
          
@@ -585,11 +585,11 @@
         
         <tag>codes</tag>
          
+        <tag>statistics</tag>
+         
         <tag>R</tag>
          
         <tag>assignment</tag>
-         
-        <tag>statistics</tag>
          
         <tag>linear regression</tag>
          
@@ -613,11 +613,11 @@
         
         <tag>codes</tag>
          
+        <tag>statistics</tag>
+         
         <tag>R</tag>
          
         <tag>assignment</tag>
-         
-        <tag>statistics</tag>
          
         <tag>linear regression</tag>
          
@@ -711,11 +711,11 @@
         
         <tag>codes</tag>
          
+        <tag>statistics</tag>
+         
         <tag>R</tag>
          
         <tag>assignment</tag>
-         
-        <tag>statistics</tag>
          
         <tag>linear regression</tag>
          
@@ -915,11 +915,11 @@
         
         <tag>codes</tag>
          
+        <tag>statistics</tag>
+         
         <tag>R</tag>
          
         <tag>assignment</tag>
-         
-        <tag>statistics</tag>
          
         <tag>linear regression</tag>
          
@@ -1001,11 +1001,11 @@
         
         <tag>codes</tag>
          
+        <tag>statistics</tag>
+         
         <tag>R</tag>
          
         <tag>assignment</tag>
-         
-        <tag>statistics</tag>
          
         <tag>linear regression</tag>
          
@@ -1053,11 +1053,11 @@
         
         <tag>codes</tag>
          
+        <tag>statistics</tag>
+         
         <tag>R</tag>
          
         <tag>assignment</tag>
-         
-        <tag>statistics</tag>
          
         <tag>linear regression</tag>
          
@@ -1105,11 +1105,11 @@
         
         <tag>codes</tag>
          
+        <tag>statistics</tag>
+         
         <tag>R</tag>
          
         <tag>assignment</tag>
-         
-        <tag>statistics</tag>
          
         <tag>linear regression</tag>
          
@@ -1135,9 +1135,9 @@
          
         <tag>codes</tag>
          
-        <tag>statistics</tag>
-         
         <tag>economics</tag>
+         
+        <tag>statistics</tag>
          
          
            
@@ -1187,11 +1187,11 @@
         
         <tag>codes</tag>
          
+        <tag>statistics</tag>
+         
         <tag>R</tag>
          
         <tag>assignment</tag>
-         
-        <tag>statistics</tag>
          
         <tag>linear regression</tag>
          
@@ -1291,11 +1291,11 @@
         
         <tag>codes</tag>
          
+        <tag>statistics</tag>
+         
         <tag>R</tag>
          
         <tag>assignment</tag>
-         
-        <tag>statistics</tag>
          
         <tag>linear regression</tag>
          
@@ -1319,11 +1319,11 @@
         
         <tag>codes</tag>
          
+        <tag>statistics</tag>
+         
         <tag>R</tag>
          
         <tag>assignment</tag>
-         
-        <tag>statistics</tag>
          
          
            
@@ -1475,11 +1475,11 @@
         
         <tag>codes</tag>
          
+        <tag>statistics</tag>
+         
         <tag>R</tag>
          
         <tag>assignment</tag>
-         
-        <tag>statistics</tag>
          
         <tag>linear regression</tag>
          
@@ -1555,11 +1555,11 @@
         
         <tag>codes</tag>
          
+        <tag>statistics</tag>
+         
         <tag>R</tag>
          
         <tag>assignment</tag>
-         
-        <tag>statistics</tag>
          
         <tag>linear regression</tag>
          
@@ -1607,11 +1607,11 @@
         
         <tag>codes</tag>
          
+        <tag>statistics</tag>
+         
         <tag>R</tag>
          
         <tag>assignment</tag>
-         
-        <tag>statistics</tag>
          
         <tag>linear regression</tag>
          
@@ -1741,11 +1741,11 @@
         
         <tag>codes</tag>
          
+        <tag>statistics</tag>
+         
         <tag>R</tag>
          
         <tag>assignment</tag>
-         
-        <tag>statistics</tag>
          
         <tag>linear regression</tag>
          
@@ -1839,11 +1839,11 @@
         
         <tag>codes</tag>
          
+        <tag>statistics</tag>
+         
         <tag>R</tag>
          
         <tag>assignment</tag>
-         
-        <tag>statistics</tag>
          
         <tag>linear regression</tag>
          
@@ -1972,6 +1972,34 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2018/05/16/51_multi1/</loc>
+    <lastmod>2019-04-23T13:07:13.883Z</lastmod>
+    <data>
+        <display>
+        <title>Multivariate Statistics Assignment 4</title>
+        <pubTime>2018-05-16T04:59:19.000Z</pubTime>
+        
+        <tag>codes</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>R</tag>
+         
+        <tag>assignment</tag>
+         
+        <tag>linear regression</tag>
+         
+         
+           
+             
+              <breadCrumb title="school work" url="https://www.cmwonderland.com/blog/blog/categories/school-work/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2018/12/20/research_summary/</loc>
     <lastmod>2019-04-23T13:07:13.883Z</lastmod>
     <data>
@@ -1997,34 +2025,6 @@
            
              
               <breadCrumb title="projects" url="https://www.cmwonderland.com/blog/blog/categories/projects/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2018/05/16/51_multi1/</loc>
-    <lastmod>2019-04-23T13:07:13.883Z</lastmod>
-    <data>
-        <display>
-        <title>Multivariate Statistics Assignment 4</title>
-        <pubTime>2018-05-16T04:59:19.000Z</pubTime>
-        
-        <tag>codes</tag>
-         
-        <tag>R</tag>
-         
-        <tag>assignment</tag>
-         
-        <tag>statistics</tag>
-         
-        <tag>linear regression</tag>
-         
-         
-           
-             
-              <breadCrumb title="school work" url="https://www.cmwonderland.com/blog/blog/categories/school-work/"/>
           
         </display>
     </data>
@@ -2167,11 +2167,11 @@
         
         <tag>codes</tag>
          
+        <tag>statistics</tag>
+         
         <tag>R</tag>
          
         <tag>assignment</tag>
-         
-        <tag>statistics</tag>
          
         <tag>linear regression</tag>
          
@@ -2195,11 +2195,11 @@
         
         <tag>codes</tag>
          
+        <tag>statistics</tag>
+         
         <tag>R</tag>
          
         <tag>assignment</tag>
-         
-        <tag>statistics</tag>
          
         <tag>linear regression</tag>
          
@@ -2251,11 +2251,11 @@
         
         <tag>codes</tag>
          
+        <tag>statistics</tag>
+         
         <tag>R</tag>
          
         <tag>assignment</tag>
-         
-        <tag>statistics</tag>
          
         <tag>linear regression</tag>
          
@@ -2303,11 +2303,11 @@
         
         <tag>codes</tag>
          
+        <tag>statistics</tag>
+         
         <tag>R</tag>
          
         <tag>assignment</tag>
-         
-        <tag>statistics</tag>
          
         <tag>linear regression</tag>
          
