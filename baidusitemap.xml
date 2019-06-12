@@ -4,6 +4,38 @@
 
     
   <url>
+    <loc>https://www.cmwonderland.com/blog/blog/2019/04/29/52_undergraduate_thesis/</loc>
+    <lastmod>2019-06-12T10:05:05.051Z</lastmod>
+    <data>
+        <display>
+        <title>Undergraduate Thesis</title>
+        <pubTime>2019-04-29T08:59:19.000Z</pubTime>
+        
+        <tag>codes</tag>
+         
+        <tag>python</tag>
+         
+        <tag>bioinformatics</tag>
+         
+        <tag>projects</tag>
+         
+        <tag>exseek</tag>
+         
+        <tag>thesis</tag>
+         
+        <tag>biomarker</tag>
+         
+         
+           
+             
+              <breadCrumb title="school work" url="https://www.cmwonderland.com/blog/blog/categories/school-work/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2019/06/12/my_undergraduate_story/</loc>
     <lastmod>2019-06-12T09:59:27.503Z</lastmod>
     <data>
@@ -132,38 +164,6 @@
 
     
   <url>
-    <loc>https://www.cmwonderland.com/blog/blog/2019/04/29/52_undergraduate_thesis/</loc>
-    <lastmod>2019-05-11T15:35:18.624Z</lastmod>
-    <data>
-        <display>
-        <title>Undergraduate Thesis</title>
-        <pubTime>2019-04-29T08:59:19.000Z</pubTime>
-        
-        <tag>codes</tag>
-         
-        <tag>python</tag>
-         
-        <tag>bioinformatics</tag>
-         
-        <tag>thesis</tag>
-         
-        <tag>projects</tag>
-         
-        <tag>exseek</tag>
-         
-        <tag>biomarker</tag>
-         
-         
-           
-             
-              <breadCrumb title="school work" url="https://www.cmwonderland.com/blog/blog/categories/school-work/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://www.cmwonderland.com/blog/blog/2019/04/23/52_NS_model/</loc>
     <lastmod>2019-05-04T17:21:25.184Z</lastmod>
     <data>
@@ -175,11 +175,11 @@
          
         <tag>economics</tag>
          
+        <tag>thesis</tag>
+         
         <tag>interpolation</tag>
          
         <tag>3D plot</tag>
-         
-        <tag>thesis</tag>
          
          
            
