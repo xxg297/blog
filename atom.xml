@@ -75,13 +75,16 @@
     <link href="https://www.cmwonderland.com/blog/2019/04/29/52_undergraduate_thesis/"/>
     <id>https://www.cmwonderland.com/blog/2019/04/29/52_undergraduate_thesis/</id>
     <published>2019-04-29T08:59:19.000Z</published>
-    <updated>2019-06-12T10:14:16.062Z</updated>
+    <updated>2019-06-13T15:38:52.604Z</updated>
     
-    <content type="html"><![CDATA[<p>My undergraduate thesis</p><a id="more"></a><p>It is a relatively “pleasant” and relaxing thing for me. Since I have devoted and contributed a lot to the exSEEK project, I didn’t need to do a lot more on my undergraduate thesis.</p><h2 id="my-preparation"><a href="#my-preparation" class="headerlink" title="my preparation"></a>my preparation</h2><ul><li>setting up vscode+latex environment</li><li>thuthesis $\LaTeX$ template, <a href="https://github.com/xueruini/thuthesis" target="_blank" rel="noopener">chn and eng version</a></li></ul><h2 id="midterm-presentation"><a href="#midterm-presentation" class="headerlink" title="midterm presentation"></a>midterm presentation</h2><p>a good feedback from the committe (since I have prepared, practices and refined all this a long time)<br><div class="row"><iframe src="https://drive.google.com/file/d/151oiolbWfQ5Ssp4HF_jYXrqwMTE3KG86/preview" style="width:100%; height:550px"></iframe></div></p><h2 id="thesis"><a href="#thesis" class="headerlink" title="thesis"></a>thesis</h2><div class="row">    <embed src="https://www.cmwonderland.com/blog/chinese_thesis.pdf" width="100%" height="550" type="application/pdf"></div><h2 id="our-software"><a href="#our-software" class="headerlink" title="our software"></a>our software</h2><ul><li>[ ] to be released</li></ul>]]></content>
+    <content type="html"><![CDATA[<p>My undergraduate thesis: exSEEK：A bioinformatics tool for exRNA biomarker discovery </p><blockquote><p>edit (2019-6-13): the final presentation is over, the last step to graduate is over!</p></blockquote><a id="more"></a><p>It is a relatively “pleasant” and relaxing thing for me. Since I have devoted and contributed a lot to the exSEEK project, I didn’t need to do a lot more on my undergraduate thesis.</p><h2 id="my-preparation"><a href="#my-preparation" class="headerlink" title="my preparation"></a>my preparation</h2><ul><li>setting up vscode+latex environment</li><li>thuthesis $\LaTeX$ template, <a href="https://github.com/xueruini/thuthesis" target="_blank" rel="noopener">chn and eng version</a></li></ul><h2 id="midterm-presentation"><a href="#midterm-presentation" class="headerlink" title="midterm presentation"></a>midterm presentation</h2><p>a good feedback from the committe (since I have prepared, practices and refined all this a long time)<br><div class="row"><iframe src="https://drive.google.com/file/d/151oiolbWfQ5Ssp4HF_jYXrqwMTE3KG86/preview" style="width:100%; height:550px"></iframe></div></p><h2 id="thesis"><a href="#thesis" class="headerlink" title="thesis"></a>thesis</h2><div class="row">    <embed src="https://www.cmwonderland.com/blog/chinese_thesis.pdf" width="100%" height="550" type="application/pdf"></div><h2 id="final-presentation"><a href="#final-presentation" class="headerlink" title="final presentation"></a>final presentation</h2><div class="row"><iframe src="https://drive.google.com/file/d/1PlpG4jVdnMwy_wpkB_hASSAPRqaVf50O/preview" style="width:100%; height:550px"></iframe></div><h2 id="our-software"><a href="#our-software" class="headerlink" title="our software"></a>our software</h2><ul><li>[ ] to be released</li></ul>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;My undergraduate thesis&lt;/p&gt;
+      &lt;p&gt;My undergraduate thesis: exSEEK：A bioinformatics tool for exRNA biomarker discovery &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;edit (2019-6-13): the final presentation is over, the last step to graduate is over!&lt;/p&gt;
+&lt;/blockquote&gt;
     
     </summary>
     
