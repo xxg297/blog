@@ -2,16 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.cmwonderland.com/blog/2019/09/03/nyc_first_experience/</loc>
+    <loc>https://www.cmwonderland.com/blog/2019/06/18/travel_bachelor_graduate_5/</loc>
     
-    <lastmod>2019-09-04T03:31:50.493Z</lastmod>
+    <lastmod>2019-09-07T04:57:26.056Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.cmwonderland.com/blog/2019/06/18/travel_bachelor_graduate_4/</loc>
+    
+    <lastmod>2019-09-07T02:12:55.215Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.cmwonderland.com/blog/2019/06/18/travel_bachelor_graduate_3/</loc>
+    
+    <lastmod>2019-09-07T02:10:53.071Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.cmwonderland.com/blog/2019/06/18/travel_bachelor_graduate_2/</loc>
+    
+    <lastmod>2019-09-07T02:01:55.470Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.cmwonderland.com/blog/2019/06/18/travel_bachelor_graduate_1/</loc>
     
-    <lastmod>2019-08-30T18:39:27.767Z</lastmod>
+    <lastmod>2019-09-07T01:57:58.393Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.cmwonderland.com/blog/2019/09/03/nyc_first_experience/</loc>
+    
+    <lastmod>2019-09-04T03:31:50.493Z</lastmod>
     
   </url>
   
@@ -149,14 +177,14 @@
   </url>
   
   <url>
-    <loc>https://www.cmwonderland.com/blog/2018/10/06/55_python_basics/</loc>
+    <loc>https://www.cmwonderland.com/blog/2018/10/06/31_quiz_emaize_tutorial/</loc>
     
     <lastmod>2019-04-23T13:07:13.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.cmwonderland.com/blog/2018/10/06/31_quiz_emaize_tutorial/</loc>
+    <loc>https://www.cmwonderland.com/blog/2018/10/06/55_python_basics/</loc>
     
     <lastmod>2019-04-23T13:07:13.000Z</lastmod>
     
@@ -184,7 +212,7 @@
   </url>
   
   <url>
-    <loc>https://www.cmwonderland.com/blog/2018/05/21/92_death-and-dream/</loc>
+    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_multi2/</loc>
     
     <lastmod>2019-04-23T13:07:13.000Z</lastmod>
     
@@ -261,21 +289,7 @@
   </url>
   
   <url>
-    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_financial/</loc>
-    
-    <lastmod>2019-04-23T13:07:13.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_datamining2/</loc>
-    
-    <lastmod>2019-04-23T13:07:13.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_datamining1/</loc>
+    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_bayes4/</loc>
     
     <lastmod>2019-04-23T13:07:13.000Z</lastmod>
     
@@ -296,20 +310,6 @@
   </url>
   
   <url>
-    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_datamining3/</loc>
-    
-    <lastmod>2019-04-23T13:07:13.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_multi2/</loc>
-    
-    <lastmod>2019-04-23T13:07:13.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.cmwonderland.com/blog/2018/05/23/52_bayes3/</loc>
     
     <lastmod>2019-04-23T13:07:13.000Z</lastmod>
@@ -317,7 +317,14 @@
   </url>
   
   <url>
-    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_bayes4/</loc>
+    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_datamining2/</loc>
+    
+    <lastmod>2019-04-23T13:07:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_datamining3/</loc>
     
     <lastmod>2019-04-23T13:07:13.000Z</lastmod>
     
@@ -331,7 +338,14 @@
   </url>
   
   <url>
-    <loc>https://www.cmwonderland.com/blog/2018/05/22/17_customizeapp/</loc>
+    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_financial/</loc>
+    
+    <lastmod>2019-04-23T13:07:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_datamining1/</loc>
     
     <lastmod>2019-04-23T13:07:13.000Z</lastmod>
     
@@ -345,6 +359,20 @@
   </url>
   
   <url>
+    <loc>https://www.cmwonderland.com/blog/2018/05/22/17_customizeapp/</loc>
+    
+    <lastmod>2019-04-23T13:07:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.cmwonderland.com/blog/2018/05/21/92_death-and-dream/</loc>
+    
+    <lastmod>2019-04-23T13:07:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.cmwonderland.com/blog/2018/05/20/46_line5/</loc>
     
     <lastmod>2019-04-23T13:07:13.000Z</lastmod>
@@ -352,14 +380,14 @@
   </url>
   
   <url>
-    <loc>https://www.cmwonderland.com/blog/2018/05/20/45_line4/</loc>
+    <loc>https://www.cmwonderland.com/blog/2018/05/20/47_line6/</loc>
     
     <lastmod>2019-04-23T13:07:13.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.cmwonderland.com/blog/2018/05/20/47_line6/</loc>
+    <loc>https://www.cmwonderland.com/blog/2018/05/20/45_line4/</loc>
     
     <lastmod>2019-04-23T13:07:13.000Z</lastmod>
     
@@ -506,14 +534,14 @@
   </url>
   
   <url>
-    <loc>https://www.cmwonderland.com/blog/2018/04/16/41_line0/</loc>
+    <loc>https://www.cmwonderland.com/blog/2018/04/16/50_multi0/</loc>
     
     <lastmod>2019-04-23T13:07:13.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.cmwonderland.com/blog/2018/04/16/50_multi0/</loc>
+    <loc>https://www.cmwonderland.com/blog/2018/04/16/41_line0/</loc>
     
     <lastmod>2019-04-23T13:07:13.000Z</lastmod>
     
