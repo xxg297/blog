@@ -18,7 +18,7 @@ function update_captions(){
     captions = [
     "<span style='font-size:13px;display:inline-block;line-height:13px;vertical-align:middle'>Stranger</span>",
     "<span style='font-size:13px;display:inline-block;line-height:13px;vertical-align:middle'>Classmate</span>",
-    "<span style='font-size:18px;display:inline-block;line-height:13px;vertical-align:middle'>Neighboring girl</span>",
+    "<span style='font-size:13px;display:inline-block;line-height:13px;vertical-align:middle'>Neighboring girl</span>",
     "<span style='font-size:13px;display:inline-block;line-height:13px;vertical-align:middle'>SMS receiver</span>",
       "<span style='font-size:13px;display:inline-block;line-height:13px;vertical-align:middle'>morning Morning</span>",
       "<span style='font-size:13px;display:inline-block;line-height:13px;vertical-align:middle'>Mengmeng</span>",
