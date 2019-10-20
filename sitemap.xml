@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.cmwonderland.com/blog/2019/10/20/104_mengmeng_2048/</loc>
+    
+    <lastmod>2019-10-20T18:06:24.314Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.cmwonderland.com/blog/2019/09/29/103_china_70/</loc>
     
     <lastmod>2019-09-29T06:12:20.893Z</lastmod>
@@ -191,14 +198,14 @@
   </url>
   
   <url>
-    <loc>https://www.cmwonderland.com/blog/2018/10/06/31_quiz_emaize_tutorial/</loc>
+    <loc>https://www.cmwonderland.com/blog/2018/10/06/55_python_basics/</loc>
     
     <lastmod>2019-04-23T13:07:13.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.cmwonderland.com/blog/2018/10/06/55_python_basics/</loc>
+    <loc>https://www.cmwonderland.com/blog/2018/10/06/31_quiz_emaize_tutorial/</loc>
     
     <lastmod>2019-04-23T13:07:13.000Z</lastmod>
     
@@ -226,7 +233,7 @@
   </url>
   
   <url>
-    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_multi2/</loc>
+    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_bayes3/</loc>
     
     <lastmod>2019-04-23T13:07:13.000Z</lastmod>
     
@@ -303,35 +310,7 @@
   </url>
   
   <url>
-    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_bayes4/</loc>
-    
-    <lastmod>2019-04-23T13:07:13.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_datamining1/</loc>
-    
-    <lastmod>2019-04-23T13:07:13.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_bayes3/</loc>
-    
-    <lastmod>2019-04-23T13:07:13.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_datamining3/</loc>
-    
-    <lastmod>2019-04-23T13:07:13.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_bayes2/</loc>
+    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_multi2/</loc>
     
     <lastmod>2019-04-23T13:07:13.000Z</lastmod>
     
@@ -352,7 +331,28 @@
   </url>
   
   <url>
-    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_datamining4/</loc>
+    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_bayes2/</loc>
+    
+    <lastmod>2019-04-23T13:07:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_datamining1/</loc>
+    
+    <lastmod>2019-04-23T13:07:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_datamining2/</loc>
+    
+    <lastmod>2019-04-23T13:07:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_datamining3/</loc>
     
     <lastmod>2019-04-23T13:07:13.000Z</lastmod>
     
@@ -366,7 +366,14 @@
   </url>
   
   <url>
-    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_datamining2/</loc>
+    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_datamining4/</loc>
+    
+    <lastmod>2019-04-23T13:07:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.cmwonderland.com/blog/2018/05/23/52_bayes4/</loc>
     
     <lastmod>2019-04-23T13:07:13.000Z</lastmod>
     

@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://www.cmwonderland.com/blog/"/>
-  <updated>2019-09-29T06:12:20.893Z</updated>
+  <updated>2019-10-20T18:06:24.314Z</updated>
   <id>https://www.cmwonderland.com/blog/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MengMeng 2048</title>
+    <link href="https://www.cmwonderland.com/blog/2019/10/20/104_mengmeng_2048/"/>
+    <id>https://www.cmwonderland.com/blog/2019/10/20/104_mengmeng_2048/</id>
+    <published>2019-10-20T05:58:06.000Z</published>
+    <updated>2019-10-20T18:06:24.314Z</updated>
+    
+    <content type="html"><![CDATA[<p>昨天看到同学在群里分享了一个很好玩的游戏，叫<a href="https://ymfa.github.io/phd-2048/" target="_blank" rel="noopener">PhD 2048</a>，我就在上面做了些DIY改了一个mengmeng 2048出来</p><a id="more"></a><p>找到作者的repo: <a href="https://github.com/ymfa/phd-2048,其实改起来很简单了，主要动js下面的i18n.js，DIY成自己的就好了，开头部分是两种分辨率下的英文名称，后面的中文的名称也替换一下，改一下说明，然后改一下index.html的一些相关部分，换一下icon和其他配套的图（不知道为什么没有生效），然后部署到网站上就可以啦。" target="_blank" rel="noopener">https://github.com/ymfa/phd-2048,其实改起来很简单了，主要动js下面的i18n.js，DIY成自己的就好了，开头部分是两种分辨率下的英文名称，后面的中文的名称也替换一下，改一下说明，然后改一下index.html的一些相关部分，换一下icon和其他配套的图（不知道为什么没有生效），然后部署到网站上就可以啦。</a></p><p>最后的效果是这样的~<a href="https://www.cmwonderland.com/blog/mengmeng-2048/">MengMeng 2048</a></p><p>孟孟说很好玩，她只玩到了lover，就是512的程度，其实上面还有好几个呢，(<em>^▽^</em>)</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;昨天看到同学在群里分享了一个很好玩的游戏，叫&lt;a href=&quot;https://ymfa.github.io/phd-2048/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;PhD 2048&lt;/a&gt;，我就在上面做了些DIY改了一个mengmeng 2048出来&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="life" scheme="https://www.cmwonderland.com/blog/categories/life/"/>
+    
+    
+      <category term="Life" scheme="https://www.cmwonderland.com/blog/tags/Life/"/>
+    
+      <category term="Mengmeng" scheme="https://www.cmwonderland.com/blog/tags/Mengmeng/"/>
+    
+      <category term="girlfriend" scheme="https://www.cmwonderland.com/blog/tags/girlfriend/"/>
+    
+  </entry>
   
   <entry>
     <title>我和我的祖国</title>
@@ -293,9 +319,9 @@
       <category term="life" scheme="https://www.cmwonderland.com/blog/categories/life/"/>
     
     
-      <category term="school" scheme="https://www.cmwonderland.com/blog/tags/school/"/>
-    
       <category term="girlfriend" scheme="https://www.cmwonderland.com/blog/tags/girlfriend/"/>
+    
+      <category term="school" scheme="https://www.cmwonderland.com/blog/tags/school/"/>
     
       <category term="mengmeng" scheme="https://www.cmwonderland.com/blog/tags/mengmeng/"/>
     
@@ -587,9 +613,9 @@
       <category term="life" scheme="https://www.cmwonderland.com/blog/categories/life/"/>
     
     
-      <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
-    
       <category term="life" scheme="https://www.cmwonderland.com/blog/tags/life/"/>
+    
+      <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
     
       <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
     
@@ -598,34 +624,6 @@
       <category term="school" scheme="https://www.cmwonderland.com/blog/tags/school/"/>
     
       <category term="EE" scheme="https://www.cmwonderland.com/blog/tags/EE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>LaTeX to MathML tool</title>
-    <link href="https://www.cmwonderland.com/blog/2019/03/26/latex2mathml/"/>
-    <id>https://www.cmwonderland.com/blog/2019/03/26/latex2mathml/</id>
-    <published>2019-03-26T12:30:44.000Z</published>
-    <updated>2019-04-23T13:07:13.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>It is a small tool converting LaTeX style code to MathML which can be used in places like word.</p><p><a href="https://www.cmwonderland.com/blog/latex_to_mathml.html">https://www.cmwonderland.com/blog/latex_to_mathml.html</a></p><p><img src="http://i1.fuimg.com/640680/ed21032fb30bef6b.png" alt="Markdown"></p><p><a href="https://github.com/ltbyshi/misc_progs/blob/master/html/latex_to_mathml.html" target="_blank" rel="noopener">Credit to Shi binbin</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;It is a small tool converting LaTeX style code to MathML which can be used in places like word.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.cmwonderland.
-      
-    
-    </summary>
-    
-      <category term="techniques" scheme="https://www.cmwonderland.com/blog/categories/techniques/"/>
-    
-    
-      <category term="techniques" scheme="https://www.cmwonderland.com/blog/tags/techniques/"/>
-    
-      <category term="tools" scheme="https://www.cmwonderland.com/blog/tags/tools/"/>
     
   </entry>
   
