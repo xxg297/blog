@@ -126,7 +126,13 @@ function determine_zh_var(){
 
 function use_simplified(){
   captions = ["陌生人", "同学",
-  "邻班妹子", "SMS另一端", "情书收信人","<span style='display:inline-block;line-height:30px;vertical-align:middle'>早安<br>晨曦</span>", "孟孟","女朋友", "Lover", "十八岁小可爱", "朵朵", "宝贝",
+  "邻班妹子", 
+  "<span style='display:inline-block;line-height:25px;vertical-align:middle'>SMS另一端</span>",
+  "<span style='display:inline-block;line-height:25px;vertical-align:middle'>情书收信人</span>",
+  "<span style='display:inline-block;line-height:30px;vertical-align:middle'>早安<br>晨曦</span>",
+   "孟孟","女朋友", "Lover", 
+   "<span style='display:inline-block;line-height:22px;vertical-align:middle'>十八岁小可爱</span>",
+    "朵朵", "宝贝",
 "朵宝", "老婆", "一生一世", "forever"];
   captions_rel = ["恋爱", "分手"];
   caption_garbage = "空气";
@@ -140,7 +146,13 @@ function use_simplified(){
 
 function use_traditional(){
   captions = ["陌生人", "同学",
-  "邻班妹子", "SMS另一端", "情书收信人","<span style='display:inline-block;line-height:30px;vertical-align:middle'>早安<br>晨曦</span>", "孟孟","女朋友", "Lover", "十八岁小可爱", "朵朵", "宝贝",
+  "邻班妹子", 
+  "<span style='display:inline-block;line-height:25px;vertical-align:middle'>SMS另一端</span>",
+  "<span style='display:inline-block;line-height:25px;vertical-align:middle'>情书收信人</span>",
+  "<span style='display:inline-block;line-height:30px;vertical-align:middle'>早安<br>晨曦</span>",
+   "孟孟","女朋友", "Lover", 
+   "<span style='display:inline-block;line-height:22px;vertical-align:middle'>十八岁小可爱</span>",
+    "朵朵", "宝贝",
 "朵宝", "老婆", "一生一世", "forever"];
   captions_rel = ["戀愛", "分手"];
   caption_garbage = "空气";
