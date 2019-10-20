@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://www.cmwonderland.com/blog/"/>
-  <updated>2019-10-20T18:06:24.314Z</updated>
+  <updated>2019-10-20T18:13:50.189Z</updated>
   <id>https://www.cmwonderland.com/blog/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://www.cmwonderland.com/blog/2019/10/20/104_mengmeng_2048/"/>
     <id>https://www.cmwonderland.com/blog/2019/10/20/104_mengmeng_2048/</id>
     <published>2019-10-20T05:58:06.000Z</published>
-    <updated>2019-10-20T18:06:24.314Z</updated>
+    <updated>2019-10-20T18:13:50.189Z</updated>
     
-    <content type="html"><![CDATA[<p>昨天看到同学在群里分享了一个很好玩的游戏，叫<a href="https://ymfa.github.io/phd-2048/" target="_blank" rel="noopener">PhD 2048</a>，我就在上面做了些DIY改了一个mengmeng 2048出来</p><a id="more"></a><p>找到作者的repo: <a href="https://github.com/ymfa/phd-2048,其实改起来很简单了，主要动js下面的i18n.js，DIY成自己的就好了，开头部分是两种分辨率下的英文名称，后面的中文的名称也替换一下，改一下说明，然后改一下index.html的一些相关部分，换一下icon和其他配套的图（不知道为什么没有生效），然后部署到网站上就可以啦。" target="_blank" rel="noopener">https://github.com/ymfa/phd-2048,其实改起来很简单了，主要动js下面的i18n.js，DIY成自己的就好了，开头部分是两种分辨率下的英文名称，后面的中文的名称也替换一下，改一下说明，然后改一下index.html的一些相关部分，换一下icon和其他配套的图（不知道为什么没有生效），然后部署到网站上就可以啦。</a></p><p>最后的效果是这样的~<a href="https://www.cmwonderland.com/blog/mengmeng-2048/">MengMeng 2048</a></p><p>孟孟说很好玩，她只玩到了lover，就是512的程度，其实上面还有好几个呢，(<em>^▽^</em>)</p>]]></content>
+    <content type="html"><![CDATA[<p>昨天看到同学在群里分享了一个很好玩的游戏，叫<a href="https://ymfa.github.io/phd-2048/" target="_blank" rel="noopener">PhD 2048</a>，我就在上面做了些DIY改了一个mengmeng 2048出来</p><a id="more"></a><p>找到作者的<a href="https://github.com/ymfa/phd-2048" target="_blank" rel="noopener">repo</a>，其实改起来很简单了，主要动js下面的i18n.js，DIY成自己的就好了，开头部分是两种分辨率下的英文名称，后面的中文的名称也替换一下，改一下说明，然后改一下index.html的一些相关部分，换一下icon和其他配套的图（不知道为什么没有生效），然后部署到网站上就可以啦。</p><p>最后的效果是这样的~<a href="https://www.cmwonderland.com/blog/mengmeng-2048/">MengMeng 2048</a></p><p>孟孟说很浪漫，”一步一步推进的时候我的心一直冒粉红泡泡“，不过她只玩到了lover，就是512的程度，其实接下来还有好几个呢(<em>^▽^</em>)，我试了几把发现自己更菜，主要是air的设定以及恋爱分手的升降级不太好掌控。</p>]]></content>
     
     <summary type="html">
     
@@ -613,9 +613,9 @@
       <category term="life" scheme="https://www.cmwonderland.com/blog/categories/life/"/>
     
     
-      <category term="life" scheme="https://www.cmwonderland.com/blog/tags/life/"/>
-    
       <category term="deep learning" scheme="https://www.cmwonderland.com/blog/tags/deep-learning/"/>
+    
+      <category term="life" scheme="https://www.cmwonderland.com/blog/tags/life/"/>
     
       <category term="bioinformatics" scheme="https://www.cmwonderland.com/blog/tags/bioinformatics/"/>
     
