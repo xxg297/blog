@@ -1,33 +1,33 @@
 function update_captions(){
   if(window.innerWidth < 520){
     captions = [
-    "<span style='display:inline-block;line-height:11px;vertical-align:middle'>Stranger</span>",
-    "<span style='display:inline-block;line-height:11px;vertical-align:middle'>Classmate</span>",
-    "<span style='display:inline-block;line-height:11px;vertical-align:middle'>Neighboring girl</span>",
-    "<span style='display:inline-block;line-height:11px;vertical-align:middle'>SMS receiver</span>",
-      "<span style='display:inline-block;line-height:11px;vertical-align:middle'>morning Morning</span>",
-      "<span style='font-size:11px;display:inline-block;line-height:11px;vertical-align:middle'>Mengmeng</span>",
-      "<span style='font-size:11px'>girl friend</span>", "Lover",
-      "<span style='font-size:11px'>Cutie 18</span>", "Duoduo", "Babe",
+    "<span style='display:inline-block;line-height:7px;vertical-align:middle'>Stranger</span>",
+    "<span style='display:inline-block;line-height:7px;vertical-align:middle'>Classmate</span>",
+    "<span style='display:inline-block;line-height:7px;vertical-align:middle'>Neighboring girl</span>",
+    "<span style='display:inline-block;line-height:7px;vertical-align:middle'>SMS receiver</span>",
+      "<span style='display:inline-block;line-height:7px;vertical-align:middle'>morning Morning</span>",
+      "<span style='font-size:7px;display:inline-block;line-height:7px;vertical-align:middle'>Mengmeng</span>",
+      "<span style='font-size:7px'>girl friend</span>", "Lover",
+      "<span style='font-size:7px'>Cutie 18</span>", "Duoduo", "Babe",
       "<span style='font-size:smaller'>Duobao</span>",
       "<span style='font-size:smaller'>Wife</span>", "Lifelong", "Forever"];
     captions_rel = ["<span style='font-size:9px;'>Relationship</span>",
-      "<span style='font-size:11px;'>Break-up</span>"];
+      "<span style='font-size:7px;'>Break-up</span>"];
   }
   else{
     captions = [
-    "<span style='font-size:20px;display:inline-block;line-height:20px;vertical-align:middle'>Stranger</span>",
-    "<span style='font-size:20px;display:inline-block;line-height:20px;vertical-align:middle'>Classmate</span>",
-    "<span style='font-size:18px;display:inline-block;line-height:20px;vertical-align:middle'>Neighboring girl</span>",
-    "<span style='font-size:20px;display:inline-block;line-height:20px;vertical-align:middle'>SMS receiver</span>",
-      "<span style='font-size:24px;display:inline-block;line-height:24px;vertical-align:middle'>morning Morning</span>",
-      "<span style='font-size:20px;display:inline-block;line-height:20px;vertical-align:middle'>Mengmeng</span>",
-      "<span style='font-size:20px'>girl friend</span>", "Lover",
-      "<span style='font-size:20px'>Cutie 18</span>", "Duoduo", "Babe",
+    "<span style='font-size:13px;display:inline-block;line-height:13px;vertical-align:middle'>Stranger</span>",
+    "<span style='font-size:13px;display:inline-block;line-height:13px;vertical-align:middle'>Classmate</span>",
+    "<span style='font-size:18px;display:inline-block;line-height:13px;vertical-align:middle'>Neighboring girl</span>",
+    "<span style='font-size:13px;display:inline-block;line-height:13px;vertical-align:middle'>SMS receiver</span>",
+      "<span style='font-size:13px;display:inline-block;line-height:13px;vertical-align:middle'>morning Morning</span>",
+      "<span style='font-size:13px;display:inline-block;line-height:13px;vertical-align:middle'>Mengmeng</span>",
+      "<span style='font-size:13px'>girl friend</span>", "Lover",
+      "<span style='font-size:13px'>Cutie 18</span>", "Duoduo", "Babe",
       "<span style='font-size:smaller'>Duobao</span>",
       "<span style='font-size:smaller'>Wife</span>", "Lifelong", "Forever"];
     captions_rel = ["<span style='font-size:15px;'>Relationship</span>",
-      "<span style='font-size:20px;'>Break-up</span>"];
+      "<span style='font-size:13px;'>Break-up</span>"];
   }
 }
 
