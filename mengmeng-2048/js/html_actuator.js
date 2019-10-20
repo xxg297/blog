@@ -150,13 +150,14 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 
 HTMLActuator.prototype.message = function (ended) {
   var type    = ended ? "game-won" : "game-over";
-  var message = window.game.won ? result_msg + "PhD!" : result_msg + "<abbr title='Certificate of Postgraduate Studies'>CPGS</abbr>!";
+  var message = window.game.won ? result_msg + "DuoDuo!" : result_msg + "<abbr title='Certificate of Love'>CL</abbr>!";
   if(!window.game.won) {
-    if(window.game.maxTile >= 1024) message = "One step away!";
-    else if(window.game.maxTile >= 512) message = "Not bad!";
+    if(window.game.maxTile >= 1024) message = "One step away from DuoDuo!";
+    else if(window.game.maxTile >= 512) message = "Hey, she is your lover!";
+    else if(window.game.maxTile >= 256) message = "Make her more than girlfriend!";
   }
   else if(window.game.maxTile > 2048) {
-    message = result_msg + val2caption(window.game.maxTile) + "!";
+    message = result_msg + "Your Lifelong Love, Congratulations!";
   }
 
   this.messageContainer.classList.add(type);
@@ -182,7 +183,7 @@ HTMLActuator.prototype.refreshRel = function (remainingTime) {
   }
   else{
     this.titleBar.textContent = game_title;
-    this.statusBar.textContent = "Move the bricks to complete your PhD.";
+    this.statusBar.textContent = "Move the bricks to Find Your Love!";
     this.progressBar.textContent = "";
     this.progressBar.style.display = "none";
     this.progressBar.style.width = "0";
