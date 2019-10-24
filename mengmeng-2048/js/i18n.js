@@ -136,7 +136,7 @@ function use_simplified(){
 "朵宝", "老婆", "一生一世", "forever"];
   captions_rel = ["恋爱", "分手"];
   caption_garbage = "空气";
-  game_alt_title = "爱";
+  game_alt_title = "Love Rush";
   window.game.actuate();
 
   document.querySelector('.restart-button').textContent = "重新恋爱";

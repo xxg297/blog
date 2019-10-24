@@ -125,7 +125,7 @@ function use_simplified(){
     "薄厚", "僵尸", "Reader", "叫兽"];
   captions_rel = ["恋爱", "分手"];
   caption_garbage = "垃圾";
-  game_alt_title = "爱";
+  game_alt_title = "Love Rush!";
   window.game.actuate();
 
   document.querySelector('.restart-button').textContent = "退学";
