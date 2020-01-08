@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="mengmeng12.github.io/blog/"/>
-  <updated>2020-01-08T13:34:03.231Z</updated>
+  <updated>2020-01-08T13:37:44.424Z</updated>
   <id>mengmeng12.github.io/blog/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="mengmeng12.github.io/blog/2020/01/08/bigdata/"/>
     <id>mengmeng12.github.io/blog/2020/01/08/bigdata/</id>
     <published>2020-01-08T09:58:06.000Z</published>
-    <updated>2020-01-08T13:34:03.231Z</updated>
+    <updated>2020-01-08T13:37:44.424Z</updated>
     
     <content type="html"><![CDATA[<p>This is the final project of Big Data course. You could find the source could here: <a href="https://github.com/mengmeng12/ml_strategy" target="_blank" rel="noopener">https://github.com/mengmeng12/ml_strategy</a></p><a id="more"></a><p>word cloud visualization example:<br><a href="https://mengmeng12.github.io/blog/wc_animation.mp4" target="_blank" rel="noopener">https://mengmeng12.github.io/blog/wc_animation.mp4</a><br><a href="https://mengmeng12.github.io/blog/wc_animation1.mp4" target="_blank" rel="noopener">https://mengmeng12.github.io/blog/wc_animation1.mp4</a><br>codes available <a href="https://github.com/mengmeng12/ml_strategy/blob/master/notebooks/tushare_news.ipynb" target="_blank" rel="noopener">here</a></p>]]></content>
     
@@ -31,12 +31,10 @@
     
     </summary>
     
-      <category term="machine learning" scheme="mengmeng12.github.io/blog/categories/machine-learning/"/>
+      <category term="projects" scheme="mengmeng12.github.io/blog/categories/projects/"/>
     
-      <category term="quant" scheme="mengmeng12.github.io/blog/categories/machine-learning/quant/"/>
     
-      <category term="stock prediction" scheme="mengmeng12.github.io/blog/categories/machine-learning/quant/stock-prediction/"/>
-    
+      <category term="projects" scheme="mengmeng12.github.io/blog/tags/projects/"/>
     
       <category term="machine learning" scheme="mengmeng12.github.io/blog/tags/machine-learning/"/>
     
