@@ -5,10 +5,10 @@
     
   <url>
     <loc>mengmeng12.github.io/blog/blog/2020/01/06/undergraduate_thesis/</loc>
-    <lastmod>2020-01-11T15:18:07.132Z</lastmod>
+    <lastmod>2020-01-11T15:34:48.671Z</lastmod>
     <data>
         <display>
-        <title>Undergraduate Thesis</title>
+        <title>Undergraduate Thesis ** Analysis of the characteristics of China's national debt yield curve and macroeconomic variables**</title>
         <pubTime>2020-01-06T08:59:19.000Z</pubTime>
         
         <tag>projects</tag>
@@ -22,6 +22,8 @@
         <tag>thesis</tag>
          
         <tag>NS model</tag>
+         
+        <tag>economics</tag>
          
          
            
@@ -99,6 +101,34 @@
            
              
               <breadCrumb title="life" url="mengmeng12.github.io/blog/blog/categories/life/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>mengmeng12.github.io/blog/blog/2019/04/23/NS_model/</loc>
+    <lastmod>2019-05-04T17:21:25.000Z</lastmod>
+    <data>
+        <display>
+        <title>Nelson Siegel Model for term structure prediction</title>
+        <pubTime>2019-04-23T10:20:19.000Z</pubTime>
+        
+        <tag>thesis</tag>
+         
+        <tag>girl friend</tag>
+         
+        <tag>economics</tag>
+         
+        <tag>interpolation</tag>
+         
+        <tag>3D plot</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="mengmeng12.github.io/blog/blog/categories/projects/"/>
           
         </display>
     </data>
