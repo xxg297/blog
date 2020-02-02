@@ -11,13 +11,13 @@
         <title>Solution of MCM Problem C</title>
         <pubTime>2020-01-21T14:15:19.000Z</pubTime>
         
-        <tag>machine learning</tag>
-         
         <tag>codes</tag>
          
         <tag>contest</tag>
          
         <tag>math model</tag>
+         
+        <tag>machine learning</tag>
          
         <tag>data science</tag>
          
@@ -41,8 +41,6 @@
         
         <tag>projects</tag>
          
-        <tag>economics</tag>
-         
         <tag>codes</tag>
          
         <tag>finance</tag>
@@ -52,6 +50,8 @@
         <tag>thesis</tag>
          
         <tag>NS model</tag>
+         
+        <tag>economics</tag>
          
          
            
@@ -73,9 +73,9 @@
         
         <tag>projects</tag>
          
-        <tag>web crawl</tag>
-         
         <tag>economics</tag>
+         
+        <tag>web crawl</tag>
          
          
            
@@ -95,9 +95,9 @@
         <title>Extract Countries' Commercial Data</title>
         <pubTime>2020-01-13T04:49:57.000Z</pubTime>
         
-        <tag>economics</tag>
-         
         <tag>codes</tag>
+         
+        <tag>economics</tag>
          
         <tag>statistics</tag>
          
@@ -177,6 +177,58 @@
            
              
               <breadCrumb title="life" url="mengmeng12.github.io/blog/blog/categories/life/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>mengmeng12.github.io/blog/blog/2018/09/28/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/93_gitbook_teaching_book/</loc>
+    <lastmod>2019-05-18T08:46:05.000Z</lastmod>
+    <data>
+        <display>
+        <title>Teaching Book</title>
+        <pubTime>2018-09-28T23:47:25.000Z</pubTime>
+        
+        <tag>life</tag>
+         
+        <tag>teaching</tag>
+         
+        <tag>book</tag>
+         
+        <tag>techniques</tag>
+         
+         
+           
+             
+              <breadCrumb title="book" url="mengmeng12.github.io/blog/blog/categories/book/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>mengmeng12.github.io/blog/blog/2018/10/11/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/93_book_summary/</loc>
+    <lastmod>2019-04-23T13:07:13.000Z</lastmod>
+    <data>
+        <display>
+        <title>Book Summary</title>
+        <pubTime>2018-10-11T23:57:25.000Z</pubTime>
+        
+        <tag>life</tag>
+         
+        <tag>teaching</tag>
+         
+        <tag>book</tag>
+         
+        <tag>techniques</tag>
+         
+         
+           
+             
+              <breadCrumb title="book" url="mengmeng12.github.io/blog/blog/categories/book/"/>
           
         </display>
     </data>
