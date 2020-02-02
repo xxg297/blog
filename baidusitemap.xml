@@ -4,16 +4,46 @@
 
     
   <url>
+    <loc>mengmeng12.github.io/blog/blog/2020/01/21/mcm/</loc>
+    <lastmod>2020-02-02T15:18:55.287Z</lastmod>
+    <data>
+        <display>
+        <title>Solution of MCM Problem C</title>
+        <pubTime>2020-01-21T14:15:19.000Z</pubTime>
+        
+        <tag>machine learning</tag>
+         
+        <tag>contest</tag>
+         
+        <tag>codes</tag>
+         
+        <tag>math model</tag>
+         
+        <tag>data science</tag>
+         
+         
+           
+             
+              <breadCrumb title="projects" url="mengmeng12.github.io/blog/blog/categories/projects/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>mengmeng12.github.io/blog/blog/2020/01/06/undergraduate_thesis/</loc>
     <lastmod>2020-01-12T05:03:29.717Z</lastmod>
     <data>
         <display>
         <title>Undergraduate Thesis Analysis of the characteristics of China's national debt yield curve and macroeconomic variables</title>
-        <pubTime>2020-01-06T08:59:19.000Z</pubTime>
+        <pubTime>2020-01-06T21:59:19.000Z</pubTime>
         
         <tag>projects</tag>
          
         <tag>codes</tag>
+         
+        <tag>economics</tag>
          
         <tag>finance</tag>
          
@@ -22,8 +52,6 @@
         <tag>thesis</tag>
          
         <tag>NS model</tag>
-         
-        <tag>economics</tag>
          
          
            
@@ -41,13 +69,13 @@
     <data>
         <display>
         <title>Crawl company information from crunch and owler</title>
-        <pubTime>2020-01-08T14:58:06.000Z</pubTime>
+        <pubTime>2020-01-09T03:58:06.000Z</pubTime>
         
         <tag>projects</tag>
          
-        <tag>economics</tag>
-         
         <tag>web crawl</tag>
+         
+        <tag>economics</tag>
          
          
            
@@ -65,7 +93,7 @@
     <data>
         <display>
         <title>Extract Countries' Commercial Data</title>
-        <pubTime>2020-01-12T15:49:57.000Z</pubTime>
+        <pubTime>2020-01-13T04:49:57.000Z</pubTime>
         
         <tag>codes</tag>
          
@@ -91,7 +119,7 @@
     <data>
         <display>
         <title>Using machine learning for stock prediction</title>
-        <pubTime>2020-01-08T09:58:06.000Z</pubTime>
+        <pubTime>2020-01-08T22:58:06.000Z</pubTime>
         
         <tag>projects</tag>
          
@@ -117,7 +145,7 @@
     <data>
         <display>
         <title>毕业典礼留念</title>
-        <pubTime>2020-01-10T09:30:44.000Z</pubTime>
+        <pubTime>2020-01-10T22:30:44.000Z</pubTime>
         
         <tag>school</tag>
          
@@ -141,7 +169,7 @@
     <data>
         <display>
         <title>Hello World</title>
-        <pubTime>2020-01-05T09:58:06.000Z</pubTime>
+        <pubTime>2020-01-05T22:58:06.000Z</pubTime>
         
         <tag>Life</tag>
          
