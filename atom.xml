@@ -39,13 +39,13 @@
       <category term="projects" scheme="mengmeng12.github.io/blog/categories/projects/"/>
     
     
+      <category term="machine learning" scheme="mengmeng12.github.io/blog/tags/machine-learning/"/>
+    
       <category term="codes" scheme="mengmeng12.github.io/blog/tags/codes/"/>
     
       <category term="contest" scheme="mengmeng12.github.io/blog/tags/contest/"/>
     
       <category term="math model" scheme="mengmeng12.github.io/blog/tags/math-model/"/>
-    
-      <category term="machine learning" scheme="mengmeng12.github.io/blog/tags/machine-learning/"/>
     
       <category term="data science" scheme="mengmeng12.github.io/blog/tags/data-science/"/>
     
@@ -70,9 +70,9 @@
       <category term="projects" scheme="mengmeng12.github.io/blog/categories/projects/"/>
     
     
-      <category term="codes" scheme="mengmeng12.github.io/blog/tags/codes/"/>
-    
       <category term="economics" scheme="mengmeng12.github.io/blog/tags/economics/"/>
+    
+      <category term="codes" scheme="mengmeng12.github.io/blog/tags/codes/"/>
     
       <category term="statistics" scheme="mengmeng12.github.io/blog/tags/statistics/"/>
     
@@ -179,6 +179,8 @@
     
       <category term="projects" scheme="mengmeng12.github.io/blog/tags/projects/"/>
     
+      <category term="economics" scheme="mengmeng12.github.io/blog/tags/economics/"/>
+    
       <category term="codes" scheme="mengmeng12.github.io/blog/tags/codes/"/>
     
       <category term="finance" scheme="mengmeng12.github.io/blog/tags/finance/"/>
@@ -188,8 +190,6 @@
       <category term="thesis" scheme="mengmeng12.github.io/blog/tags/thesis/"/>
     
       <category term="NS model" scheme="mengmeng12.github.io/blog/tags/NS-model/"/>
-    
-      <category term="economics" scheme="mengmeng12.github.io/blog/tags/economics/"/>
     
   </entry>
   
@@ -212,67 +212,6 @@
     
     
       <category term="Life" scheme="mengmeng12.github.io/blog/tags/Life/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Book Summary</title>
-    <link href="mengmeng12.github.io/blog/2018/10/11/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/93_book_summary/"/>
-    <id>mengmeng12.github.io/blog/2018/10/11/未命名文件夹/93_book_summary/</id>
-    <published>2018-10-11T23:57:25.000Z</published>
-    <updated>2019-04-23T13:07:13.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>I have been responsible for several (part of the ) books. </p><h2 id="Teaching-Book"><a href="#Teaching-Book" class="headerlink" title="Teaching Book"></a>Teaching Book</h2><p>As a TA for Bioinformatics Basic course, I am responsible for writing several chapters in two teaching books.</p><p><a href="https://www.cmwonderland.com/blog/2018/09/28/93_gitbook_teaching_book/" target="_blank" rel="noopener"><strong>Link</strong></a></p><h2 id="High-School-knowledge-and-experience-sharing-book"><a href="#High-School-knowledge-and-experience-sharing-book" class="headerlink" title="High School knowledge and experience sharing book"></a>High School knowledge and experience sharing book</h2><p><a href="https://www.cmwonderland.com/blog/2018/09/29/93_book_high_school/" target="_blank" rel="noopener"><strong>Link</strong></a></p><ul><li>I have invited around 100 elite students writing a book about high school life and their choices and dreams. I managed to publish them and they have been reprinted several times.</li><li>I also organized 6 booklets, purely experience sharing about college entrance exam and high school olympic games.</li></ul><h2 id="Grandpa-Autobiography"><a href="#Grandpa-Autobiography" class="headerlink" title="Grandpa Autobiography"></a>Grandpa Autobiography</h2><p>I typed and organized a small auto-biography of grandpa.</p><p><a href="https://www.cmwonderland.com/blog/2018/05/08/23_autobio/" target="_blank" rel="noopener"><strong>Link</strong></a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;I have been responsible for several (part of the ) books. &lt;/p&gt;
-&lt;h2 id=&quot;Teaching-Book&quot;&gt;&lt;a href=&quot;#Teaching-Book&quot; class=&quot;headerlink&quot; title=&quot;
-      
-    
-    </summary>
-    
-      <category term="book" scheme="mengmeng12.github.io/blog/categories/book/"/>
-    
-    
-      <category term="life" scheme="mengmeng12.github.io/blog/tags/life/"/>
-    
-      <category term="teaching" scheme="mengmeng12.github.io/blog/tags/teaching/"/>
-    
-      <category term="book" scheme="mengmeng12.github.io/blog/tags/book/"/>
-    
-      <category term="techniques" scheme="mengmeng12.github.io/blog/tags/techniques/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Teaching Book</title>
-    <link href="mengmeng12.github.io/blog/2018/09/28/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9/93_gitbook_teaching_book/"/>
-    <id>mengmeng12.github.io/blog/2018/09/28/未命名文件夹/93_gitbook_teaching_book/</id>
-    <published>2018-09-28T23:47:25.000Z</published>
-    <updated>2019-05-18T08:46:05.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>I have written something about bioinformatics skills as part of two books. The <a href="https://legacy.gitbook.com/book/lulab/teaching/details" target="_blank" rel="noopener">basic teaching book</a> is used to teach undergraduate students in <em>Bioinformatics Basic</em> course. I am a teaching assistant of this course this semester. The <a href="https://lulab.gitbook.io/training/" target="_blank" rel="noopener">advanced teaching book</a> is used to teach graduate student and some senior undergraduate students. </p><p>I have spent many time written several chapters of the books. For Basic teaching book I contributed more than 1/3 of the book.</p><a id="more"></a><h2 id="Basic-teaching-book"><a href="#Basic-teaching-book" class="headerlink" title="Basic teaching book"></a>Basic teaching book</h2><p><a href="https://lulab.gitbooks.io/teaching/content/" target="_blank" rel="noopener">Teaching Book Link</a></p><div class="row"><iframe src="https://drive.google.com/file/d/12ZK_YkhD5V0caL5j_saoMiTX6tFa4BHR/preview" style="width:100%; height:550px"></iframe></div><ul><li><p><a href="https://lulab.gitbooks.io/teaching/content/getting-started.html" target="_blank" rel="noopener">getting started docker</a></p></li><li><p><a href="https://lulab.gitbooks.io/teaching/content/part-i.-basic-tools/1.linux-task.html" target="_blank" rel="noopener">linux</a></p></li><li><p><a href="https://lulab.gitbooks.io/teaching/content/appendix/python_tutorial.html" target="_blank" rel="noopener">python</a></p></li><li><p><a href="https://lulab.gitbooks.io/teaching/content/part-iii.-machine-learning-basics/1.simple-machine-learning-basics.html" target="_blank" rel="noopener">machine learning basics</a></p></li><li><p><a href="https://lulab.gitbooks.io/teaching/content/quiz/quiz_emaize/quiz_emaize_tutorial.html" target="_blank" rel="noopener">eMaize</a></p></li><li><a href="https://lulab.gitbooks.io/teaching/content/quiz/quiz_exrna/quiz_exrna_tutorial.html" target="_blank" rel="noopener">exRNA</a></li></ul><h2 id="Advanced-teaching-book"><a href="#Advanced-teaching-book" class="headerlink" title="Advanced teaching book"></a>Advanced teaching book</h2><p><a href="https://lulab.gitbook.io/training/" target="_blank" rel="noopener">Teaching Book Link</a></p><ul><li><a href="https://lulab.gitbook.io/training/part-iii.-case-studies/case-study-2.exseek/2.1-plot-utilities" target="_blank" rel="noopener">plot utilities</a></li><li><a href="https://lulab.gitbook.io/training/part-iii.-case-studies/case-study-2.exseek/2.2.normalization" target="_blank" rel="noopener">matrix processing</a></li><li><a href="https://lulab.gitbook.io/training/part-ii.-machine-learning-skills/3.deep-learning-basics" target="_blank" rel="noopener">deep learning</a></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;I have written something about bioinformatics skills as part of two books. The &lt;a href=&quot;https://legacy.gitbook.com/book/lulab/teaching/details&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;basic teaching book&lt;/a&gt; is used to teach undergraduate students in &lt;em&gt;Bioinformatics Basic&lt;/em&gt; course. I am a teaching assistant of this course this semester. The &lt;a href=&quot;https://lulab.gitbook.io/training/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;advanced teaching book&lt;/a&gt; is used to teach graduate student and some senior undergraduate students. &lt;/p&gt;
-&lt;p&gt;I have spent many time written several chapters of the books. For Basic teaching book I contributed more than 1/3 of the book.&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="book" scheme="mengmeng12.github.io/blog/categories/book/"/>
-    
-    
-      <category term="life" scheme="mengmeng12.github.io/blog/tags/life/"/>
-    
-      <category term="teaching" scheme="mengmeng12.github.io/blog/tags/teaching/"/>
-    
-      <category term="book" scheme="mengmeng12.github.io/blog/tags/book/"/>
-    
-      <category term="techniques" scheme="mengmeng12.github.io/blog/tags/techniques/"/>
     
   </entry>
   
