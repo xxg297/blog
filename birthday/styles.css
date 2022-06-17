@@ -1,5 +1,5 @@
 body {
-  background: #000;
+  background: rgb(244, 75, 188);
   color: #fff;
   font-family: 'Quicksand', sans-serif;
 }
@@ -14,7 +14,7 @@ body {
 
 .navbar {
   background: transparent;
-  border-color: #333;
+  border-color: rgb(130, 110, 229);
   -webkit-user-select: none;
   user-select: none;
   cursor: default;
@@ -61,7 +61,7 @@ a, a:hover, a:focus {
 }
 
 .form-control {
-  background: #000;
+  background: rgb(112, 38, 241);
   color: #eee;
   font-size: 36px;
   height: 64px;
