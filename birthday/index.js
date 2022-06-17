@@ -183,7 +183,7 @@ planets.push(new Planet('Pluto', 90465)
 var $;
 function setInitialDate() {
     var initialDate = new Date();
-    initialDate.setFullYear(initialDate.getFullYear() - 18);
+    initialDate.setFullYear(initialDate.getFullYear() - 21);
     if (window.location.hash.length > 1) {
         var hash = window.location.hash.substring(1).replace(/-/g, ' ');
         var hashDate = new Date(hash);

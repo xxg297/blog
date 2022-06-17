@@ -206,7 +206,7 @@ var $: any
 
 function setInitialDate(): void {
   var initialDate = new Date()
-  initialDate.setFullYear(initialDate.getFullYear() - 18)
+  initialDate.setFullYear(initialDate.getFullYear() - 21)
 
   if (window.location.hash.length > 1) {
     var hash = window.location.hash.substring(1).replace(/-/g, ' ')
